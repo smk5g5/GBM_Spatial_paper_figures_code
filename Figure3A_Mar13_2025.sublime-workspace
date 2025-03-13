@@ -1,0 +1,596 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"group",
+				"group_by"
+			],
+			[
+				"Sam",
+				"Sample"
+			],
+			[
+				"row",
+				"row_order"
+			],
+			[
+				"dot",
+				"dotplot"
+			],
+			[
+				"sender",
+				"sender_group"
+			],
+			[
+				"Si",
+				"significant"
+			],
+			[
+				"sampl",
+				"sample_name"
+			],
+			[
+				"APL",
+				"APLNR"
+			],
+			[
+				"gro",
+				"groups"
+			],
+			[
+				"col",
+				"colnames"
+			],
+			[
+				"sel",
+				"select_pairs"
+			],
+			[
+				"se",
+				"select_pairs"
+			],
+			[
+				"sign",
+				"signalling"
+			],
+			[
+				"Other",
+				"Other_cols"
+			],
+			[
+				"rece",
+				"Receptor"
+			],
+			[
+				"read",
+				"readRDS"
+			],
+			[
+				"by.",
+				"by.y"
+			],
+			[
+				"spot",
+				"spot_id2"
+			],
+			[
+				"ci",
+				"cicj"
+			],
+			[
+				"save",
+				"saveRDS"
+			],
+			[
+				"mycl",
+				"mycluster_combn"
+			],
+			[
+				"m",
+				"myc2"
+			],
+			[
+				"Sample",
+				"sample_name"
+			],
+			[
+				"crea",
+				"create_dir"
+			],
+			[
+				"lef",
+				"left_join"
+			],
+			[
+				"sample",
+				"sample_name"
+			],
+			[
+				"cluste",
+				"cluster1_barcodes"
+			],
+			[
+				"F",
+				"FALSE"
+			],
+			[
+				"dist",
+				"distance"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"scale",
+				"scalefactors_json_inp.txt"
+			],
+			[
+				"sp",
+				"spot_name"
+			],
+			[
+				"name",
+				"names"
+			],
+			[
+				"drp",
+				"droplevels"
+			],
+			[
+				"rev",
+				"receiver"
+			],
+			[
+				"cellt",
+				"celltype"
+			],
+			[
+				"str",
+				"str_split_i"
+			],
+			[
+				"sub",
+				"sub_df"
+			],
+			[
+				"xe",
+				"xeniumfilepath"
+			],
+			[
+				"xen",
+				"xeniumfile"
+			],
+			[
+				"multi",
+				"multinichenetr"
+			],
+			[
+				"abc",
+				"abc_spl"
+			],
+			[
+				"g_to",
+				"g_to_u_new"
+			],
+			[
+				"paste",
+				"paste0"
+			],
+			[
+				"top",
+				"top_n"
+			],
+			[
+				"Not",
+				"Non-significant"
+			],
+			[
+				"con",
+				"colnames"
+			],
+			[
+				"data",
+				"data.frame"
+			],
+			[
+				"drop",
+				"droplevels"
+			],
+			[
+				"myg",
+				"my_gradients_df"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"ce",
+				"celltypes"
+			],
+			[
+				"spotcount",
+				"spot_count_bycluster"
+			],
+			[
+				"pro",
+				"protein"
+			],
+			[
+				"pa",
+				"padt"
+			],
+			[
+				"va",
+				"FindVariableFeatures"
+			],
+			[
+				"p",
+				"p.adjust"
+			],
+			[
+				"myc",
+				"myclus"
+			],
+			[
+				"cells",
+				"cellstate"
+			],
+			[
+				"cell",
+				"cellstate"
+			],
+			[
+				"clus",
+				"cluster"
+			],
+			[
+				"x",
+				"x_sub"
+			],
+			[
+				"seu",
+				"seurat_obj_list"
+			],
+			[
+				"in",
+				"integs"
+			],
+			[
+				"rowna",
+				"rownames"
+			],
+			[
+				"clu",
+				"cluster_colors_list_integbysample"
+			],
+			[
+				"n",
+				"nPC"
+			],
+			[
+				"out",
+				"output_h5ad"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"me",
+				"metadata_df"
+			],
+			[
+				"T",
+				"TRUE"
+			],
+			[
+				"Def",
+				"DefaultAssay"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/khan.saad/GBM_spatial_scrnaseq_proj/enrichment_test_hypergeometric_secreted_signalling.R",
+		"/Users/khan.saad/GBM_Spatial_transcriptomics_2024/Xenium_code/GBM_xenium_1.R",
+		"/Users/khan.saad/GBM_spatial_scrnaseq_proj/summarize_xenium_cytosignal.R",
+		"/Users/khan.saad/GBM_spatial_scrnaseq_proj/cellchat_comparison_GBMcore_edge.R",
+		"/Users/khan.saad/GBM_spatial_scrnaseq_proj/cellchat_multiple_runs.R",
+		"/Users/khan.saad/GBM_spatial_scrnaseq_proj/multinichenet_GBMspatial.R",
+		"/Users/khan.saad/GBM_spatial_scrnaseq_proj/make_pseudobulk_bygrid_louvain_seurat.R",
+		"/Users/khan.saad/GBM_spatial_scrnaseq_proj/louvain_clustering_celltrek_grids.R",
+		"/Users/khan.saad/GBM_spatial_scrnaseq_proj/STlearn_withinspot_LR_enrichment.R",
+		"/Users/khan.saad/GBM_spatial_scrnaseq_proj/rpca_cluster_compendium.R",
+		"/Users/khan.saad/GBM_spatial_scrnaseq_proj/celltrek2singlecellmap.R",
+		"/Users/khan.saad/Downloads/sequence.fasta",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/subworkflows/scatter_gather_doublet_singlesample.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/SingleR_singleref.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/seurat_multisample_input_pca_clustering.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/add_singleR_to_multisample_seurat.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/add_doublet_predictions_to_seurat_multisample.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/subworkflows/scatter_gather_Doubletcall.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/example_inputs/SingleR_singleref_scatter_mouse.tsv",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/SingleR_singleRef.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/untitled.py",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/subworkflows/scatter_singleR.wdl",
+		"/Users/khan.saad/WDL_workflows/depmap_omics/mutation_pipeline/ExonUsage.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/DEG_downstream_analysis.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/singleR_immune_nonimmune_pipeline.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/multisample_seurat.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/plot_QC.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/plot_qc.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/Make_gene_featureplots.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/make_gene_featplots.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/merge_doublets_multisample.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/Add_doublet_tometadata_singlesample.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/subworkflows/scatter_rpca.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/Doublet_collection.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/subworkflows/scatter_Doubletcall.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/Doublet_calling.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/merge_doublet_res_in_multsampleseurat.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/example_inputs/multisample_seurat_input.tsv",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/cluster_pca_seurat_multisample.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/cluster_pca_seurat_simple.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/scsorter_run.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/Get_cNMF_counts.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/get_counts_matrix.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/Add_doublet_tometadata.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/subworkflows/scatter_gather_scsorter.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/merge_scsorter_results.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/useful_snippets.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/scsorter_run.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/subworkflows/merge10x_seurat.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/merge_scsorter.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/singleR_immune_nonimmune_pipeline.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/rpca_integration.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/subworkflows/scatter_deg.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/example_inputs/deg_htmap_scatter.csv",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/LinearChain_htmapdegs.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/rpca_integ2.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/cNMF_plots.py",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/cnmf_normalize_anndata.py",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/scenic_downstream.py",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/cNMF_analysis_prepare.py",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/run_cNMF.py",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/prepare_cNMF.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/htmap_degs.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/aggregate_expression_seurat4.0.3.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/subset_Renorm_reclust.R",
+		"/Users/khan.saad/WDL_workflows/cromwell_compute1_final.config",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/cromwell_compute1.config",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/single_sample_seurat.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/clustering_n_pca_simple.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/essential_inputs/marker_lists.yaml",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/essential_inputs/reference_singleR.yaml",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/subworkflows/single_sample_filtering_nd_doublets.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/tasks/add_doubletinfo.wdl",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/GSEA_analysis.R",
+		"/Users/khan.saad/WDL_workflows/WDL_tutorial_genomicsinthecloudbook/Seurat_run_all_singlesample.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/single_sample_seurat.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/Add_metadata_seurat.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/singleR_scsorter_pipeline.R",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/Readme.md",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/subworkflows/single_sample_filtering_n_clustering.wdl",
+		"/Users/khan.saad/WDL_workflows/WDL_tutorial_genomicsinthecloudbook/hello-world.wdl",
+		"/Users/khan.saad/WDL_workflows/WDL_tutorial_genomicsinthecloudbook/hello-haplotypecaller.wdl",
+		"/Users/khan.saad/WDL_workflows/WDL_tutorial_genomicsinthecloudbook/wdl_imp_bits.wdl",
+		"/Users/khan.saad/WDL_workflows/WDL_tutorial_genomicsinthecloudbook/scatter-haplotypecaller.local.inputs.json",
+		"/Users/khan.saad/WDL_workflows/Single_cell_WDLworkflows/scripts/Plot_QC_scrnaseq.R",
+		"/Users/khan.saad/WDL_workflows/vcf-to-gds.wdl",
+		"/Users/khan.saad/WDL_workflows/WDL_tutorial_genomicsinthecloudbook/scatter-haplotypecaller.wdl",
+		"/Users/khan.saad/aspera_upload/:storage1:fs1:allegra.petti:Active:GBM:KimCollab20",
+		"/Users/khan.saad/umap_plot_scrublet.py",
+		"/Users/khan.saad/WGCNA_kim/logs/runRst_mouseseurat232721.err",
+		"/Users/khan.saad/WGCNA_kim/logs/runRst_mouseseurat232721.out",
+		"/Users/khan.saad/Downloads/cellbender_v5.sh",
+		"/Users/khan.saad/clonality_analysis/c(\"0\",\"1\",\"2\",\"6\",\"8\",\"11\")",
+		"/Users/khan.saad/clonality_analysis/untitled",
+		"/Users/khan.saad/clonality_analysis/file_locs_vcf.txt",
+		"/Users/khan.saad/scrnaseq_GBM_spatial/history_database.1",
+		"/Users/khan.saad/Downloads/SingleR_workflow.157602",
+		"/Users/khan.saad/sample_answer.txt",
+		"/Users/khan.saad/rshist_all",
+		"/Users/khan.saad/Documents/plot_umap_all_cnvs2 <- function(output.cnv,sample_",
+		"/Users/khan.saad/Schwanomma_cnv/Conics_schwannoma/gms_pipelines",
+		"/Users/khan.saad/Schwanomma_cnv/Conics_schwannoma/gms2",
+		"/Users/khan.saad/Schwanomma_cnv/Conics_schwannoma/infercnv",
+		"/Users/khan.saad/gms.txt",
+		"/Users/khan.saad/Schwanomma_cnv/Conics_schwannoma/gms+perl",
+		"/Users/khan.saad/Schwanomma_cnv/Conics_schwannoma/sel_compclusterres",
+		"/Users/khan.saad/Schwanomma_cnv/Conics_schwannoma/tumorLittsham_bar",
+		"/Users/khan.saad/Desktop/scratch_runs",
+		"/Users/khan.saad/id1azfalUzkSb2Q3.bed",
+		"/Users/khan.saad/spaceranger_testing/MouseTIL_finafig3/carmona_etal_table3.xls",
+		"/Users/khan.saad/Docker_course/check_strandedness/check_strand.cwl",
+		"/Users/khan.saad/Desktop/CITEseq/seurat_loupe/aggr_presentation_vs_cd34_normal_12262019.csv",
+		"/Users/khan.saad/single_cell_RNAseq_scripts/Python_notebooks/vdj_gbm.sh",
+		"/Users/khan.saad/Desktop/Miscellanious/TCGA_analysis/WGCNA_tcga.r",
+		"/Users/khan.saad/Desktop/condapack_cellasgn.txt",
+		"/Users/khan.saad/Docker_course/udemy-docker-mastery/dockerfile-sample-1/Dockerfile",
+		"/Users/khan.saad/Desktop/cellrangerexamples",
+		"/Users/khan.saad/Desktop/TCGA_phenotype.csv",
+		"/Users/khan.saad/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/untitled",
+		"/Users/khan.saad/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/mgi_server"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 143.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 254.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 156.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 156.0
+	},
+	"pinned_build_system": "",
+	"project": "Figure3A_Mar13_2025.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"mytab <- table(scrna_GEX$ClusterNames_0.7_31PC,scr"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 404.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
