@@ -27,6 +27,15 @@ library(clusterProfiler)
 library(org.Hs.eg.db)
 library("CellTrek")
 
+
+library(ggdendro)
+library(cowplot)
+library(tidyverse)
+library(ggtree) # install with `devtools::install_github("YuLab-SMU/ggtree")` as you need a version newer than what bioconductor serves
+library(patchwork) 
+library(gridExtra)
+library(gtools)
+
 set.seed(12345L) 
 
 date = gsub("2025-","25",Sys.Date(),perl=TRUE);
@@ -204,6 +213,19 @@ for(i in 1:nrow(celltrek_no_interpolation_celltypes_inp)){
 integ_clus_vec = 'integrated_snn_res.0.9'
 
 merged.patient.combined.integ_sub$integrated_snn_res.0.9 = droplevels(merged.patient.combined.integ_sub$integrated_snn_res.0.9)
+
+
+seurat_obj_list2 =  lapply(names(seurat_obj_list), function(x) {
+	Idents(seurat_obj_list[[x]]) = integ_clus_vec
+	DefaultAssay(seurat_obj_list[[x]]) = 'Spatial'
+	seurat_sub = subset(seurat_obj_list[[x]],idents=intersect(unique(Idents(seurat_obj_list[[x]])),sel_clus2))
+	print(x)
+	print(length(Cells(seurat_sub)))
+	print(length(Cells(seurat_obj_list[[x]])))
+	return(seurat_sub)
+	})
+
+names(seurat_obj_list2) = names(seurat_obj_list)
 
 
 
