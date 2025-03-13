@@ -561,6 +561,12 @@ celltype_score_enrichment_df2_grouped$celltype[celltype_score_enrichment_df2_gro
 celltype_score_enrichment_df2_grouped$celltype[celltype_score_enrichment_df2_grouped$variable=='M4'] = 'S4'
 celltype_score_enrichment_df2_grouped$celltype[celltype_score_enrichment_df2_grouped$variable=='M5'] = 'S5'
 
+
+celltype_score_enrichment_df2_grouped$celltype[celltype_score_enrichment_df2_grouped$variable=="Oligodendrocyte precursor"] = "OPC"
+celltype_score_enrichment_df2_grouped$celltype[celltype_score_enrichment_df2_grouped$variable=="Committed oligodendrocyte precursor"] = "C-OPC"
+celltype_score_enrichment_df2_grouped$celltype[celltype_score_enrichment_df2_grouped$variable=="Oligodendrocyte"] = "Oligo"
+
+
 mycolor_df$celltype[mycolor_df$celltype=='M1'] = 'S1'
 mycolor_df$celltype[mycolor_df$celltype=='M2'] = 'S2'
 mycolor_df$celltype[mycolor_df$celltype=='M3'] = 'S3'
@@ -580,9 +586,58 @@ mycluster_df$Cluster = paste0('C',mycluster_df$Cluster)
 group_color_palette2 = c('#d7191c','#fdae61','#2b83ba')
 names(group_color_palette2) = c('Core','Transition','Edge')
 
+group_color_palette2['Transition'] = '#4A0080'
+
 mypercentdf_patient = as.data.frame(prop.table(table(mycluster_df$Cluster,mycluster_df$region),1)*100)
 colnames(mypercentdf_patient) <- c("Cluster","region","Percentage")
 mypercentdf_patient$Cluster =  factor(mypercentdf_patient$Cluster,levels=c('C3','C20','C8','C17','C22','C16','C9','C18','C12','C6','C7','C21','C19','C4','C1','C13','C23','C0','C2','C5','C10','C15'))
+
+
+
+celltype_score_enrichment_df2_grouped <- celltype_score_enrichment_df2_grouped  %>% mutate(
+    Cluster = factor(Cluster, levels = tumor_fraction_groupeddf$Cluster)  # Use the same levels as the dotplot
+  )
+
+tumor_fraction_grouped$Cluster  = factor(tumor_fraction_grouped$Cluster,levels=c('C3','C20','C8','C17','C22','C16','C9','C18','C12','C6','C7','C21','C19','C4','C1','C13','C23','C0','C2','C5','C10','C15'))
+# tumor_fraction_grouped$group.x = NULL
+# tumor_fraction_grouped$group = tumor_fraction_grouped$group.y
+# tumor_fraction_grouped$group.y  = NULL
+
+# dotplot_items_list = list(
+# mypercentdf_patient=mypercentdf_patient,
+# group_color_palette2=group_color_palette2,
+# tumor_fraction_grouped=tumor_fraction_grouped,
+# celltype_score_enrichment_df2_grouped=celltype_score_enrichment_df2_grouped,
+# group_color_palette=group_color_palette,
+# mycolor_df=mycolor_df,
+# group_df=group_df)
+
+# saveRDS(dotplot_items_list,'dotplot_items_list_march13.2025.rds')
+
+#plotting requires R version 4.3.3 (2023-10-31)
+#and the following packages
+# library(ggdendro)
+# library(cowplot)
+# library(tidyverse)
+# library(ggtree) # install with `devtools::install_github("YuLab-SMU/ggtree")` as you need a version newer than what bioconductor serves
+# library(patchwork) 
+# library(gridExtra)
+# library(gtools)
+# library(ggnewscale)
+# # Ensure proper ordering of Cluster and celltype
+# library(patchwork)
+
+
+dotplot_items2 = readRDS('dotplot_items_list_march13.2025.rds')
+names(dotplot_items2)
+mypercentdf_patient = dotplot_items2$mypercentdf_patient
+tumor_fraction_grouped = dotplot_items2$tumor_fraction_grouped
+group_color_palette = dotplot_items2$group_color_palette
+group_color_palette2 = dotplot_items2$group_color_palette2
+celltype_score_enrichment_df2_grouped = dotplot_items2$celltype_score_enrichment_df2_grouped
+mycolor_df = dotplot_items2$mycolor_df
+group_df = dotplot_items2$group_df
+
 
 text_size <- 20  # Set text size
 legend_text_size <- 16  # Set legend text size for all legends
@@ -611,18 +666,13 @@ barplot <- ggplot(mypercentdf_patient, aes(fill = region, y = Percentage, x = Cl
   guides(fill = guide_legend(title = "Pathologist annotations"))
 
 
-cluster_names = paste0('C',names(final_cluster_colors))
-names(final_cluster_colors) = cluster_names
+# cluster_names = paste0('C',names(final_cluster_colors))
+# names(final_cluster_colors) = cluster_names
 
 
 library(ggnewscale)
 # Ensure proper ordering of Cluster and celltype
 library(patchwork)
-
-
-celltype_score_enrichment_df2_grouped <- celltype_score_enrichment_df2_grouped  %>% mutate(
-    Cluster = factor(Cluster, levels = tumor_fraction_groupeddf$Cluster)  # Use the same levels as the dotplot
-  )
 
 boxplot <- ggplot(tumor_fraction_grouped, aes(x = Cluster, y = tumor_fraction, fill=group)) +
   geom_boxplot(alpha=0.6) + scale_fill_manual(values = group_color_palette,  # Define a palette for group
@@ -634,3 +684,100 @@ boxplot <- ggplot(tumor_fraction_grouped, aes(x = Cluster, y = tumor_fraction, f
     legend.position = "none"  # Hide legends (shared legends will appear at the top)
   ) + labs(x = "Cluster", y = "Tumor Fraction")
 
+# Create the dotplot without x-axis labels
+dotplot <- celltype_score_enrichment_df2_grouped %>%
+  ggplot(aes(x = Cluster, 
+             y = celltype, 
+             fill = celltype,  # Using fill for coloring points
+             size = enrichment_score_by_celltype)) + 
+  
+  # Dotplot layer
+  geom_point(aes(stroke = ifelse(Significance == "Significant", 3, 0), 
+                 color = Significance),  # Keep color mapped to Significance to show legend
+             shape = 21) +  # Shape that supports fill and stroke
+  
+  # Set minimum and maximum point size
+  scale_size_continuous(range = c(2, 22), 
+                        name = "Enrichment Score") + 
+  
+  # Manually set the colors for the significance legend
+  scale_color_manual(values = c("Significant" = "black", "Non-significant" = NA),
+                     name = "Significance", 
+                     labels = c("Significant", "Non-significant"),
+                     guide = guide_legend(
+                       title = "Significance", 
+                       override.aes = list(size = 8, stroke = 2),  # Larger legend points
+                       title.theme = element_text(size = legend_title_size,face="bold"), 
+                       label.theme = element_text(size = legend_text_size,face="bold")
+                     )) + 
+  
+  # Vertical dotted lines separating clusters
+  geom_vline(xintercept = seq(1.5, length(unique(celltype_score_enrichment_df2_grouped$Cluster)) - 0.5, by = 1), 
+             linetype = "dotted", 
+             color = "black", 
+             linewidth = 0.5) + 
+  
+  # Custom theme with uniform text sizes
+  cowplot::theme_cowplot() + 
+  theme(
+    axis.text.x = element_blank(),  # Remove x-axis text
+    axis.ticks.x = element_blank(),  # Remove x-axis ticks
+    axis.title.x = element_blank(),  # Remove x-axis title
+    axis.text.y = element_text(size = text_size,face="bold"),  # Uniform y-axis text size
+    axis.title.y = element_text(size = text_size,face="bold"),  # Uniform y-axis title size
+    legend.text = element_text(size = legend_text_size),  # Uniform legend text size
+    legend.title = element_text(size = legend_title_size),  # Uniform legend title size
+    legend.position = "top"
+  ) +  
+  
+  # Custom color scale for celltype fills
+  scale_fill_manual(values = setNames(mycolor_df$cellcolors, mycolor_df$celltype),
+                    guide = guide_legend(
+                      title = "Celltypes", override.aes = list(size = 8, stroke = 1.5),  # Larger legend points
+                      title.theme = element_text(size = legend_title_size,face="bold"), 
+                      label.theme = element_text(size = legend_text_size,face="bold")
+                    )) +
+  
+  # Add a new scale for ClusterGroup
+  ggnewscale::new_scale_fill() +  # Reset fill aesthetic for the next geom
+  
+  # Add top bar for cluster groupings
+  geom_tile(data = celltype_score_enrichment_df2_grouped %>%
+              distinct(Cluster, group) %>%
+              as.data.frame(),  # Ensure it's a valid data frame
+            mapping = aes(x = Cluster, y = -0.5, fill = group), 
+            inherit.aes = FALSE, 
+            height = 1) +  # Adjust height to make it visually distinct
+  
+  # Customize bar colors for ClusterGroup
+  scale_fill_manual(values = group_color_palette,  # Define a palette for ClusterGroup
+                    name = "Cluster Group", 
+                    guide = guide_legend(
+                      title = "Cluster Group",
+                      override.aes = list(size = 8),  # Larger legend points
+                      title.theme = element_text(size = legend_title_size), 
+                      label.theme = element_text(size = legend_text_size)
+                    )) + 
+  
+  # Horizontal dotted lines separating categories
+  geom_hline(yintercept = seq(1.5, length(unique(celltype_score_enrichment_df2_grouped$celltype)) - 0.5, by = 1), 
+             linetype = "dotted", 
+             color = "black", 
+             linewidth = 0.5) +  
+
+  labs(y = "Celltype Enrichment Score")
+
+dotplot = dotplot + theme(plot.margin = unit(c(0, 0, 0, 0), "cm"))
+barplot = barplot+ theme(plot.margin = unit(c(0, 0, 0, 0), "cm"))
+# barplot = integ_clus_vec_celltypes_integrated_snn_res.0.9_celltypes_barplot_bypatient
+# Combine the plots with patchwork
+combined_plot <- (dotplot / barplot) / boxplot +  plot_layout(ncol = 1, heights = c(4,1, 0.5))  # Boxplot takes less space than the dotplot
+
+# Display the combined plot
+print(combined_plot)
+
+
+# Save the combined plot
+ggsave(paste0('combined_plot_with_uniform_legend_sizes.sortedbyavgtumorfractionwithingroups.rowscolsclustered.', date, '.jpg'), 
+       combined_plot, 
+       width = 30, height = 22.5, units = "in", dpi = 300)
