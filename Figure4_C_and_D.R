@@ -49,6 +49,9 @@ source('important_functions.R')
 #   return(myvec)
 # })))
 
+merged.patient.combined.integ_sub = readRDS('/n/scratch/users/s/sak4832/Feb2_2025/Dec27_2024/cluster_distances/merged.patient.combined.integ_sub.rds')
+
+
 for(i in 1:nrow(intraniche_interactions)){
 	myLR = intraniche_interactions$LR[i]
 	sg = intraniche_interactions$sender_group[i]
