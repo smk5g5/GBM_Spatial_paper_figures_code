@@ -19,7 +19,7 @@ library(scCustomize)
 
 library(circlize)
 library(ComplexHeatmap)
-library(stringr)library("CellTagR")
+library(stringr)
 
 library(reshape2)
 
@@ -49,7 +49,14 @@ source('important_functions.R')
 #   return(myvec)
 # })))
 
-merged.patient.combined.integ_sub = readRDS('/n/scratch/users/s/sak4832/Feb2_2025/Dec27_2024/cluster_distances/merged.patient.combined.integ_sub.rds')
+merged.patient.combined.integ_sub = readRDS('/n/scratch/users/s/sak4832/March12th_2025/Feb2_2025/Dec27_2024/cluster_distances/merged.patient.combined.integ_sub.rds')
+
+single_cell_ref = readRDS('/n/data1/mgh/neuro/petti/lab/Users/khan.saad/RPCA_clustering_and_spots_Ligrec_summary/scrna_seq_ref_celltrek_orig_latestcellstateannotations.rds')
+
+#From cellchat database selct only diffusion based LRs (secreted-signalling & ECM related)
+CellChatDB_df_noncomp2_withannot = read.csv('/n/scratch/users/s/sak4832/Feb2_2025/Dec27_2024/Novemer22nd_2024/stlearn_cci/CellChatDB_df_noncomp2_withannot.csv')
+
+diffusion_based = subset(CellChatDB_df_noncomp2_withannot,annotation %in% c('Secreted Signaling','ECM-Receptor'))
 
 
 for(i in 1:nrow(intraniche_interactions)){

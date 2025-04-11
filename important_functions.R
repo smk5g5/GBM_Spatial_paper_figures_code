@@ -388,5 +388,99 @@ sigspots_senders_to_receiverspot_list <- function(sigspots_file, neighbourhood_s
 
 
 
+###make Cluster level summary#########################################
+
+make_Cluster_level_summary_celltypes <- function(LRv2file, spots_to_celltrek_bysample) {
+  
+  # Read the input data from RDS file
+  	testv2 <- readRDS(LRv2file)
+
+	testv2$Ligand = str_split_i(testv2$LR,'_',1)
+	testv2$Receptor = str_split_i(testv2$LR,'_',2)
+
+	testv2_sub = subset(testv2,Ligand %in% diffusion_based$ligand & Receptor %in% diffusion_based$receptor)
+	# Extract the broad cell types per spot from the spots_to_celltrek_bysample input
+	mybroad_celltypes <- spots_to_celltrek_bysample$broad_celltypes_per_spot
+	print(colnames(mybroad_celltypes))
+
+	# Subset the testv2 data to include only interactions between valid sender and receiver spots
+	testv2_sub <- subset(testv2, sender_spot %in% mybroad_celltypes$spot_id & receiver_spot %in% mybroad_celltypes$spot_id)
+
+	# Create a data frame for each broad cell type grouping
+	mydf <- data.frame(
+	Glia = rowSums(mybroad_celltypes[intersect(c("Astrocyte", "Committed oligodendrocyte precursor", "Oligodendrocyte", "Oligodendrocyte precursor"), colnames(mybroad_celltypes))]),
+	Lymphoid = rowSums(mybroad_celltypes[intersect(c("Bcells", "CD4_Tcells", "CD8_Tcells", "NK/NK-like", "Other_Tcells"), colnames(mybroad_celltypes))]),
+	Myeloid = rowSums(mybroad_celltypes[intersect(c("DC", "Microglia", "Monocyte", "TAMs"), colnames(mybroad_celltypes))]),
+	Vascular = rowSums(mybroad_celltypes[intersect(c("Fibroblast", "Vascular"), colnames(mybroad_celltypes))])
+	)
+
+	mybroad_celltypes_sub <- cbind(
+	mybroad_celltypes[intersect(c("spot_id", "M1", "M2", "M3", "M4", "M5", "Neuron"), colnames(mybroad_celltypes))],
+
+
+
+	# Bind the new summary data with specific columns of mybroad_celltypes for further analysis
+	mybroad_celltypes_sub <- cbind(
+	mybroad_celltypes[intersect(c("spot_id", "M1", "M2", "M3", "M4", "M5", "Neuron"), colnames(mybroad_celltypes))],
+	mydf
+	)
+
+	# print(head(mybroad_celltypes_sub))
+
+	# Extract data for senders, then merge with unique sender clusters
+	mybroad_celltypes_sender <- subset(mybroad_celltypes_sub, spot_id %in% unique(testv2_sub$sender_spot))
+	sender_clus <- unique(testv2_sub[c("sender_spot", "sender_cluster")])
+	# mybroad_celltypes_sender2 <- merge(sender_clus, mybroad_celltypes_sender, by.x = "sender_spot", by.y = "spot_id")
+	# LR_sender_receiver_spot_df2 = LR_sender_receiver_spot_df %>% left_join(mysample_seurat_meta,by = c("sender_spot"="barcode"))  %>% rename(sender_cluster = integrated_snn_res.0.9)
+
+	mybroad_celltypes_sender2 <- sender_clus %>% left_join(mybroad_celltypes_sender,by = c("sender_spot"="spot_id"))
+
+	mybroad_celltypes_sender2 = mybroad_celltypes_sender2[complete.cases(mybroad_celltypes_sender2),]
+
+
+	# Summarize cell type counts for sender clusters
+	sender_cluster_celltypecount <- mybroad_celltypes_sender2 %>%
+	group_by(sender_cluster) %>%
+	summarize(
+	  M1 = sum(M1),
+	  M2 = sum(M2),
+	  M3 = sum(M3),
+	  M4 = sum(M4),
+	  M5 = sum(M5),
+	  Neuron = sum(Neuron),
+	  Glia = sum(Glia),
+	  Lymphoid = sum(Lymphoid),
+	  Myeloid = sum(Myeloid),
+	  Vascular = sum(Vascular)
+	)
+
+	# Extract data for receivers, then merge with unique receiver clusters
+	mybroad_celltypes_receiver <- subset(mybroad_celltypes_sub, spot_id %in% unique(testv2_sub$receiver_spot))
+	receiver_clus <- unique(testv2_sub[c("receiver_spot", "receiver_cluster")])
+	# mybroad_celltypes_receiver2 <- merge(receiver_clus, mybroad_celltypes_receiver, by.x = "receiver_spot", by.y = "spot_id")
+	mybroad_celltypes_receiver2 <- receiver_clus %>% left_join(mybroad_celltypes_receiver,by = c("receiver_spot"="spot_id"))
+
+	# Summarize cell type counts for receiver clusters
+	receiver_cluster_celltypecount <- mybroad_celltypes_receiver2 %>%
+	group_by(receiver_cluster) %>%
+	summarize(
+	  M1 = sum(M1),
+	  M2 = sum(M2),
+	  M3 = sum(M3),
+	  M4 = sum(M4),
+	  M5 = sum(M5),
+	  Neuron = sum(Neuron),
+	  Glia = sum(Glia),
+	  Lymphoid = sum(Lymphoid),
+	  Myeloid = sum(Myeloid),
+	  Vascular = sum(Vascular)
+	)
+
+	# Return the results as a list
+	return(list(Sender_celltype = sender_cluster_celltypecount, Receiver_celltype = receiver_cluster_celltypecount))
+}
+
+####################################################################
+
 
 
