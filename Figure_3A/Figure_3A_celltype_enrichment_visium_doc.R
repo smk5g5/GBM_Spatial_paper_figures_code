@@ -60,10 +60,12 @@ date <- gsub("-", "", date)
 # ----------------------------
 
 # Load integrated Seurat object with cluster annotations
+# gs://fc-secure-5f3422d7-9911-4ab3-8091-69df773f5abf/RPCA_Clustering/RPCA_Clustering_by_patient/merged.patient.combined.integ_sub.rds
 merged.patient.combined.integ_sub <- readRDS('/n/scratch/users/s/sak4832/Feb2_2025/Dec27_2024/cluster_distances/merged.patient.combined.integ_sub.rds')
 
 # Load reference Seurat object from scRNA-seq (used for CellTrek)
 single_cell_ref <- readRDS('/n/scratch/users/s/sak4832/scrna_seq_ref_celltrek_orig_latestcellstateannotations.rds')
+# latest single cell reference here gs://fc-secure-5f3422d7-9911-4ab3-8091-69df773f5abf/Single_cell_reference_latest/scrna_seq_ref_celltrek_orig_latestcellstateannotations.rds
 
 # ----------------------------
 # Function: Collapse Fine to Broad Celltypes
@@ -128,6 +130,9 @@ spatial_inp <- read.table('/n/data1/mgh/neuro/petti/lab/Users/khan.saad/spatial_
 
 # Initialize list to hold all spatial Seurat objects
 seurat_obj_list <- list()
+
+#filtered seurat object list from here
+# gs://fc-secure-5f3422d7-9911-4ab3-8091-69df773f5abf/RPCA_Clustering/RPCA_Clustering_by_patient/seurat_obj_list2.rds
 
 # Loop through spatial input and read in each sample
 for (i in 1:nrow(spatial_inp)) {
@@ -354,6 +359,7 @@ names(seurat_obj_list2) <- names(seurat_obj_list)
 # ---------------------------------------------------------------------------
 
 final_cluster_colors <- readRDS('/n/scratch/users/s/sak4832/Feb2_2025/Dec27_2024/cluster_distances/final_cluster_colors.rds')
+# final_cluster_colors.rds cluster color mapping provided in github
 
 # ---------------------------------------------------------------------------
 #  Count Spots by Cluster
@@ -886,6 +892,20 @@ celltype_score_enrichment_df2_grouped$celltype <- factor(
 # ---------------------------------------------------------------------------
 # Load Cluster-Level Region Annotations from Pathologist
 # ---------------------------------------------------------------------------
+
+# Cluster-Level Region Annotations provided in github as example
+
+# dotplot_items2 = readRDS('dotplot_items_list_march13.2025.rds')
+# names(dotplot_items2)
+# mypercentdf_patient = dotplot_items2$mypercentdf_patient
+# tumor_fraction_grouped = dotplot_items2$tumor_fraction_grouped
+# group_color_palette = dotplot_items2$group_color_palette
+# group_color_palette2 = dotplot_items2$group_color_palette2
+# celltype_score_enrichment_df2_grouped = dotplot_items2$celltype_score_enrichment_df2_grouped
+# mycolor_df = dotplot_items2$mycolor_df
+# group_df = dotplot_items2$group_df
+
+
 
 # Load manual region annotations (e.g., Core, Transition, Edge)
 mycluster_df <- readRDS("mycluster_df.rds")
