@@ -1,6 +1,6 @@
 # ============================================================================
-# Spatial Transcriptomics Pipeline (Annotated)
-# Author: [Your Name]   |   Date: 2025-05-23
+# Spatial Transcriptomics Celltrek visualization
+# Author: [Saad Khan]   |   Date: 2025-05-23
 # Description: Integrates spatial & single-cell data, performs enrichment
 #              and visualization of tumor microenvironment cell states.
 # ============================================================================
