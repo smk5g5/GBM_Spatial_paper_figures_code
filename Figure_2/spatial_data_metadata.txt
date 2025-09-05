@@ -1,0 +1,26 @@
+Location	Kit	H.E	sampe_name
+margin	OCT	damaged	B172-01
+margin	OCT	damaged	B172-02
+margin	OCT	damaged	B174-01
+margin, probably core	OCT	damaged	B176-01-02
+margin	OCT	decent?	B176-02-01
+margin	OCT	decent?	B176-02-04
+margin, probably all tumor	OCT	damaged	B178-02-01
+core	OCT	damaged	B185-01
+intermediate core	OCT	damaged	B185-02
+intermediate edge	OCT	? low-res	B185-03
+edge	OCT	? low-res	B185-04
+edge	OCT	damaged	B186-01
+intermediate edge	OCT	better?	B186-02
+intermediate core	OCT	better?	B186-03
+core	OCT	better?	B186-04
+edge	FFPE	very good	ST073021-2
+core	FFPE	very good	ST073021-4
+core	FFPE	very good	ST073021-6
+edge	FFPE	good	WU1220-1
+edge	FFPE	good	WU1220-2
+core	FFPE	good	WU1220-3
+edge	FFPE		WU1221-Edge1
+core	FFPE		WU1221-Core2
+edge	FFPE		WU1227-Edge2
+core	FFPE		WU1227-Core5
