@@ -89,7 +89,7 @@ module_genes = unique(unlist(final_genemodules_reduced_mutualinfo_list))
 Cluster_profiler_binary_htmap_sub = Cluster_profiler_binary_htmap[module_genes,]
 
 # Colors and metadata setup
-# 
+# https://github.com/Petti-Lab/GBM_Spatial_paper_figures_code/blob/main/Figure_2/color_panel_list.rds
 color_panel = readRDS('/n/scratch/users/s/sak4832/color_panel_list.rds')
 
 sample_colors = color_panel$Sample
