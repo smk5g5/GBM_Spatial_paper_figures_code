@@ -1,8 +1,10 @@
-###############################Figure 3C code ######################################
-# Fisher exact test for enrichment of Tumor states between domains. 
+# ============================================================================
+# Figure 3C code for enrichment comparison of spatial tumor states between domains
+# Author: [Saad Khan]   |   Date: 2025-09-05
+# Description: Fisher exact test for enrichment of Tumor states between domains. 
 # Dot color represents the bonferroni corrected p-value of enrichments
 # and dot-size is  the fold change of proportion of tumor states (w.r.t to tumor cells) between domains.
-######################################################################################
+# ============================================================================
 library(SingleCellExperiment)
 library(scuttle)
 library(scran)
@@ -32,7 +34,8 @@ library(CellTrek)
 library(ggdendro)
 library(cowplot)
 library(tidyverse)
-library(ggtree)  # install with devtools::install_github("YuLab-SMU/ggtree") (newer than bioconductor version)
+library(ggtree) 
+# install with devtools::install_github("YuLab-SMU/ggtree") (newer than bioconductor version)
 library(patchwork)
 library(gridExtra)
 library(gtools)
