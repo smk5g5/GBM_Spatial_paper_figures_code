@@ -80,7 +80,7 @@ for(i in 1:nrow(clusterprofiler_input2)){
 Cluster_profiler_binary_htmap = list_to_matrix(Cluster_profiler_list)
 # 
 #final reduced gene list for each clustered tumor state
-
+#https://github.com/Petti-Lab/GBM_Spatial_paper_figures_code/blob/main/Figure_2/final_genemodules_reduced_mutualinfo_list.rds
 final_genemodules_reduced_mutualinfo_list = readRDS('/n/scratch/users/s/sak4832/final_genemodules_reduced_mutualinfo_list.rds')
 
 module_genes = unique(unlist(final_genemodules_reduced_mutualinfo_list))
@@ -99,6 +99,7 @@ sample_ord  = str_split_i(colnames(Cluster_profiler_binary_htmap_sub),'.cc',1)
 
 pat_ord =  str_split_i(colnames(Cluster_profiler_binary_htmap_sub),'\\.',1)
 
+# https://github.com/Petti-Lab/GBM_Spatial_paper_figures_code/blob/main/Figure_2/spatial_data_metadata.txt
 spatial_data_metadata  = read.table('/n/scratch/users/s/sak4832/spatial_data_metadata.txt',header=T,sep="\t")
 
 kitmeta = merge(spatial_data_metadata[c('sampe_name','Kit')],mysample_map,by.x ='sampe_name',by.y='sample_name')
