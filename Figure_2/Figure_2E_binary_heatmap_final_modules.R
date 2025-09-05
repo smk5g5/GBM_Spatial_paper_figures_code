@@ -191,7 +191,6 @@ binhtmap = Heatmap(Cluster_profiler_binary_htmap_sub, name = c("binary matrix\ns
 
 ht_opt("heatmap_row_names_gp" = gpar(fontsize = 25))
 
-
 jpeg('Module_genes_binary_heatmap_spatially_variable_tumor_clusters_nolegend.jpg',width = 70,height = 70,units="cm", res=600)
 draw(binhtmap,show_annotation_legend = FALSE, show_heatmap_legend = FALSE)
 dev.off()
