@@ -1,3 +1,9 @@
+# ============================================================================
+# Figure 2: Cell mapping and derivation of spatial tumor cell states.
+# Figure 2 E
+# (E) Consensus clustering of marker genes for spatial tumor cell states derived from mapped tumor cells.
+# ============================================================================
+
 library(SingleCellExperiment)
 library(scuttle)
 library(scran)
