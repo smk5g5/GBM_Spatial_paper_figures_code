@@ -1,3 +1,17 @@
+# ============================================================================
+# Figure 2 B-D & F-H 
+
+# Cell mapping and derivation of spatial tumor cell states. 
+
+# (B) Cell mapping results for representative core tumor sections showing dense
+# tumor cellularity, vascularization, and pockets of immune infiltration. 
+# (C) Cell mapping results for representative edge sections showing minimal tumor content and abundant neurons or glia. 
+# (D) Cell mapping results for representative transitional 5-ALA+ sections showing dense tumor cellularity,  vascularization, and pockets of immune infiltration. 
+
+# (F) Spatial tumor cell states in core tumor slices showing abundant Hypoxic (S4) and Mesenchymal (S3) tumor cells. 
+# (G) Spatial tumor states in edge samples, showing enrichment for Proliferating (S2) and Stem-like (S5) states in regions of high neuronal/glial content. 
+# (H) Spatial tumor cell states in transitional 5-7866ALA+ tumor slices showing a gradient from core Mesenchymal/Hypoxic to edge (Proliferative/Stem-like) states.
+# ============================================================================
 library(SingleCellExperiment)
 library(scuttle)
 library(scran)
