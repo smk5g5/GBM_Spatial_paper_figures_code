@@ -1,9 +1,9 @@
 # ============================================================================
-# Figure 3C code for enrichment comparison of spatial tumor states between domains
+# Figure 3G code for cluster adjacency analysis
 # Author: [Saad Khan]
-# Description: Fisher exact test for enrichment of Tumor states between domains. 
-# Dot color represents the bonferroni corrected p-value of enrichments
-# and dot-size is  the fold change of proportion of tumor states (w.r.t to tumor cells) between domains.
+# Description:  Spatial proximity map of niches,
+ # where edge width is proportional to Weighted Mean Adjacency 
+ # and edge color is proportional to the fraction of samples in which each niche pair is adjacent.
 # ============================================================================
 ##############################
 # Load Required Libraries
