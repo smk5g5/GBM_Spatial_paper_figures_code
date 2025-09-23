@@ -1,0 +1,3406 @@
+ligand,receptor,pathway_name,annotation
+TGFB1,TGFBR2,TGFb,Secreted Signaling
+TGFB1, TGFBR1,TGFb,Secreted Signaling
+TGFB2,TGFBR2,TGFb,Secreted Signaling
+TGFB2, TGFBR1,TGFb,Secreted Signaling
+TGFB3,TGFBR2,TGFb,Secreted Signaling
+TGFB3, TGFBR1,TGFb,Secreted Signaling
+TGFB1, ACVR1B,TGFb,Secreted Signaling
+TGFB1, ACVR1C,TGFb,Secreted Signaling
+TGFB2, ACVR1B,TGFb,Secreted Signaling
+TGFB2, ACVR1C,TGFb,Secreted Signaling
+TGFB3, ACVR1B,TGFb,Secreted Signaling
+TGFB3, ACVR1C,TGFb,Secreted Signaling
+TGFB1, ACVR1,TGFb,Secreted Signaling
+TGFB2, ACVR1,TGFb,Secreted Signaling
+TGFB3, ACVR1,TGFb,Secreted Signaling
+BMP2,ACVR2A,BMP,Secreted Signaling
+BMP2, BMPR1A,BMP,Secreted Signaling
+BMP2,ACVR2B,BMP,Secreted Signaling
+BMP2,BMPR2,BMP,Secreted Signaling
+BMP2,BMPR1B,BMP,Secreted Signaling
+BMP2, ACVR2A,BMP,Secreted Signaling
+BMP2, ACVR2B,BMP,Secreted Signaling
+BMP2, BMPR2,BMP,Secreted Signaling
+BMP4,ACVR2A,BMP,Secreted Signaling
+BMP4, BMPR1A,BMP,Secreted Signaling
+BMP4,ACVR2B,BMP,Secreted Signaling
+BMP4,BMPR2,BMP,Secreted Signaling
+BMP4,BMPR1B,BMP,Secreted Signaling
+BMP4, ACVR2A,BMP,Secreted Signaling
+BMP4, ACVR2B,BMP,Secreted Signaling
+BMP4, BMPR2,BMP,Secreted Signaling
+GDF5,ACVR2A,BMP,Secreted Signaling
+GDF5, BMPR1A,BMP,Secreted Signaling
+GDF5,ACVR2B,BMP,Secreted Signaling
+GDF5,BMPR2,BMP,Secreted Signaling
+GDF5,BMPR1B,BMP,Secreted Signaling
+GDF5, ACVR2A,BMP,Secreted Signaling
+GDF5, ACVR2B,BMP,Secreted Signaling
+GDF5, BMPR2,BMP,Secreted Signaling
+GDF6,ACVR2A,BMP,Secreted Signaling
+GDF6, BMPR1A,BMP,Secreted Signaling
+GDF6,ACVR2B,BMP,Secreted Signaling
+GDF6,BMPR2,BMP,Secreted Signaling
+GDF6,BMPR1B,BMP,Secreted Signaling
+GDF6, ACVR2A,BMP,Secreted Signaling
+GDF6, ACVR2B,BMP,Secreted Signaling
+GDF6, BMPR2,BMP,Secreted Signaling
+GDF7,ACVR2A,BMP,Secreted Signaling
+GDF7, BMPR1A,BMP,Secreted Signaling
+GDF7,ACVR2B,BMP,Secreted Signaling
+GDF7,BMPR2,BMP,Secreted Signaling
+GDF7,BMPR1B,BMP,Secreted Signaling
+GDF7, ACVR2A,BMP,Secreted Signaling
+GDF7, ACVR2B,BMP,Secreted Signaling
+GDF7, BMPR2,BMP,Secreted Signaling
+BMP15,BMPR1B,BMP,Secreted Signaling
+BMP15, BMPR2,BMP,Secreted Signaling
+BMP5,ACVR1,BMP,Secreted Signaling
+BMP5, ACVR2A,BMP,Secreted Signaling
+BMP5, ACVR2B,BMP,Secreted Signaling
+BMP5,BMPR2,BMP,Secreted Signaling
+BMP5, ACVR1,BMP,Secreted Signaling
+BMP5,ACVR2A,BMP,Secreted Signaling
+BMP5, BMPR1A,BMP,Secreted Signaling
+BMP5,ACVR2B,BMP,Secreted Signaling
+BMP5,BMPR1B,BMP,Secreted Signaling
+BMP5, BMPR2,BMP,Secreted Signaling
+BMP6,ACVR1,BMP,Secreted Signaling
+BMP6, ACVR2A,BMP,Secreted Signaling
+BMP6, ACVR2B,BMP,Secreted Signaling
+BMP6,BMPR2,BMP,Secreted Signaling
+BMP6, ACVR1,BMP,Secreted Signaling
+BMP6,ACVR2A,BMP,Secreted Signaling
+BMP6, BMPR1A,BMP,Secreted Signaling
+BMP6,ACVR2B,BMP,Secreted Signaling
+BMP6,BMPR1B,BMP,Secreted Signaling
+BMP6, BMPR2,BMP,Secreted Signaling
+BMP7,ACVR1,BMP,Secreted Signaling
+BMP7, ACVR2A,BMP,Secreted Signaling
+BMP7, ACVR2B,BMP,Secreted Signaling
+BMP7,BMPR2,BMP,Secreted Signaling
+BMP7, ACVR1,BMP,Secreted Signaling
+BMP7,ACVR2A,BMP,Secreted Signaling
+BMP7, BMPR1A,BMP,Secreted Signaling
+BMP7,ACVR2B,BMP,Secreted Signaling
+BMP7,BMPR1B,BMP,Secreted Signaling
+BMP7, BMPR2,BMP,Secreted Signaling
+BMP8A,ACVR1,BMP,Secreted Signaling
+BMP8A, ACVR2A,BMP,Secreted Signaling
+BMP8A, ACVR2B,BMP,Secreted Signaling
+BMP8A,BMPR2,BMP,Secreted Signaling
+BMP8A, ACVR1,BMP,Secreted Signaling
+BMP8A,ACVR2A,BMP,Secreted Signaling
+BMP8A, BMPR1A,BMP,Secreted Signaling
+BMP8A,ACVR2B,BMP,Secreted Signaling
+BMP8A,BMPR1B,BMP,Secreted Signaling
+BMP8A, BMPR2,BMP,Secreted Signaling
+BMP8B,ACVR1,BMP,Secreted Signaling
+BMP8B, ACVR2A,BMP,Secreted Signaling
+BMP8B, ACVR2B,BMP,Secreted Signaling
+BMP8B,BMPR2,BMP,Secreted Signaling
+BMP8B, ACVR1,BMP,Secreted Signaling
+BMP8B,ACVR2A,BMP,Secreted Signaling
+BMP8B, BMPR1A,BMP,Secreted Signaling
+BMP8B,ACVR2B,BMP,Secreted Signaling
+BMP8B,BMPR1B,BMP,Secreted Signaling
+BMP8B, BMPR2,BMP,Secreted Signaling
+BMP10,BMPR2,BMP10,Secreted Signaling
+BMP10, ACVRL1,BMP10,Secreted Signaling
+BMP10,ACVR2A,BMP10,Secreted Signaling
+GDF2,BMPR2,BMP10,Secreted Signaling
+GDF2, ACVRL1,BMP10,Secreted Signaling
+GDF2,ACVR2A,BMP10,Secreted Signaling
+GDF9,BMPR2,GDF,Secreted Signaling
+GDF9, ACVR1B,GDF,Secreted Signaling
+GDF10,ACVR1B,GDF,Secreted Signaling
+GDF10, ACVR2A,GDF,Secreted Signaling
+GDF11,ACVR2A,GDF,Secreted Signaling
+GDF11, TGFBR1,GDF,Secreted Signaling
+GDF11,ACVR2B,GDF,Secreted Signaling
+GDF11,ACVR1B,GDF,Secreted Signaling
+GDF11, ACVR2B,GDF,Secreted Signaling
+GDF15,TGFBR2,GDF,Secreted Signaling
+MSTN,ACVR2B,MSTN,Secreted Signaling
+MSTN, TGFBR1,MSTN,Secreted Signaling
+MSTN,ACVR1B,MSTN,Secreted Signaling
+MSTN, ACVR2B,MSTN,Secreted Signaling
+MSTN, ACVR2A,MSTN,Secreted Signaling
+MSTN,ACVR2A,MSTN,Secreted Signaling
+AMH,ACVR1,AMH,Secreted Signaling
+AMH, AMHR2,AMH,Secreted Signaling
+AMH,AMHR2,AMH,Secreted Signaling
+AMH, BMPR1A,AMH,Secreted Signaling
+GDNF,GFRA1,GDNF,Secreted Signaling
+GDNF, RET,GDNF,Secreted Signaling
+NRTN,GFRA2,GDNF,Secreted Signaling
+NRTN, RET,GDNF,Secreted Signaling
+ARTN,GFRA3,GDNF,Secreted Signaling
+ARTN, RET,GDNF,Secreted Signaling
+PSPN,GFRA4,GDNF,Secreted Signaling
+PSPN, RET,GDNF,Secreted Signaling
+ARTN,GFRA1,GDNF,Secreted Signaling
+NODAL,ACVR1B,NODAL,Secreted Signaling
+NODAL, ACVR2A,NODAL,Secreted Signaling
+NODAL, CFC1,NODAL,Secreted Signaling
+NODAL,ACVR1C,NODAL,Secreted Signaling
+NODAL, ACVR2B,NODAL,Secreted Signaling
+GDF1,ACVR1B,NODAL,Secreted Signaling
+GDF1, ACVR2A,NODAL,Secreted Signaling
+GDF1, CFC1,NODAL,Secreted Signaling
+GDF1, ACVR2B,NODAL,Secreted Signaling
+GDF1,ACVR1C,NODAL,Secreted Signaling
+GDF3,ACVR1B,NODAL,Secreted Signaling
+GDF3, ACVR2A,NODAL,Secreted Signaling
+GDF3, CFC1,NODAL,Secreted Signaling
+GDF3, ACVR2B,NODAL,Secreted Signaling
+GDF3,ACVR1C,NODAL,Secreted Signaling
+INHBA,ACVR1B,ACTIVIN,Secreted Signaling
+INHBA, ACVR2A,ACTIVIN,Secreted Signaling
+INHBA, ACVR2B,ACTIVIN,Secreted Signaling
+INHBB,ACVR1B,ACTIVIN,Secreted Signaling
+INHBB, ACVR2A,ACTIVIN,Secreted Signaling
+INHBB, ACVR2B,ACTIVIN,Secreted Signaling
+INHBB,ACVR1C,ACTIVIN,Secreted Signaling
+INHBC,ACVR1B,ACTIVIN,Secreted Signaling
+INHBC, ACVR2A,ACTIVIN,Secreted Signaling
+INHBC, ACVR2B,ACTIVIN,Secreted Signaling
+INHBC,ACVR1C,ACTIVIN,Secreted Signaling
+INHBE,ACVR1B,ACTIVIN,Secreted Signaling
+INHBE, ACVR2A,ACTIVIN,Secreted Signaling
+INHBE, ACVR2B,ACTIVIN,Secreted Signaling
+INHBE,ACVR1C,ACTIVIN,Secreted Signaling
+ INHBB, ACVR2A,ACTIVIN,Secreted Signaling
+ INHBB,ACVR1B,ACTIVIN,Secreted Signaling
+ INHBB, ACVR2B,ACTIVIN,Secreted Signaling
+ INHBB,ACVR1C,ACTIVIN,Secreted Signaling
+INHBA,ACVR1C,ACTIVIN,Secreted Signaling
+INHBA,ACVR2A,ACTIVIN,Secreted Signaling
+ INHA,ACVR2A,ACTIVIN,Secreted Signaling
+INHA,ACVR2B,ACTIVIN,Secreted Signaling
+ INHBB,ACVR2B,ACTIVIN,Secreted Signaling
+WNT1,FZD1,WNT,Secreted Signaling
+WNT1, LRP5,WNT,Secreted Signaling
+WNT1,FZD10,WNT,Secreted Signaling
+WNT1,FZD2,WNT,Secreted Signaling
+WNT1,LRP5,WNT,Secreted Signaling
+WNT1, FZD3,WNT,Secreted Signaling
+WNT1,FZD4,WNT,Secreted Signaling
+WNT1,FZD5,WNT,Secreted Signaling
+WNT1,FZD6,WNT,Secreted Signaling
+WNT1, FZD7,WNT,Secreted Signaling
+WNT1,FZD8,WNT,Secreted Signaling
+WNT1,FZD9,WNT,Secreted Signaling
+WNT10A,FZD1,WNT,Secreted Signaling
+WNT10A, LRP5,WNT,Secreted Signaling
+WNT10A,FZD10,WNT,Secreted Signaling
+WNT10A,FZD2,WNT,Secreted Signaling
+WNT10A,LRP5,WNT,Secreted Signaling
+WNT10A, FZD3,WNT,Secreted Signaling
+WNT10A,FZD4,WNT,Secreted Signaling
+WNT10A,FZD5,WNT,Secreted Signaling
+WNT10A,FZD6,WNT,Secreted Signaling
+WNT10A, FZD7,WNT,Secreted Signaling
+WNT10A,FZD8,WNT,Secreted Signaling
+WNT10A,FZD9,WNT,Secreted Signaling
+WNT10B,FZD1,WNT,Secreted Signaling
+WNT10B, LRP5,WNT,Secreted Signaling
+WNT10B,FZD10,WNT,Secreted Signaling
+WNT10B,FZD2,WNT,Secreted Signaling
+WNT10B,LRP5,WNT,Secreted Signaling
+WNT10B, FZD3,WNT,Secreted Signaling
+WNT10B,FZD4,WNT,Secreted Signaling
+WNT10B,FZD5,WNT,Secreted Signaling
+WNT10B,FZD6,WNT,Secreted Signaling
+WNT10B, FZD7,WNT,Secreted Signaling
+WNT10B,FZD8,WNT,Secreted Signaling
+WNT10B,FZD9,WNT,Secreted Signaling
+WNT16,FZD1,WNT,Secreted Signaling
+WNT16, LRP5,WNT,Secreted Signaling
+WNT16,FZD10,WNT,Secreted Signaling
+WNT16,FZD2,WNT,Secreted Signaling
+WNT16,LRP5,WNT,Secreted Signaling
+WNT16, FZD3,WNT,Secreted Signaling
+WNT16,FZD4,WNT,Secreted Signaling
+WNT16,FZD5,WNT,Secreted Signaling
+WNT16,FZD6,WNT,Secreted Signaling
+WNT16, FZD7,WNT,Secreted Signaling
+WNT16,FZD8,WNT,Secreted Signaling
+WNT16,FZD9,WNT,Secreted Signaling
+WNT2,FZD1,WNT,Secreted Signaling
+WNT2, LRP5,WNT,Secreted Signaling
+WNT2,FZD10,WNT,Secreted Signaling
+WNT2,FZD2,WNT,Secreted Signaling
+WNT2,LRP5,WNT,Secreted Signaling
+WNT2, FZD3,WNT,Secreted Signaling
+WNT2,FZD4,WNT,Secreted Signaling
+WNT2,FZD5,WNT,Secreted Signaling
+WNT2,FZD6,WNT,Secreted Signaling
+WNT2, FZD7,WNT,Secreted Signaling
+WNT2,FZD8,WNT,Secreted Signaling
+WNT2,FZD9,WNT,Secreted Signaling
+WNT2B,FZD1,WNT,Secreted Signaling
+WNT2B, LRP5,WNT,Secreted Signaling
+WNT2B,FZD10,WNT,Secreted Signaling
+WNT2B,FZD2,WNT,Secreted Signaling
+WNT2B,LRP5,WNT,Secreted Signaling
+WNT2B, FZD3,WNT,Secreted Signaling
+WNT2B,FZD4,WNT,Secreted Signaling
+WNT2B,FZD5,WNT,Secreted Signaling
+WNT2B,FZD6,WNT,Secreted Signaling
+WNT2B, FZD7,WNT,Secreted Signaling
+WNT2B,FZD8,WNT,Secreted Signaling
+WNT2B,FZD9,WNT,Secreted Signaling
+WNT3,FZD1,WNT,Secreted Signaling
+WNT3, LRP5,WNT,Secreted Signaling
+WNT3,FZD10,WNT,Secreted Signaling
+WNT3,FZD2,WNT,Secreted Signaling
+WNT3,LRP5,WNT,Secreted Signaling
+WNT3, FZD3,WNT,Secreted Signaling
+WNT3,FZD4,WNT,Secreted Signaling
+WNT3,FZD5,WNT,Secreted Signaling
+WNT3,FZD6,WNT,Secreted Signaling
+WNT3, FZD7,WNT,Secreted Signaling
+WNT3,FZD8,WNT,Secreted Signaling
+WNT3,FZD9,WNT,Secreted Signaling
+WNT3A,FZD1,WNT,Secreted Signaling
+WNT3A, LRP5,WNT,Secreted Signaling
+WNT3A,FZD10,WNT,Secreted Signaling
+WNT3A,FZD2,WNT,Secreted Signaling
+WNT3A,LRP5,WNT,Secreted Signaling
+WNT3A, FZD3,WNT,Secreted Signaling
+WNT3A,FZD4,WNT,Secreted Signaling
+WNT3A,FZD5,WNT,Secreted Signaling
+WNT3A,FZD6,WNT,Secreted Signaling
+WNT3A, FZD7,WNT,Secreted Signaling
+WNT3A,FZD8,WNT,Secreted Signaling
+WNT3A,FZD9,WNT,Secreted Signaling
+WNT4,FZD1,WNT,Secreted Signaling
+WNT4, LRP5,WNT,Secreted Signaling
+WNT4,FZD10,WNT,Secreted Signaling
+WNT4,FZD2,WNT,Secreted Signaling
+WNT4,LRP5,WNT,Secreted Signaling
+WNT4, FZD3,WNT,Secreted Signaling
+WNT4,FZD4,WNT,Secreted Signaling
+WNT4,FZD5,WNT,Secreted Signaling
+WNT4,FZD6,WNT,Secreted Signaling
+WNT4, FZD7,WNT,Secreted Signaling
+WNT4,FZD8,WNT,Secreted Signaling
+WNT4,FZD9,WNT,Secreted Signaling
+WNT6,FZD1,WNT,Secreted Signaling
+WNT6, LRP5,WNT,Secreted Signaling
+WNT6,FZD10,WNT,Secreted Signaling
+WNT6,FZD2,WNT,Secreted Signaling
+WNT6,LRP5,WNT,Secreted Signaling
+WNT6, FZD3,WNT,Secreted Signaling
+WNT6,FZD4,WNT,Secreted Signaling
+WNT6,FZD5,WNT,Secreted Signaling
+WNT6,FZD6,WNT,Secreted Signaling
+WNT6, FZD7,WNT,Secreted Signaling
+WNT6,FZD8,WNT,Secreted Signaling
+WNT6,FZD9,WNT,Secreted Signaling
+WNT7A,FZD1,WNT,Secreted Signaling
+WNT7A, LRP5,WNT,Secreted Signaling
+WNT7A,FZD10,WNT,Secreted Signaling
+WNT7A,FZD2,WNT,Secreted Signaling
+WNT7A,LRP5,WNT,Secreted Signaling
+WNT7A, FZD3,WNT,Secreted Signaling
+WNT7A,FZD4,WNT,Secreted Signaling
+WNT7A,FZD5,WNT,Secreted Signaling
+WNT7A,FZD6,WNT,Secreted Signaling
+WNT7A, FZD7,WNT,Secreted Signaling
+WNT7A,FZD8,WNT,Secreted Signaling
+WNT7A,FZD9,WNT,Secreted Signaling
+WNT7B,FZD1,WNT,Secreted Signaling
+WNT7B, LRP5,WNT,Secreted Signaling
+WNT7B,FZD10,WNT,Secreted Signaling
+WNT7B,FZD2,WNT,Secreted Signaling
+WNT7B,LRP5,WNT,Secreted Signaling
+WNT7B, FZD3,WNT,Secreted Signaling
+WNT7B,FZD4,WNT,Secreted Signaling
+WNT7B,FZD5,WNT,Secreted Signaling
+WNT7B,FZD6,WNT,Secreted Signaling
+WNT7B, FZD7,WNT,Secreted Signaling
+WNT7B,FZD8,WNT,Secreted Signaling
+WNT7B,FZD9,WNT,Secreted Signaling
+WNT8A,FZD1,WNT,Secreted Signaling
+WNT8A, LRP5,WNT,Secreted Signaling
+WNT8A,FZD10,WNT,Secreted Signaling
+WNT8A,FZD2,WNT,Secreted Signaling
+WNT8A,LRP5,WNT,Secreted Signaling
+WNT8A, FZD3,WNT,Secreted Signaling
+WNT8A,FZD4,WNT,Secreted Signaling
+WNT8A,FZD5,WNT,Secreted Signaling
+WNT8A,FZD6,WNT,Secreted Signaling
+WNT8A, FZD7,WNT,Secreted Signaling
+WNT8A,FZD8,WNT,Secreted Signaling
+WNT8A,FZD9,WNT,Secreted Signaling
+WNT8B,FZD1,WNT,Secreted Signaling
+WNT8B, LRP5,WNT,Secreted Signaling
+WNT8B,FZD10,WNT,Secreted Signaling
+WNT8B,FZD2,WNT,Secreted Signaling
+WNT8B,LRP5,WNT,Secreted Signaling
+WNT8B, FZD3,WNT,Secreted Signaling
+WNT8B,FZD4,WNT,Secreted Signaling
+WNT8B,FZD5,WNT,Secreted Signaling
+WNT8B,FZD6,WNT,Secreted Signaling
+WNT8B, FZD7,WNT,Secreted Signaling
+WNT8B,FZD8,WNT,Secreted Signaling
+WNT8B,FZD9,WNT,Secreted Signaling
+WNT9A,FZD1,WNT,Secreted Signaling
+WNT9A, LRP5,WNT,Secreted Signaling
+WNT9A,FZD10,WNT,Secreted Signaling
+WNT9A,FZD2,WNT,Secreted Signaling
+WNT9A,LRP5,WNT,Secreted Signaling
+WNT9A, FZD3,WNT,Secreted Signaling
+WNT9A,FZD4,WNT,Secreted Signaling
+WNT9A,FZD5,WNT,Secreted Signaling
+WNT9A,FZD6,WNT,Secreted Signaling
+WNT9A, FZD7,WNT,Secreted Signaling
+WNT9A,FZD8,WNT,Secreted Signaling
+WNT9A,FZD9,WNT,Secreted Signaling
+WNT9B,FZD1,WNT,Secreted Signaling
+WNT9B, LRP5,WNT,Secreted Signaling
+WNT9B,FZD10,WNT,Secreted Signaling
+WNT9B,FZD2,WNT,Secreted Signaling
+WNT9B,LRP5,WNT,Secreted Signaling
+WNT9B, FZD3,WNT,Secreted Signaling
+WNT9B,FZD4,WNT,Secreted Signaling
+WNT9B,FZD5,WNT,Secreted Signaling
+WNT9B,FZD6,WNT,Secreted Signaling
+WNT9B, FZD7,WNT,Secreted Signaling
+WNT9B,FZD8,WNT,Secreted Signaling
+WNT9B,FZD9,WNT,Secreted Signaling
+WNT1, LRP6,WNT,Secreted Signaling
+WNT1,FZD3,WNT,Secreted Signaling
+WNT1,FZD7,WNT,Secreted Signaling
+WNT10A, LRP6,WNT,Secreted Signaling
+WNT10A,FZD3,WNT,Secreted Signaling
+WNT10A,FZD7,WNT,Secreted Signaling
+WNT10B, LRP6,WNT,Secreted Signaling
+WNT10B,FZD3,WNT,Secreted Signaling
+WNT10B,FZD7,WNT,Secreted Signaling
+WNT16, LRP6,WNT,Secreted Signaling
+WNT16,FZD3,WNT,Secreted Signaling
+WNT16,FZD7,WNT,Secreted Signaling
+WNT2, LRP6,WNT,Secreted Signaling
+WNT2,FZD3,WNT,Secreted Signaling
+WNT2,FZD7,WNT,Secreted Signaling
+WNT2B, LRP6,WNT,Secreted Signaling
+WNT2B,FZD3,WNT,Secreted Signaling
+WNT2B,FZD7,WNT,Secreted Signaling
+WNT3, LRP6,WNT,Secreted Signaling
+WNT3,FZD3,WNT,Secreted Signaling
+WNT3,FZD7,WNT,Secreted Signaling
+WNT3A, LRP6,WNT,Secreted Signaling
+WNT3A,FZD3,WNT,Secreted Signaling
+WNT3A,FZD7,WNT,Secreted Signaling
+WNT4, LRP6,WNT,Secreted Signaling
+WNT4,FZD3,WNT,Secreted Signaling
+WNT4,FZD7,WNT,Secreted Signaling
+WNT6, LRP6,WNT,Secreted Signaling
+WNT6,FZD3,WNT,Secreted Signaling
+WNT6,FZD7,WNT,Secreted Signaling
+WNT7A, LRP6,WNT,Secreted Signaling
+WNT7A,FZD3,WNT,Secreted Signaling
+WNT7A,FZD7,WNT,Secreted Signaling
+WNT7B, LRP6,WNT,Secreted Signaling
+WNT7B,FZD3,WNT,Secreted Signaling
+WNT7B,FZD7,WNT,Secreted Signaling
+WNT8A, LRP6,WNT,Secreted Signaling
+WNT8A,FZD3,WNT,Secreted Signaling
+WNT8A,FZD7,WNT,Secreted Signaling
+WNT8B, LRP6,WNT,Secreted Signaling
+WNT8B,FZD3,WNT,Secreted Signaling
+WNT8B,FZD7,WNT,Secreted Signaling
+WNT9A, LRP6,WNT,Secreted Signaling
+WNT9A,FZD3,WNT,Secreted Signaling
+WNT9A,FZD7,WNT,Secreted Signaling
+WNT9B, LRP6,WNT,Secreted Signaling
+WNT9B,FZD3,WNT,Secreted Signaling
+WNT9B,FZD7,WNT,Secreted Signaling
+WNT5A,FZD1,ncWNT,Secreted Signaling
+WNT5A,FZD10,ncWNT,Secreted Signaling
+WNT5A,FZD2,ncWNT,Secreted Signaling
+WNT5A,FZD3,ncWNT,Secreted Signaling
+WNT5A,FZD4,ncWNT,Secreted Signaling
+WNT5A,FZD5,ncWNT,Secreted Signaling
+WNT5A,FZD6,ncWNT,Secreted Signaling
+WNT5A,FZD7,ncWNT,Secreted Signaling
+WNT5A,FZD8,ncWNT,Secreted Signaling
+WNT5A,FZD9,ncWNT,Secreted Signaling
+WNT5A,MCAM,ncWNT,Secreted Signaling
+WNT5B,FZD1,ncWNT,Secreted Signaling
+WNT5B,FZD10,ncWNT,Secreted Signaling
+WNT5B,FZD2,ncWNT,Secreted Signaling
+WNT5B,FZD3,ncWNT,Secreted Signaling
+WNT5B,FZD4,ncWNT,Secreted Signaling
+WNT5B,FZD5,ncWNT,Secreted Signaling
+WNT5B,FZD6,ncWNT,Secreted Signaling
+WNT5B,FZD7,ncWNT,Secreted Signaling
+WNT5B,FZD8,ncWNT,Secreted Signaling
+WNT5B,FZD9,ncWNT,Secreted Signaling
+WNT11,FZD1,ncWNT,Secreted Signaling
+WNT11,FZD10,ncWNT,Secreted Signaling
+WNT11,FZD2,ncWNT,Secreted Signaling
+WNT11,FZD3,ncWNT,Secreted Signaling
+WNT11,FZD4,ncWNT,Secreted Signaling
+WNT11,FZD5,ncWNT,Secreted Signaling
+WNT11,FZD6,ncWNT,Secreted Signaling
+WNT11,FZD7,ncWNT,Secreted Signaling
+WNT11,FZD8,ncWNT,Secreted Signaling
+WNT11,FZD9,ncWNT,Secreted Signaling
+EGF,EGFR,EGF,Secreted Signaling
+EGF,ERBB2,EGF,Secreted Signaling
+EGF, EGFR,EGF,Secreted Signaling
+TGFA,EGFR,EGF,Secreted Signaling
+TGFA,ERBB2,EGF,Secreted Signaling
+TGFA, EGFR,EGF,Secreted Signaling
+AREG,EGFR,EGF,Secreted Signaling
+AREG,ERBB2,EGF,Secreted Signaling
+AREG, EGFR,EGF,Secreted Signaling
+BTC,EGFR,EGF,Secreted Signaling
+BTC,ERBB2,EGF,Secreted Signaling
+BTC, EGFR,EGF,Secreted Signaling
+BTC,ERBB4,EGF,Secreted Signaling
+BTC, ERBB4,EGF,Secreted Signaling
+HBEGF,EGFR,EGF,Secreted Signaling
+HBEGF,ERBB2,EGF,Secreted Signaling
+HBEGF, EGFR,EGF,Secreted Signaling
+HBEGF,ERBB4,EGF,Secreted Signaling
+HBEGF, ERBB4,EGF,Secreted Signaling
+EREG,EGFR,EGF,Secreted Signaling
+EREG,ERBB2,EGF,Secreted Signaling
+EREG, EGFR,EGF,Secreted Signaling
+EREG,ERBB4,EGF,Secreted Signaling
+EREG, ERBB4,EGF,Secreted Signaling
+NRG1,ERBB3,NRG,Secreted Signaling
+NRG1, ERBB2,NRG,Secreted Signaling
+NRG1,ERBB4,NRG,Secreted Signaling
+NRG1,ERBB2,NRG,Secreted Signaling
+NRG1, ERBB4,NRG,Secreted Signaling
+NRG2,ERBB3,NRG,Secreted Signaling
+NRG2, ERBB2,NRG,Secreted Signaling
+NRG2,ERBB4,NRG,Secreted Signaling
+NRG2,ERBB2,NRG,Secreted Signaling
+NRG2, ERBB4,NRG,Secreted Signaling
+NRG3,ERBB4,NRG,Secreted Signaling
+NRG3,ERBB2,NRG,Secreted Signaling
+NRG3, ERBB4,NRG,Secreted Signaling
+NRG4,ERBB4,NRG,Secreted Signaling
+NRG4,ERBB2,NRG,Secreted Signaling
+NRG4, ERBB4,NRG,Secreted Signaling
+NRG1,ITGAV,NRG,Secreted Signaling
+NRG1, ITGB3,NRG,Secreted Signaling
+FGF1,FGFR1,FGF,Secreted Signaling
+FGF1,FGFR2,FGF,Secreted Signaling
+FGF1,FGFR3,FGF,Secreted Signaling
+FGF1,FGFR4,FGF,Secreted Signaling
+FGF2,FGFR1,FGF,Secreted Signaling
+FGF2,FGFR2,FGF,Secreted Signaling
+FGF2,FGFR3,FGF,Secreted Signaling
+FGF2,FGFR4,FGF,Secreted Signaling
+FGF4,FGFR1,FGF,Secreted Signaling
+FGF4,FGFR2,FGF,Secreted Signaling
+FGF4,FGFR3,FGF,Secreted Signaling
+FGF4,FGFR4,FGF,Secreted Signaling
+FGF5,FGFR1,FGF,Secreted Signaling
+FGF5,FGFR2,FGF,Secreted Signaling
+FGF5,FGFR3,FGF,Secreted Signaling
+FGF5,FGFR4,FGF,Secreted Signaling
+FGF6,FGFR1,FGF,Secreted Signaling
+FGF6,FGFR2,FGF,Secreted Signaling
+FGF6,FGFR3,FGF,Secreted Signaling
+FGF6,FGFR4,FGF,Secreted Signaling
+FGF7,FGFR1,FGF,Secreted Signaling
+FGF7,FGFR2,FGF,Secreted Signaling
+FGF3,FGFR1,FGF,Secreted Signaling
+FGF3,FGFR2,FGF,Secreted Signaling
+FGF10,FGFR1,FGF,Secreted Signaling
+FGF10,FGFR2,FGF,Secreted Signaling
+FGF22,FGFR2,FGF,Secreted Signaling
+FGF8,FGFR1,FGF,Secreted Signaling
+FGF8,FGFR2,FGF,Secreted Signaling
+FGF8,FGFR3,FGF,Secreted Signaling
+FGF8,FGFR4,FGF,Secreted Signaling
+FGF17,FGFR1,FGF,Secreted Signaling
+FGF17,FGFR2,FGF,Secreted Signaling
+FGF17,FGFR3,FGF,Secreted Signaling
+FGF17,FGFR4,FGF,Secreted Signaling
+FGF18,FGFR1,FGF,Secreted Signaling
+FGF18,FGFR2,FGF,Secreted Signaling
+FGF18,FGFR3,FGF,Secreted Signaling
+FGF18,FGFR4,FGF,Secreted Signaling
+FGF9,FGFR1,FGF,Secreted Signaling
+FGF9,FGFR2,FGF,Secreted Signaling
+FGF9,FGFR3,FGF,Secreted Signaling
+FGF9,FGFR4,FGF,Secreted Signaling
+FGF20,FGFR1,FGF,Secreted Signaling
+FGF20,FGFR2,FGF,Secreted Signaling
+FGF20,FGFR3,FGF,Secreted Signaling
+FGF20,FGFR4,FGF,Secreted Signaling
+FGF16,FGFR1,FGF,Secreted Signaling
+FGF16,FGFR2,FGF,Secreted Signaling
+FGF16,FGFR3,FGF,Secreted Signaling
+FGF16,FGFR4,FGF,Secreted Signaling
+FGF19,FGFR1,FGF,Secreted Signaling
+FGF19,FGFR2,FGF,Secreted Signaling
+FGF19,FGFR3,FGF,Secreted Signaling
+FGF19,FGFR4,FGF,Secreted Signaling
+FGF21,FGFR1,FGF,Secreted Signaling
+FGF21,FGFR3,FGF,Secreted Signaling
+FGF23,FGFR1,FGF,Secreted Signaling
+FGF23,FGFR3,FGF,Secreted Signaling
+FGF23,FGFR4,FGF,Secreted Signaling
+PDGFA,PDGFRA,PDGF,Secreted Signaling
+PDGFA,PDGFRB,PDGF,Secreted Signaling
+PDGFB,PDGFRA,PDGF,Secreted Signaling
+PDGFB,PDGFRB,PDGF,Secreted Signaling
+PDGFC,PDGFRA,PDGF,Secreted Signaling
+PDGFD,PDGFRB,PDGF,Secreted Signaling
+VEGFA,FLT1,VEGF,Secreted Signaling
+VEGFA,KDR,VEGF,Secreted Signaling
+VEGFB,FLT1,VEGF,Secreted Signaling
+VEGFC,FLT4,VEGF,Secreted Signaling
+VEGFC,KDR,VEGF,Secreted Signaling
+VEGFD,FLT4,VEGF,Secreted Signaling
+VEGFD,KDR,VEGF,Secreted Signaling
+PGF,FLT1,VEGF,Secreted Signaling
+VEGFA, KDR,VEGF,Secreted Signaling
+VEGFC, KDR,VEGF,Secreted Signaling
+VEGFD, KDR,VEGF,Secreted Signaling
+IGF1,IGF1R,IGF,Secreted Signaling
+IGF2,IGF1R,IGF,Secreted Signaling
+IGF2,IGF2R,IGF,Secreted Signaling
+IGF1,ITGAV,IGF,Secreted Signaling
+IGF1, ITGB3,IGF,Secreted Signaling
+IGF1,ITGA6,IGF,Secreted Signaling
+IGF1, ITGB4,IGF,Secreted Signaling
+IGF2,ITGAV,IGF,Secreted Signaling
+IGF2, ITGB3,IGF,Secreted Signaling
+IGF2,ITGA6,IGF,Secreted Signaling
+IGF2, ITGB4,IGF,Secreted Signaling
+IGFL3,IGFLR1,IGF,Secreted Signaling
+INS,INSR,INSULIN,Secreted Signaling
+APLN,APLNR,APELIN,Secreted Signaling
+DHH,PTCH1,HH,Secreted Signaling
+DHH, SMO,HH,Secreted Signaling
+IHH,PTCH1,HH,Secreted Signaling
+IHH, SMO,HH,Secreted Signaling
+SHH,PTCH1,HH,Secreted Signaling
+SHH, SMO,HH,Secreted Signaling
+DHH,PTCH2,HH,Secreted Signaling
+IHH,PTCH2,HH,Secreted Signaling
+SHH,PTCH2,HH,Secreted Signaling
+CCL5,CCR1,CCL,Secreted Signaling
+CCL3,CCR1,CCL,Secreted Signaling
+CCL3L1,CCR1,CCL,Secreted Signaling
+CCL3L3,CCR1,CCL,Secreted Signaling
+CCL8,CCR1,CCL,Secreted Signaling
+CCL7,CCR1,CCL,Secreted Signaling
+CCL13,CCR1,CCL,Secreted Signaling
+CCL14,CCR1,CCL,Secreted Signaling
+CCL15,CCR1,CCL,Secreted Signaling
+CCL16,CCR1,CCL,Secreted Signaling
+CCL23,CCR1,CCL,Secreted Signaling
+CCL8,CCR2,CCL,Secreted Signaling
+CCL7,CCR2,CCL,Secreted Signaling
+CCL2,CCR2,CCL,Secreted Signaling
+CCL27,CCR2,CCL,Secreted Signaling
+CCL5,CCR3,CCL,Secreted Signaling
+CCL7,CCR3,CCL,Secreted Signaling
+CCL11,CCR3,CCL,Secreted Signaling
+CCL24,CCR3,CCL,Secreted Signaling
+CCL26,CCR3,CCL,Secreted Signaling
+CCL28,CCR3,CCL,Secreted Signaling
+CCL27,CCR3,CCL,Secreted Signaling
+CCL17,CCR4,CCL,Secreted Signaling
+CCL22,CCR4,CCL,Secreted Signaling
+CCL5,CCR4,CCL,Secreted Signaling
+CCL4,CCR5,CCL,Secreted Signaling
+CCL5,CCR5,CCL,Secreted Signaling
+CCL3,CCR5,CCL,Secreted Signaling
+CCL20,CCR6,CCL,Secreted Signaling
+CCL19,CCR7,CCL,Secreted Signaling
+CCL21,CCR7,CCL,Secreted Signaling
+CCL19,ACKR4,CCL,Secreted Signaling
+CCL21,ACKR4,CCL,Secreted Signaling
+CCL1,CCR8,CCL,Secreted Signaling
+CCL25,CCR9,CCL,Secreted Signaling
+CCL25,ACKR4,CCL,Secreted Signaling
+CCL28,CCR10,CCL,Secreted Signaling
+CCL27,CCR10,CCL,Secreted Signaling
+CCL1,ACKR4,CCL,Secreted Signaling
+CCL13,ACKR4,CCL,Secreted Signaling
+CCL8,ACKR4,CCL,Secreted Signaling
+CCL1,ACKR1,CCL,Secreted Signaling
+CCL2,ACKR1,CCL,Secreted Signaling
+CCL5,ACKR1,CCL,Secreted Signaling
+CCL8,ACKR1,CCL,Secreted Signaling
+CCL13,ACKR1,CCL,Secreted Signaling
+CCL14,ACKR1,CCL,Secreted Signaling
+CCL16,ACKR1,CCL,Secreted Signaling
+CCL18,ACKR1,CCL,Secreted Signaling
+CXCL1,ACKR1,CXCL,Secreted Signaling
+CXCL2,ACKR1,CXCL,Secreted Signaling
+CXCL3,ACKR1,CXCL,Secreted Signaling
+CXCL5,ACKR1,CXCL,Secreted Signaling
+CXCL6,ACKR1,CXCL,Secreted Signaling
+CXCL8,ACKR1,CXCL,Secreted Signaling
+CXCL9,ACKR1,CXCL,Secreted Signaling
+CXCL10,ACKR1,CXCL,Secreted Signaling
+CXCL11,ACKR1,CXCL,Secreted Signaling
+CXCL13,ACKR1,CXCL,Secreted Signaling
+CCL2,ACKR2,CCL,Secreted Signaling
+CCL3,ACKR2,CCL,Secreted Signaling
+CCL3L1,ACKR2,CCL,Secreted Signaling
+CCL4,ACKR2,CCL,Secreted Signaling
+CCL5,ACKR2,CCL,Secreted Signaling
+CCL7,ACKR2,CCL,Secreted Signaling
+CCL8,ACKR2,CCL,Secreted Signaling
+CCL7,ACKR1,CCL,Secreted Signaling
+CCL11,ACKR1,CCL,Secreted Signaling
+CCL11,ACKR2,CCL,Secreted Signaling
+CCL13,ACKR2,CCL,Secreted Signaling
+CCL22,ACKR2,CCL,Secreted Signaling
+CCL24,ACKR2,CCL,Secreted Signaling
+CCL26,ACKR2,CCL,Secreted Signaling
+CCL17,ACKR1,CCL,Secreted Signaling
+CCL14,ACKR2,CCL,Secreted Signaling
+CCL17,ACKR2,CCL,Secreted Signaling
+CXCL1,CXCR1,CXCL,Secreted Signaling
+CXCL2,CXCR1,CXCL,Secreted Signaling
+CXCL3,CXCR1,CXCL,Secreted Signaling
+CXCL5,CXCR1,CXCL,Secreted Signaling
+CXCL6,CXCR1,CXCL,Secreted Signaling
+CXCL1,CXCR2,CXCL,Secreted Signaling
+CXCL2,CXCR2,CXCL,Secreted Signaling
+CXCL3,CXCR2,CXCL,Secreted Signaling
+CXCL5,CXCR2,CXCL,Secreted Signaling
+CXCL6,CXCR2,CXCL,Secreted Signaling
+CXCL8,CXCR2,CXCL,Secreted Signaling
+PPBP,CXCR2,CXCL,Secreted Signaling
+PF4V1,CXCR3,CXCL,Secreted Signaling
+CXCL9,CXCR3,CXCL,Secreted Signaling
+CXCL10,CXCR3,CXCL,Secreted Signaling
+CXCL11,CXCR3,CXCL,Secreted Signaling
+CXCL13,CXCR3,CXCL,Secreted Signaling
+PF4,CXCR3,CXCL,Secreted Signaling
+CXCL12,CXCR4,CXCL,Secreted Signaling
+CXCL11,ACKR3,CXCL,Secreted Signaling
+CXCL12,ACKR3,CXCL,Secreted Signaling
+CXCL13,CXCR5,CXCL,Secreted Signaling
+CXCL16,CXCR6,CXCL,Secreted Signaling
+MIF,CD74,MIF,Secreted Signaling
+MIF, CXCR4,MIF,Secreted Signaling
+MIF,CD44,MIF,Secreted Signaling
+MIF, CD74,MIF,Secreted Signaling
+MIF,CXCR2,MIF,Secreted Signaling
+MIF,ACKR3,MIF,Secreted Signaling
+CX3CL1,CX3CR1,CX3C,Secreted Signaling
+XCL1,XCR1,XCR,Secreted Signaling
+XCL2,XCR1,XCR,Secreted Signaling
+IL2,IL2RA,IL2,Secreted Signaling
+IL2, IL2RB,IL2,Secreted Signaling
+IL2, IL2RG,IL2,Secreted Signaling
+IL2,IL2RB,IL2,Secreted Signaling
+IL4,IL2RG,IL2,Secreted Signaling
+IL4, IL4R,IL2,Secreted Signaling
+IL7,IL2RG,IL2,Secreted Signaling
+IL7, IL7R,IL2,Secreted Signaling
+IL9,IL2RG,IL2,Secreted Signaling
+IL9, IL9R,IL2,Secreted Signaling
+IL15,IL15RA,IL2,Secreted Signaling
+IL15, IL2RB,IL2,Secreted Signaling
+IL15, IL2RG,IL2,Secreted Signaling
+IL21,IL2RG,IL2,Secreted Signaling
+IL21, IL21R,IL2,Secreted Signaling
+TSLP,CRLF2,IL2,Secreted Signaling
+TSLP, IL7R,IL2,Secreted Signaling
+IL3,IL3RA,IL4,Secreted Signaling
+IL3, CSF2RB,IL4,Secreted Signaling
+IL5,CSF2RB,IL4,Secreted Signaling
+IL5, IL5RA,IL4,Secreted Signaling
+CSF2,CSF2RB,IL4,Secreted Signaling
+CSF2, CSF2RA,IL4,Secreted Signaling
+IL4,IL4R,IL4,Secreted Signaling
+IL4,IL13RA1,IL4,Secreted Signaling
+IL4, IL4R,IL4,Secreted Signaling
+IL4,IL13RA2,IL4,Secreted Signaling
+IL13,IL13RA1,IL4,Secreted Signaling
+IL13, IL4R,IL4,Secreted Signaling
+IL13,IL13RA2,IL4,Secreted Signaling
+IL6,IL6ST,IL6,Secreted Signaling
+IL6, IL6R,IL6,Secreted Signaling
+IL11,IL11RA,IL6,Secreted Signaling
+IL11, IL6ST,IL6,Secreted Signaling
+ IL12A, IL12RB2,IL12,Secreted Signaling
+ IL12A,IL12RB1,IL12,Secreted Signaling
+IL12B, IL12RB2,IL12,Secreted Signaling
+IL12B,IL12RB1,IL12,Secreted Signaling
+ IL23A, IL23R,IL12,Secreted Signaling
+ IL23A,IL12RB1,IL12,Secreted Signaling
+IL12B, IL23R,IL12,Secreted Signaling
+ EBI3, IL6ST,IL12,Secreted Signaling
+ EBI3,IL27RA,IL12,Secreted Signaling
+IL27, IL6ST,IL12,Secreted Signaling
+IL27,IL27RA,IL12,Secreted Signaling
+IL31,IL31RA,IL6,Secreted Signaling
+IL31, OSMR,IL6,Secreted Signaling
+CNTF,IL6ST,LIFR,Secreted Signaling
+CNTF, LIFR,LIFR,Secreted Signaling
+CNTF, CNTFR,LIFR,Secreted Signaling
+CLCF1,IL6ST,LIFR,Secreted Signaling
+CLCF1, LIFR,LIFR,Secreted Signaling
+CLCF1, CNTFR,LIFR,Secreted Signaling
+CTF1,IL6ST,LIFR,Secreted Signaling
+CTF1, LIFR,LIFR,Secreted Signaling
+LIF,IL6ST,LIFR,Secreted Signaling
+LIF, LIFR,LIFR,Secreted Signaling
+OSM,IL6ST,OSM,Secreted Signaling
+OSM, LIFR,OSM,Secreted Signaling
+OSM, OSMR,OSM,Secreted Signaling
+IL10,IL10RA,IL10,Secreted Signaling
+IL10, IL10RB,IL10,Secreted Signaling
+IL19,IL20RA,IL10,Secreted Signaling
+IL19, IL20RB,IL10,Secreted Signaling
+IL20,IL20RA,IL10,Secreted Signaling
+IL20, IL20RB,IL10,Secreted Signaling
+IL24,IL20RA,IL10,Secreted Signaling
+IL24, IL20RB,IL10,Secreted Signaling
+IL20,IL20RB,IL10,Secreted Signaling
+IL20, IL22RA1,IL10,Secreted Signaling
+IL24,IL20RB,IL10,Secreted Signaling
+IL24, IL22RA1,IL10,Secreted Signaling
+IL22,IL10RB,IL10,Secreted Signaling
+IL22, IL22RA1,IL10,Secreted Signaling
+IL26,IL10RB,IL10,Secreted Signaling
+IL26, IL20RA,IL10,Secreted Signaling
+IL1A,IL1RAP,IL1,Secreted Signaling
+IL1A, IL1R1,IL1,Secreted Signaling
+IL1B,IL1RAP,IL1,Secreted Signaling
+IL1B, IL1R1,IL1,Secreted Signaling
+IL1A,IL1R2,IL1,Secreted Signaling
+IL1B,IL1R2,IL1,Secreted Signaling
+IL36A,IL1RAP,IL1,Secreted Signaling
+IL36A, IL1RL2,IL1,Secreted Signaling
+IL36B,IL1RAP,IL1,Secreted Signaling
+IL36B, IL1RL2,IL1,Secreted Signaling
+IL36G,IL1RAP,IL1,Secreted Signaling
+IL36G, IL1RL2,IL1,Secreted Signaling
+IL1F10,IL1RAP,IL1,Secreted Signaling
+IL1F10, IL1RL2,IL1,Secreted Signaling
+IL37,IL18RAP,IL1,Secreted Signaling
+IL37, IL18R1,IL1,Secreted Signaling
+IL18,IL18RAP,IL1,Secreted Signaling
+IL18, IL18R1,IL1,Secreted Signaling
+IL33,IL1RAP,IL1,Secreted Signaling
+IL33, IL1RL1,IL1,Secreted Signaling
+IL17A,IL17RA,IL17,Secreted Signaling
+IL17A, IL17RC,IL17,Secreted Signaling
+IL17F,IL17RA,IL17,Secreted Signaling
+IL17F, IL17RC,IL17,Secreted Signaling
+ IL17F, IL17RC,IL17,Secreted Signaling
+ IL17F,IL17RA,IL17,Secreted Signaling
+IL17B,IL17RB,IL17,Secreted Signaling
+IL17C,IL17RA,IL17,Secreted Signaling
+IL17C, IL17RE,IL17,Secreted Signaling
+IL25,IL17RA,IL17,Secreted Signaling
+IL25, IL17RB,IL17,Secreted Signaling
+IL34,CSF1R,CSF,Secreted Signaling
+CSF1,CSF1R,CSF,Secreted Signaling
+IL16,CD4,IL16,Secreted Signaling
+EPO,EPOR,EPO,Secreted Signaling
+GH1,GHR,GH,Secreted Signaling
+PRL,PRLR,PRL,Secreted Signaling
+THPO,MPL,THPO,Secreted Signaling
+CSF3,CSF3R,CSF3,Secreted Signaling
+IFNB1,IFNAR1,IFN-I,Secreted Signaling
+IFNB1, IFNAR2,IFN-I,Secreted Signaling
+IFNW1,IFNAR1,IFN-I,Secreted Signaling
+IFNW1, IFNAR2,IFN-I,Secreted Signaling
+IFNK,IFNAR1,IFN-I,Secreted Signaling
+IFNK, IFNAR2,IFN-I,Secreted Signaling
+IFNE,IFNAR1,IFN-I,Secreted Signaling
+IFNE, IFNAR2,IFN-I,Secreted Signaling
+IFNA1,IFNAR1,IFN-I,Secreted Signaling
+IFNA1, IFNAR2,IFN-I,Secreted Signaling
+IFNA2,IFNAR1,IFN-I,Secreted Signaling
+IFNA2, IFNAR2,IFN-I,Secreted Signaling
+IFNA4,IFNAR1,IFN-I,Secreted Signaling
+IFNA4, IFNAR2,IFN-I,Secreted Signaling
+IFNA5,IFNAR1,IFN-I,Secreted Signaling
+IFNA5, IFNAR2,IFN-I,Secreted Signaling
+IFNA6,IFNAR1,IFN-I,Secreted Signaling
+IFNA6, IFNAR2,IFN-I,Secreted Signaling
+IFNA7,IFNAR1,IFN-I,Secreted Signaling
+IFNA7, IFNAR2,IFN-I,Secreted Signaling
+IFNA8,IFNAR1,IFN-I,Secreted Signaling
+IFNA8, IFNAR2,IFN-I,Secreted Signaling
+IFNA10,IFNAR1,IFN-I,Secreted Signaling
+IFNA10, IFNAR2,IFN-I,Secreted Signaling
+IFNA13,IFNAR1,IFN-I,Secreted Signaling
+IFNA13, IFNAR2,IFN-I,Secreted Signaling
+IFNA14,IFNAR1,IFN-I,Secreted Signaling
+IFNA14, IFNAR2,IFN-I,Secreted Signaling
+IFNA16,IFNAR1,IFN-I,Secreted Signaling
+IFNA16, IFNAR2,IFN-I,Secreted Signaling
+IFNA17,IFNAR1,IFN-I,Secreted Signaling
+IFNA17, IFNAR2,IFN-I,Secreted Signaling
+IFNA21,IFNAR1,IFN-I,Secreted Signaling
+IFNA21, IFNAR2,IFN-I,Secreted Signaling
+IFNG,IFNGR1,IFN-II,Secreted Signaling
+IFNG, IFNGR2,IFN-II,Secreted Signaling
+TNF,TNFRSF1A,TNF,Secreted Signaling
+TNF,TNFRSF1B,TNF,Secreted Signaling
+LTA,TNFRSF1A,LT,Secreted Signaling
+LTA,TNFRSF1B,LT,Secreted Signaling
+LTA,TNFRSF14,LT,Secreted Signaling
+LTB,LTBR,LT,Secreted Signaling
+ LTA,LTBR,LT,Secreted Signaling
+TNFSF14,LTBR,LIGHT,Secreted Signaling
+TNFSF14,TNFRSF14,LIGHT,Secreted Signaling
+FASLG,FAS,FASLG,Secreted Signaling
+TNFSF15,TNFRSF25,VEGI,Secreted Signaling
+TNFSF10,TNFRSF10A,TRAIL,Secreted Signaling
+EDA,EDAR,EDA,Secreted Signaling
+EDA,EDA2R,EDA,Secreted Signaling
+NGF,NGFR,NGF,Secreted Signaling
+KLK3,NGFR,NGF,Secreted Signaling
+TNFSF11,TNFRSF11A,RANKL,Secreted Signaling
+TNFSF11,TNFRSF11B,RANKL,Secreted Signaling
+TNFSF12,TNFRSF12A,TWEAK,Secreted Signaling
+CD70,CD27,CD70,Secreted Signaling
+TNFSF8,TNFRSF8,CD30,Secreted Signaling
+TNFSF9,TNFRSF9,CD137,Secreted Signaling
+TNFSF4,TNFRSF4,OX40,Secreted Signaling
+TNFSF18,TNFRSF18,GITRL,Secreted Signaling
+TNFSF13,TNFRSF17,APRIL,Secreted Signaling
+TNFSF13,TNFRSF13B,APRIL,Secreted Signaling
+TNFSF13B,TNFRSF17,BAFF,Secreted Signaling
+TNFSF13B,TNFRSF13B,BAFF,Secreted Signaling
+TNFSF13B,TNFRSF13C,BAFF,Secreted Signaling
+CD40LG,ITGA2B,CD40,Secreted Signaling
+CD40LG, ITGB3,CD40,Secreted Signaling
+CD40LG,ITGA5,CD40,Secreted Signaling
+CD40LG, ITGB1,CD40,Secreted Signaling
+CD40LG,ITGAM,CD40,Secreted Signaling
+CD40LG, ITGB2,CD40,Secreted Signaling
+SPP1,CD44,SPP1,Secreted Signaling
+SPP1,ITGAV,SPP1,Secreted Signaling
+SPP1, ITGB3,SPP1,Secreted Signaling
+SPP1, ITGB1,SPP1,Secreted Signaling
+SPP1, ITGB5,SPP1,Secreted Signaling
+SPP1, ITGB6,SPP1,Secreted Signaling
+SPP1,ITGA4,SPP1,Secreted Signaling
+SPP1,ITGA9,SPP1,Secreted Signaling
+SPP1,ITGA8,SPP1,Secreted Signaling
+SPP1,ITGA5,SPP1,Secreted Signaling
+ADIPOQ,ADIPOR1,ADIPONECTIN,Secreted Signaling
+ADIPOQ,ADIPOR2,ADIPONECTIN,Secreted Signaling
+RETN,TLR4,RESISTIN,Secreted Signaling
+RETN,CAP1,RESISTIN,Secreted Signaling
+NAMPT,ITGA5,VISFATIN,Secreted Signaling
+NAMPT, ITGB1,VISFATIN,Secreted Signaling
+ANGPTL1,ITGB1,ANGPTL,Secreted Signaling
+ANGPTL1, ITGA1,ANGPTL,Secreted Signaling
+ANGPTL2,ITGA5,ANGPTL,Secreted Signaling
+ANGPTL2, ITGB1,ANGPTL,Secreted Signaling
+ANGPTL2,TLR4,ANGPTL,Secreted Signaling
+ANGPTL2,LILRB3,ANGPTL,Secreted Signaling
+ANGPTL1,LILRB3,ANGPTL,Secreted Signaling
+ANGPTL7,LILRB3,ANGPTL,Secreted Signaling
+ANGPTL4,ITGA5,ANGPTL,Secreted Signaling
+ANGPTL4, ITGB1,ANGPTL,Secreted Signaling
+ANGPTL4,ITGAV,ANGPTL,Secreted Signaling
+ANGPTL4, ITGB3,ANGPTL,Secreted Signaling
+ANGPTL4,CDH5,ANGPTL,Secreted Signaling
+ANGPTL4,CDH11,ANGPTL,Secreted Signaling
+ANGPTL4,SDC1,ANGPTL,Secreted Signaling
+ANGPTL4,SDC2,ANGPTL,Secreted Signaling
+ANGPTL4,SDC3,ANGPTL,Secreted Signaling
+ANGPTL4,SDC4,ANGPTL,Secreted Signaling
+ANGPTL3,ITGAV,ANGPTL,Secreted Signaling
+ANGPTL3, ITGB3,ANGPTL,Secreted Signaling
+ANGPT1,TEK,ANGPT,Secreted Signaling
+ANGPT2,TEK,ANGPT,Secreted Signaling
+ANGPT2,ITGA5,ANGPT,Secreted Signaling
+ANGPT2, ITGB1,ANGPT,Secreted Signaling
+MDK,SDC1,MK,Secreted Signaling
+MDK,SDC2,MK,Secreted Signaling
+MDK,SDC4,MK,Secreted Signaling
+MDK,PTPRZ1,MK,Secreted Signaling
+MDK,ITGA4,MK,Secreted Signaling
+MDK, ITGB1,MK,Secreted Signaling
+MDK,ITGA6,MK,Secreted Signaling
+MDK,LRP1,MK,Secreted Signaling
+MDK,NCL,MK,Secreted Signaling
+MDK,ALK,MK,Secreted Signaling
+PTN,PTPRZ1,PTN,Secreted Signaling
+PTN,SDC1,PTN,Secreted Signaling
+PTN,SDC2,PTN,Secreted Signaling
+PTN,SDC3,PTN,Secreted Signaling
+PTN,SDC4,PTN,Secreted Signaling
+PTN,ITGAV,PTN,Secreted Signaling
+PTN, ITGB3,PTN,Secreted Signaling
+PTN,NCL,PTN,Secreted Signaling
+PTN,ALK,PTN,Secreted Signaling
+POSTN,ITGAV,PERIOSTIN,Secreted Signaling
+POSTN, ITGB3,PERIOSTIN,Secreted Signaling
+POSTN, ITGB5,PERIOSTIN,Secreted Signaling
+AGT,AGTR1,AGT,Secreted Signaling
+GRP,GRPR,GPR,Secreted Signaling
+NMB,NMBR,GPR,Secreted Signaling
+KNG1,BDKRB1,BRADYKININ,Secreted Signaling
+KNG1,BDKRB2,BRADYKININ,Secreted Signaling
+C3,C3AR1,COMPLEMENT,Secreted Signaling
+C3,CR2,COMPLEMENT,Secreted Signaling
+C3,ITGAM,COMPLEMENT,Secreted Signaling
+C3, ITGB2,COMPLEMENT,Secreted Signaling
+C3,ITGAX,COMPLEMENT,Secreted Signaling
+C4A,C3AR1,COMPLEMENT,Secreted Signaling
+C4A,CR2,COMPLEMENT,Secreted Signaling
+C5,C5AR1,COMPLEMENT,Secreted Signaling
+CCK,CCKAR,CCK,Secreted Signaling
+CCK,CCKBR,CCK,Secreted Signaling
+EDN1,EDNRA,EDN,Secreted Signaling
+EDN2,EDNRA,EDN,Secreted Signaling
+EDN3,EDNRA,EDN,Secreted Signaling
+EDN1,EDNRB,EDN,Secreted Signaling
+EDN2,EDNRB,EDN,Secreted Signaling
+EDN3,EDNRB,EDN,Secreted Signaling
+GAL,GALR1,GALANIN,Secreted Signaling
+GAL,GALR2,GALANIN,Secreted Signaling
+GAL,GALR3,GALANIN,Secreted Signaling
+GALP,GALR1,GALANIN,Secreted Signaling
+GALP,GALR2,GALANIN,Secreted Signaling
+GHRL,GHSR,GHRELIN,Secreted Signaling
+KISS1,KISS1R,KISS1,Secreted Signaling
+POMC,MC1R,MELANOCORTIN,Secreted Signaling
+POMC,MC2R,MELANOCORTIN,Secreted Signaling
+POMC,MC3R,MELANOCORTIN,Secreted Signaling
+POMC,MC4R,MELANOCORTIN,Secreted Signaling
+POMC,MC5R,MELANOCORTIN,Secreted Signaling
+NMU,NMUR1,NMU,Secreted Signaling
+NMU,NMUR2,NMU,Secreted Signaling
+NMS,NMUR1,NMU,Secreted Signaling
+NMS,NMUR2,NMU,Secreted Signaling
+NPFF,NPFFR1,NPFF,Secreted Signaling
+NPFF,NPFFR2,NPFF,Secreted Signaling
+NPY,NPY1R,NPY,Secreted Signaling
+NPY,NPY2R,NPY,Secreted Signaling
+NPY,NPY4R,NPY,Secreted Signaling
+NPY,NPY5R,NPY,Secreted Signaling
+NPY,NPY6R,NPY,Secreted Signaling
+NPY,GPR83,NPY,Secreted Signaling
+PPY,NPY1R,NPY,Secreted Signaling
+PPY,NPY2R,NPY,Secreted Signaling
+PPY,NPY4R,NPY,Secreted Signaling
+PPY,NPY5R,NPY,Secreted Signaling
+PPY,NPY6R,NPY,Secreted Signaling
+PPY,GPR83,NPY,Secreted Signaling
+PYY,NPY1R,NPY,Secreted Signaling
+PYY,NPY2R,NPY,Secreted Signaling
+PYY,NPY4R,NPY,Secreted Signaling
+PYY,NPY5R,NPY,Secreted Signaling
+PYY,NPY6R,NPY,Secreted Signaling
+PYY,GPR83,NPY,Secreted Signaling
+NPB,NPBWR1,NPW-B,Secreted Signaling
+NPW,NPBWR1,NPW-B,Secreted Signaling
+NTS,NTSR1,NTS,Secreted Signaling
+NTS,NTSR2,NTS,Secreted Signaling
+PDYN,OPRD1,OPIOID,Secreted Signaling
+PDYN,OPRK1,OPIOID,Secreted Signaling
+PDYN,OPRL1,OPIOID,Secreted Signaling
+PDYN,OPRM1,OPIOID,Secreted Signaling
+PENK,OPRD1,OPIOID,Secreted Signaling
+PENK,OPRK1,OPIOID,Secreted Signaling
+PENK,OPRL1,OPIOID,Secreted Signaling
+PENK,OPRM1,OPIOID,Secreted Signaling
+POMC,OPRD1,OPIOID,Secreted Signaling
+POMC,OPRK1,OPIOID,Secreted Signaling
+POMC,OPRL1,OPIOID,Secreted Signaling
+POMC,OPRM1,OPIOID,Secreted Signaling
+HCRT,HCRTR1,HCRT,Secreted Signaling
+HCRT,HCRTR2,HCRT,Secreted Signaling
+OXT,OXTR,OXT,Secreted Signaling
+SST,SSTR1,SOMATOSTATIN,Secreted Signaling
+SST,SSTR2,SOMATOSTATIN,Secreted Signaling
+SST,SSTR3,SOMATOSTATIN,Secreted Signaling
+SST,SSTR4,SOMATOSTATIN,Secreted Signaling
+SST,SSTR5,SOMATOSTATIN,Secreted Signaling
+CORT,SSTR1,SOMATOSTATIN,Secreted Signaling
+CORT,SSTR2,SOMATOSTATIN,Secreted Signaling
+CORT,SSTR3,SOMATOSTATIN,Secreted Signaling
+CORT,SSTR4,SOMATOSTATIN,Secreted Signaling
+CORT,SSTR5,SOMATOSTATIN,Secreted Signaling
+TAC1,TACR1,TAC,Secreted Signaling
+TAC4,TACR1,TAC,Secreted Signaling
+TAC1,TACR2,TAC,Secreted Signaling
+TAC3,TACR3,TAC,Secreted Signaling
+UTS2,UTS2R,UTS2,Secreted Signaling
+AVP,AVPR2,AVP,Secreted Signaling
+AVP,AVPR1A,AVP,Secreted Signaling
+AVP,AVPR1B,AVP,Secreted Signaling
+PRLH,PRLHR,PRLH,Secreted Signaling
+PRSS3,F2R,PARs,Secreted Signaling
+CTSG,F2R,PARs,Secreted Signaling
+F2,F2R,PARs,Secreted Signaling
+PLG,F2R,PARs,Secreted Signaling
+GZMA,F2R,PARs,Secreted Signaling
+PRSS2,F2R,PARs,Secreted Signaling
+PRSS1,F2R,PARs,Secreted Signaling
+PRSS3,F2RL1,PARs,Secreted Signaling
+CTSG,F2RL1,PARs,Secreted Signaling
+F2,F2RL1,PARs,Secreted Signaling
+PLG,F2RL1,PARs,Secreted Signaling
+GZMA,F2RL1,PARs,Secreted Signaling
+PRSS2,F2RL1,PARs,Secreted Signaling
+PRSS1,F2RL1,PARs,Secreted Signaling
+PRSS3,F2RL2,PARs,Secreted Signaling
+CTSG,F2RL2,PARs,Secreted Signaling
+F2,F2RL2,PARs,Secreted Signaling
+PLG,F2RL2,PARs,Secreted Signaling
+GZMA,F2RL2,PARs,Secreted Signaling
+PRSS2,F2RL2,PARs,Secreted Signaling
+PRSS1,F2RL2,PARs,Secreted Signaling
+PRSS3,F2RL3,PARs,Secreted Signaling
+CTSG,F2RL3,PARs,Secreted Signaling
+F2,F2RL3,PARs,Secreted Signaling
+GZMA,F2RL3,PARs,Secreted Signaling
+PLG,F2RL3,PARs,Secreted Signaling
+PRSS2,F2RL3,PARs,Secreted Signaling
+PRSS1,F2RL3,PARs,Secreted Signaling
+PRSS3,PARD3,PARs,Secreted Signaling
+CTSG,PARD3,PARs,Secreted Signaling
+F2,PARD3,PARs,Secreted Signaling
+GZMA,PARD3,PARs,Secreted Signaling
+PLG,PARD3,PARs,Secreted Signaling
+PRSS2,PARD3,PARs,Secreted Signaling
+PRSS1,PARD3,PARs,Secreted Signaling
+PMCH,MCHR1,PMCH,Secreted Signaling
+PROK1,PROKR2,PROK,Secreted Signaling
+PROK1,PROKR1,PROK,Secreted Signaling
+PROK2,PROKR1,PROK,Secreted Signaling
+PROK2,PROKR2,PROK,Secreted Signaling
+ADCYAP1,ADCYAP1R1,PACAP,Secreted Signaling
+VIP,VIPR1,VIP,Secreted Signaling
+VIP,VIPR2,VIP,Secreted Signaling
+NPPA,NPR1,NPR1,Secreted Signaling
+NPPB,NPR1,NPR1,Secreted Signaling
+NPPC,NPR2,NPR2,Secreted Signaling
+KITLG,KIT,KIT,Secreted Signaling
+GCG,GIPR,GIPR,Secreted Signaling
+GIP,GIPR,GIPR,Secreted Signaling
+FSHB,FSHR,FSH,Secreted Signaling
+CGA,FSHR,FSH,Secreted Signaling
+LHB,LHCGR,LHB,Secreted Signaling
+CGA,LHCGR,LHB,Secreted Signaling
+TSHB,TSHR,TSH,Secreted Signaling
+CGA,TSHR,TSH,Secreted Signaling
+BDNF,NTRK2,NT,Secreted Signaling
+NGF,NTRK1,NT,Secreted Signaling
+FLT3LG,FLT3,FLT3,Secreted Signaling
+HGF,MET,HGF,Secreted Signaling
+KLK3,NTRK1,NT,Secreted Signaling
+NTF3,NTRK1,NT,Secreted Signaling
+NTF3,NTRK2,NT,Secreted Signaling
+NTF3,NTRK3,NT,Secreted Signaling
+NTF4,NTRK2,NT,Secreted Signaling
+SEMA3A,NRP1,SEMA3,Secreted Signaling
+SEMA3A, PLXNA1,SEMA3,Secreted Signaling
+SEMA3A, PLXNA2,SEMA3,Secreted Signaling
+SEMA3A,PLXNA3,SEMA3,Secreted Signaling
+SEMA3A, NRP1,SEMA3,Secreted Signaling
+SEMA3A,PLXNA4,SEMA3,Secreted Signaling
+SEMA3B,NRP1,SEMA3,Secreted Signaling
+SEMA3B, PLXNA1,SEMA3,Secreted Signaling
+SEMA3B, PLXNA2,SEMA3,Secreted Signaling
+SEMA3B,PLXNA3,SEMA3,Secreted Signaling
+SEMA3B, NRP1,SEMA3,Secreted Signaling
+SEMA3B,PLXNA4,SEMA3,Secreted Signaling
+SEMA3C,NRP1,SEMA3,Secreted Signaling
+SEMA3C, PLXNA1,SEMA3,Secreted Signaling
+SEMA3C, PLXNA2,SEMA3,Secreted Signaling
+SEMA3C,PLXNA3,SEMA3,Secreted Signaling
+SEMA3C, NRP1,SEMA3,Secreted Signaling
+SEMA3C,PLXNA4,SEMA3,Secreted Signaling
+SEMA3D,NRP1,SEMA3,Secreted Signaling
+SEMA3D, PLXNA1,SEMA3,Secreted Signaling
+SEMA3D, PLXNA2,SEMA3,Secreted Signaling
+SEMA3D,PLXNA3,SEMA3,Secreted Signaling
+SEMA3D, NRP1,SEMA3,Secreted Signaling
+SEMA3D,PLXNA4,SEMA3,Secreted Signaling
+SEMA3B,PLXNA1,SEMA3,Secreted Signaling
+SEMA3B, NRP2,SEMA3,Secreted Signaling
+SEMA3B,NRP2,SEMA3,Secreted Signaling
+SEMA3C,PLXNA1,SEMA3,Secreted Signaling
+SEMA3C, NRP2,SEMA3,Secreted Signaling
+SEMA3C,NRP2,SEMA3,Secreted Signaling
+SEMA3D,PLXNA1,SEMA3,Secreted Signaling
+SEMA3D, NRP2,SEMA3,Secreted Signaling
+SEMA3D,NRP2,SEMA3,Secreted Signaling
+SEMA3F,PLXNA1,SEMA3,Secreted Signaling
+SEMA3F, NRP2,SEMA3,Secreted Signaling
+SEMA3F,NRP2,SEMA3,Secreted Signaling
+SEMA3F, PLXNA2,SEMA3,Secreted Signaling
+SEMA3F,PLXNA3,SEMA3,Secreted Signaling
+SEMA3F,PLXNA4,SEMA3,Secreted Signaling
+SEMA3G,PLXNA1,SEMA3,Secreted Signaling
+SEMA3G, NRP2,SEMA3,Secreted Signaling
+SEMA3G,NRP2,SEMA3,Secreted Signaling
+SEMA3G, PLXNA2,SEMA3,Secreted Signaling
+SEMA3G,PLXNA3,SEMA3,Secreted Signaling
+SEMA3G,PLXNA4,SEMA3,Secreted Signaling
+SEMA3C, PLXND1,SEMA3,Secreted Signaling
+SEMA3C,PLXND1,SEMA3,Secreted Signaling
+SEMA3E,PLXND1,SEMA3,Secreted Signaling
+ADM,CALCR,CALCR,Secreted Signaling
+ADM,CALCRL,CALCR,Secreted Signaling
+AGT,MAS1,AGT,Secreted Signaling
+ANXA1,FPR2,ANNEXIN,Secreted Signaling
+ANXA1,FPR1,ANNEXIN,Secreted Signaling
+APELA,APLNR,APJ,Secreted Signaling
+CALCA,CALCR,CALCR,Secreted Signaling
+CALCA,CALCRL,CALCR,Secreted Signaling
+CALCB,CALCR,CALCR,Secreted Signaling
+CALCB,CALCRL,CALCR,Secreted Signaling
+CRH,CRHR1,CRH,Secreted Signaling
+CRH,CRHR2,CRH,Secreted Signaling
+ENHO,GPR19,ENHO,Secreted Signaling
+GAS6,AXL,GAS,Secreted Signaling
+GAS6,MERTK,GAS,Secreted Signaling
+GAS6,TYRO3,GAS,Secreted Signaling
+GCG,GCGR,GCG,Secreted Signaling
+GCG,GLP1R,GCG,Secreted Signaling
+GCG,GLP2R,GCG,Secreted Signaling
+GH1,PRLR,GH,Secreted Signaling
+GHRH,VIPR1,GHRH,Secreted Signaling
+GHRH,VIPR2,GHRH,Secreted Signaling
+GHRH,GHSR,GHRH,Secreted Signaling
+GHRH,GHRHR,GHRH,Secreted Signaling
+GNRH1,GNRHR,GNRH,Secreted Signaling
+GRN,SORT1,GRN,Secreted Signaling
+GUCA2A,GUCY2C,GUCA,Secreted Signaling
+GUCA2B,GUCY2C,GUCA,Secreted Signaling
+IAPP,CALCR,CALCR,Secreted Signaling
+IAPP,CALCRL,CALCR,Secreted Signaling
+INSL3,RXFP2,RLN,Secreted Signaling
+INSL3,RXFP1,RLN,Secreted Signaling
+INSL3,RXFP4,RLN,Secreted Signaling
+INSL3,RXFP3,RLN,Secreted Signaling
+INSL5,RXFP4,RLN,Secreted Signaling
+INSL5,RXFP3,RLN,Secreted Signaling
+INSL5,RXFP2,RLN,Secreted Signaling
+INSL5,RXFP1,RLN,Secreted Signaling
+LEP,LEPR,LEP,Secreted Signaling
+LGALS9,PTPRC,GALECTIN,Secreted Signaling
+NPS,NPSR1,NPS,Secreted Signaling
+NPVF,NPFFR1,NPVF,Secreted Signaling
+NPVF,NPFFR2,NPVF,Secreted Signaling
+OSTN,NPR3,OSTN,Secreted Signaling
+PMCH,MERTK,PMCH,Secreted Signaling
+PROS1,AXL,PROS,Secreted Signaling
+PROS1,TYRO3,PROS,Secreted Signaling
+PSAP,GPR37L1,PSAP,Secreted Signaling
+PSAP,GPR37,PSAP,Secreted Signaling
+PTH,PTH1R,PTH,Secreted Signaling
+PTH,PTH2R,PTH,Secreted Signaling
+PTH2,PTH1R,PTH,Secreted Signaling
+PTH2,PTH2R,PTH,Secreted Signaling
+PTHLH,PTH1R,PTH,Secreted Signaling
+QRFP,QRFPR,QRFP,Secreted Signaling
+RARRES2,GPR1,CHEMERIN,Secreted Signaling
+RARRES2,CMKLR1,CHEMERIN,Secreted Signaling
+RLN1,RXFP2,RLN,Secreted Signaling
+RLN1,RXFP1,RLN,Secreted Signaling
+RLN1,RXFP3,RLN,Secreted Signaling
+RLN1,RXFP4,RLN,Secreted Signaling
+RLN3,RXFP3,RLN,Secreted Signaling
+RLN3,RXFP1,RLN,Secreted Signaling
+RLN3,RXFP4,RLN,Secreted Signaling
+RLN3,RXFP2,RLN,Secreted Signaling
+SAA1,FPR2,SAA,Secreted Signaling
+SCGB3A2,MARCO,UGRP1,Secreted Signaling
+SCT,SCTR,SCT,Secreted Signaling
+SLURP1,CHRNB1,SLURP,Secreted Signaling
+SLURP1,CHRNB2,SLURP,Secreted Signaling
+SLURP1,CHRNB3,SLURP,Secreted Signaling
+SLURP1,CHRNB4,SLURP,Secreted Signaling
+SLURP1,CHRNA1,SLURP,Secreted Signaling
+SLURP1,CHRNA2,SLURP,Secreted Signaling
+SLURP1,CHRNA3,SLURP,Secreted Signaling
+SLURP1,CHRNA4,SLURP,Secreted Signaling
+SLURP1,CHRNA5,SLURP,Secreted Signaling
+SLURP1,CHRNA6,SLURP,Secreted Signaling
+SLURP1,CHRNA9,SLURP,Secreted Signaling
+SLURP1,CHRNA10,SLURP,Secreted Signaling
+SLURP1,CHRND,SLURP,Secreted Signaling
+SLURP1,CHRNE,SLURP,Secreted Signaling
+SLURP1,CHRNG,SLURP,Secreted Signaling
+SLURP1,CHRNA7,SLURP,Secreted Signaling
+SLURP2,CHRNB1,SLURP,Secreted Signaling
+SLURP2,CHRNB2,SLURP,Secreted Signaling
+SLURP2,CHRNB3,SLURP,Secreted Signaling
+SLURP2,CHRNB4,SLURP,Secreted Signaling
+SLURP2,CHRNA1,SLURP,Secreted Signaling
+SLURP2,CHRNA2,SLURP,Secreted Signaling
+SLURP2,CHRNA3,SLURP,Secreted Signaling
+SLURP2,CHRNA4,SLURP,Secreted Signaling
+SLURP2,CHRNA5,SLURP,Secreted Signaling
+SLURP2,CHRNA6,SLURP,Secreted Signaling
+SLURP2,CHRNA7,SLURP,Secreted Signaling
+SLURP2,CHRNA9,SLURP,Secreted Signaling
+SLURP2,CHRNA10,SLURP,Secreted Signaling
+SLURP2,CHRND,SLURP,Secreted Signaling
+SLURP2,CHRNE,SLURP,Secreted Signaling
+SLURP2,CHRNG,SLURP,Secreted Signaling
+BTLA,TNFRSF14,BTLA,Secreted Signaling
+TRH,TRHR,TRH,Secreted Signaling
+UCN,CRHR1,UCN,Secreted Signaling
+UCN,CRHR2,UCN,Secreted Signaling
+UCN2,CRHR1,UCN,Secreted Signaling
+UCN2,CRHR2,UCN,Secreted Signaling
+UCN3,CRHR1,UCN,Secreted Signaling
+UCN3,CRHR2,UCN,Secreted Signaling
+UTS2B,UTS2R,UROTENSIN,Secreted Signaling
+UTS2B,SSTR5,UROTENSIN,Secreted Signaling
+BAG6,NCR3,BAG,Secreted Signaling
+LGALS9,HAVCR2,GALECTIN,Secreted Signaling
+LGALS9,CD44,GALECTIN,Secreted Signaling
+ANXA1, FPR3,ANNEXIN,Secreted Signaling
+COL1A1,ITGB1,COLLAGEN,ECM-Receptor
+COL1A1, ITGA1,COLLAGEN,ECM-Receptor
+COL1A2,ITGB1,COLLAGEN,ECM-Receptor
+COL1A2, ITGA1,COLLAGEN,ECM-Receptor
+COL2A1,ITGB1,COLLAGEN,ECM-Receptor
+COL2A1, ITGA1,COLLAGEN,ECM-Receptor
+COL4A1,ITGB1,COLLAGEN,ECM-Receptor
+COL4A1, ITGA1,COLLAGEN,ECM-Receptor
+COL4A2,ITGB1,COLLAGEN,ECM-Receptor
+COL4A2, ITGA1,COLLAGEN,ECM-Receptor
+COL4A3,ITGB1,COLLAGEN,ECM-Receptor
+COL4A3, ITGA1,COLLAGEN,ECM-Receptor
+COL4A4,ITGB1,COLLAGEN,ECM-Receptor
+COL4A4, ITGA1,COLLAGEN,ECM-Receptor
+COL4A5,ITGB1,COLLAGEN,ECM-Receptor
+COL4A5, ITGA1,COLLAGEN,ECM-Receptor
+COL4A6,ITGB1,COLLAGEN,ECM-Receptor
+COL4A6, ITGA1,COLLAGEN,ECM-Receptor
+COL6A1,ITGB1,COLLAGEN,ECM-Receptor
+COL6A1, ITGA1,COLLAGEN,ECM-Receptor
+COL6A2,ITGB1,COLLAGEN,ECM-Receptor
+COL6A2, ITGA1,COLLAGEN,ECM-Receptor
+COL6A3,ITGB1,COLLAGEN,ECM-Receptor
+COL6A3, ITGA1,COLLAGEN,ECM-Receptor
+COL6A5,ITGB1,COLLAGEN,ECM-Receptor
+COL6A5, ITGA1,COLLAGEN,ECM-Receptor
+COL6A6,ITGB1,COLLAGEN,ECM-Receptor
+COL6A6, ITGA1,COLLAGEN,ECM-Receptor
+COL9A1,ITGB1,COLLAGEN,ECM-Receptor
+COL9A1, ITGA1,COLLAGEN,ECM-Receptor
+COL9A2,ITGB1,COLLAGEN,ECM-Receptor
+COL9A2, ITGA1,COLLAGEN,ECM-Receptor
+COL9A3,ITGB1,COLLAGEN,ECM-Receptor
+COL9A3, ITGA1,COLLAGEN,ECM-Receptor
+COL1A1,ITGA2,COLLAGEN,ECM-Receptor
+COL1A1, ITGB1,COLLAGEN,ECM-Receptor
+COL1A2,ITGA2,COLLAGEN,ECM-Receptor
+COL1A2, ITGB1,COLLAGEN,ECM-Receptor
+COL2A1,ITGA2,COLLAGEN,ECM-Receptor
+COL2A1, ITGB1,COLLAGEN,ECM-Receptor
+COL4A1,ITGA2,COLLAGEN,ECM-Receptor
+COL4A1, ITGB1,COLLAGEN,ECM-Receptor
+COL4A2,ITGA2,COLLAGEN,ECM-Receptor
+COL4A2, ITGB1,COLLAGEN,ECM-Receptor
+COL4A3,ITGA2,COLLAGEN,ECM-Receptor
+COL4A3, ITGB1,COLLAGEN,ECM-Receptor
+COL4A4,ITGA2,COLLAGEN,ECM-Receptor
+COL4A4, ITGB1,COLLAGEN,ECM-Receptor
+COL4A5,ITGA2,COLLAGEN,ECM-Receptor
+COL4A5, ITGB1,COLLAGEN,ECM-Receptor
+COL4A6,ITGA2,COLLAGEN,ECM-Receptor
+COL4A6, ITGB1,COLLAGEN,ECM-Receptor
+COL6A1,ITGA2,COLLAGEN,ECM-Receptor
+COL6A1, ITGB1,COLLAGEN,ECM-Receptor
+COL6A2,ITGA2,COLLAGEN,ECM-Receptor
+COL6A2, ITGB1,COLLAGEN,ECM-Receptor
+COL6A3,ITGA2,COLLAGEN,ECM-Receptor
+COL6A3, ITGB1,COLLAGEN,ECM-Receptor
+COL6A5,ITGA2,COLLAGEN,ECM-Receptor
+COL6A5, ITGB1,COLLAGEN,ECM-Receptor
+COL6A6,ITGA2,COLLAGEN,ECM-Receptor
+COL6A6, ITGB1,COLLAGEN,ECM-Receptor
+COL9A1,ITGA2,COLLAGEN,ECM-Receptor
+COL9A1, ITGB1,COLLAGEN,ECM-Receptor
+COL9A2,ITGA2,COLLAGEN,ECM-Receptor
+COL9A2, ITGB1,COLLAGEN,ECM-Receptor
+COL9A3,ITGA2,COLLAGEN,ECM-Receptor
+COL9A3, ITGB1,COLLAGEN,ECM-Receptor
+FN1,ITGA3,FN1,ECM-Receptor
+FN1, ITGB1,FN1,ECM-Receptor
+FN1,ITGA4,FN1,ECM-Receptor
+FN1,ITGA5,FN1,ECM-Receptor
+FN1,ITGA8,FN1,ECM-Receptor
+LAMA1,ITGB1,LAMININ,ECM-Receptor
+LAMA1, ITGA1,LAMININ,ECM-Receptor
+LAMA2,ITGB1,LAMININ,ECM-Receptor
+LAMA2, ITGA1,LAMININ,ECM-Receptor
+LAMA3,ITGB1,LAMININ,ECM-Receptor
+LAMA3, ITGA1,LAMININ,ECM-Receptor
+LAMA4,ITGB1,LAMININ,ECM-Receptor
+LAMA4, ITGA1,LAMININ,ECM-Receptor
+LAMA5,ITGB1,LAMININ,ECM-Receptor
+LAMA5, ITGA1,LAMININ,ECM-Receptor
+LAMB1,ITGB1,LAMININ,ECM-Receptor
+LAMB1, ITGA1,LAMININ,ECM-Receptor
+LAMB2,ITGB1,LAMININ,ECM-Receptor
+LAMB2, ITGA1,LAMININ,ECM-Receptor
+LAMB3,ITGB1,LAMININ,ECM-Receptor
+LAMB3, ITGA1,LAMININ,ECM-Receptor
+LAMC1,ITGB1,LAMININ,ECM-Receptor
+LAMC1, ITGA1,LAMININ,ECM-Receptor
+LAMC2,ITGB1,LAMININ,ECM-Receptor
+LAMC2, ITGA1,LAMININ,ECM-Receptor
+LAMC3,ITGB1,LAMININ,ECM-Receptor
+LAMC3, ITGA1,LAMININ,ECM-Receptor
+LAMA1,ITGA2,LAMININ,ECM-Receptor
+LAMA1, ITGB1,LAMININ,ECM-Receptor
+LAMA2,ITGA2,LAMININ,ECM-Receptor
+LAMA2, ITGB1,LAMININ,ECM-Receptor
+LAMA3,ITGA2,LAMININ,ECM-Receptor
+LAMA3, ITGB1,LAMININ,ECM-Receptor
+LAMA4,ITGA2,LAMININ,ECM-Receptor
+LAMA4, ITGB1,LAMININ,ECM-Receptor
+LAMA5,ITGA2,LAMININ,ECM-Receptor
+LAMA5, ITGB1,LAMININ,ECM-Receptor
+LAMB1,ITGA2,LAMININ,ECM-Receptor
+LAMB1, ITGB1,LAMININ,ECM-Receptor
+LAMB2,ITGA2,LAMININ,ECM-Receptor
+LAMB2, ITGB1,LAMININ,ECM-Receptor
+LAMB3,ITGA2,LAMININ,ECM-Receptor
+LAMB3, ITGB1,LAMININ,ECM-Receptor
+LAMC1,ITGA2,LAMININ,ECM-Receptor
+LAMC1, ITGB1,LAMININ,ECM-Receptor
+LAMC2,ITGA2,LAMININ,ECM-Receptor
+LAMC2, ITGB1,LAMININ,ECM-Receptor
+LAMC3,ITGA2,LAMININ,ECM-Receptor
+LAMC3, ITGB1,LAMININ,ECM-Receptor
+CHAD,ITGA2,CHAD,ECM-Receptor
+CHAD, ITGB1,CHAD,ECM-Receptor
+LAMA1,ITGA3,LAMININ,ECM-Receptor
+LAMA2,ITGA3,LAMININ,ECM-Receptor
+LAMA3,ITGA3,LAMININ,ECM-Receptor
+LAMA4,ITGA3,LAMININ,ECM-Receptor
+LAMA5,ITGA3,LAMININ,ECM-Receptor
+LAMB1,ITGA3,LAMININ,ECM-Receptor
+LAMB2,ITGA3,LAMININ,ECM-Receptor
+LAMB3,ITGA3,LAMININ,ECM-Receptor
+LAMC1,ITGA3,LAMININ,ECM-Receptor
+LAMC2,ITGA3,LAMININ,ECM-Receptor
+LAMC3,ITGA3,LAMININ,ECM-Receptor
+RELN,ITGA3,RELN,ECM-Receptor
+RELN, ITGB1,RELN,ECM-Receptor
+THBS1,ITGA3,THBS,ECM-Receptor
+THBS1, ITGB1,THBS,ECM-Receptor
+THBS2,ITGA3,THBS,ECM-Receptor
+THBS2, ITGB1,THBS,ECM-Receptor
+THBS3,ITGA3,THBS,ECM-Receptor
+THBS3, ITGB1,THBS,ECM-Receptor
+THBS4,ITGA3,THBS,ECM-Receptor
+THBS4, ITGB1,THBS,ECM-Receptor
+COMP,ITGA3,THBS,ECM-Receptor
+COMP, ITGB1,THBS,ECM-Receptor
+COL1A1,ITGA3,COLLAGEN,ECM-Receptor
+COL1A2,ITGA3,COLLAGEN,ECM-Receptor
+COL2A1,ITGA3,COLLAGEN,ECM-Receptor
+COL4A1,ITGA3,COLLAGEN,ECM-Receptor
+COL4A2,ITGA3,COLLAGEN,ECM-Receptor
+COL4A3,ITGA3,COLLAGEN,ECM-Receptor
+COL4A4,ITGA3,COLLAGEN,ECM-Receptor
+COL4A5,ITGA3,COLLAGEN,ECM-Receptor
+COL4A6,ITGA3,COLLAGEN,ECM-Receptor
+COL6A1,ITGA3,COLLAGEN,ECM-Receptor
+COL6A2,ITGA3,COLLAGEN,ECM-Receptor
+COL6A3,ITGA3,COLLAGEN,ECM-Receptor
+COL6A5,ITGA3,COLLAGEN,ECM-Receptor
+COL6A6,ITGA3,COLLAGEN,ECM-Receptor
+COL9A1,ITGA3,COLLAGEN,ECM-Receptor
+COL9A2,ITGA3,COLLAGEN,ECM-Receptor
+COL9A3,ITGA3,COLLAGEN,ECM-Receptor
+LAMA1,ITGA6,LAMININ,ECM-Receptor
+LAMA2,ITGA6,LAMININ,ECM-Receptor
+LAMA3,ITGA6,LAMININ,ECM-Receptor
+LAMA4,ITGA6,LAMININ,ECM-Receptor
+LAMA5,ITGA6,LAMININ,ECM-Receptor
+LAMB1,ITGA6,LAMININ,ECM-Receptor
+LAMB2,ITGA6,LAMININ,ECM-Receptor
+LAMB3,ITGA6,LAMININ,ECM-Receptor
+LAMC1,ITGA6,LAMININ,ECM-Receptor
+LAMC2,ITGA6,LAMININ,ECM-Receptor
+LAMC3,ITGA6,LAMININ,ECM-Receptor
+LAMA1,ITGA7,LAMININ,ECM-Receptor
+LAMA2,ITGA7,LAMININ,ECM-Receptor
+LAMA3,ITGA7,LAMININ,ECM-Receptor
+LAMA4,ITGA7,LAMININ,ECM-Receptor
+LAMA5,ITGA7,LAMININ,ECM-Receptor
+LAMB1,ITGA7,LAMININ,ECM-Receptor
+LAMB2,ITGA7,LAMININ,ECM-Receptor
+LAMB3,ITGA7,LAMININ,ECM-Receptor
+LAMC1,ITGA7,LAMININ,ECM-Receptor
+LAMC2,ITGA7,LAMININ,ECM-Receptor
+LAMC3,ITGA7,LAMININ,ECM-Receptor
+VTN,ITGA8,VTN,ECM-Receptor
+VTN, ITGB1,VTN,ECM-Receptor
+TNC,ITGA8,TENASCIN,ECM-Receptor
+TNC, ITGB1,TENASCIN,ECM-Receptor
+TNR,ITGA8,TENASCIN,ECM-Receptor
+TNR, ITGB1,TENASCIN,ECM-Receptor
+TNN,ITGA8,TENASCIN,ECM-Receptor
+TNN, ITGB1,TENASCIN,ECM-Receptor
+TNXB,ITGA8,TENASCIN,ECM-Receptor
+TNXB, ITGB1,TENASCIN,ECM-Receptor
+ FRAS1, ITGB1,NPNT,ECM-Receptor
+ FRAS1,ITGA8,NPNT,ECM-Receptor
+ NPNT, ITGB1,NPNT,ECM-Receptor
+ NPNT,ITGA8,NPNT,ECM-Receptor
+FREM1, ITGB1,NPNT,ECM-Receptor
+FREM1,ITGA8,NPNT,ECM-Receptor
+FREM2, ITGB1,NPNT,ECM-Receptor
+FREM2,ITGA8,NPNT,ECM-Receptor
+TNC,ITGA9,TENASCIN,ECM-Receptor
+TNR,ITGA9,TENASCIN,ECM-Receptor
+TNN,ITGA9,TENASCIN,ECM-Receptor
+TNXB,ITGA9,TENASCIN,ECM-Receptor
+COL1A1,ITGA9,COLLAGEN,ECM-Receptor
+COL1A2,ITGA9,COLLAGEN,ECM-Receptor
+COL2A1,ITGA9,COLLAGEN,ECM-Receptor
+COL4A1,ITGA9,COLLAGEN,ECM-Receptor
+COL4A2,ITGA9,COLLAGEN,ECM-Receptor
+COL4A3,ITGA9,COLLAGEN,ECM-Receptor
+COL4A4,ITGA9,COLLAGEN,ECM-Receptor
+COL4A5,ITGA9,COLLAGEN,ECM-Receptor
+COL4A6,ITGA9,COLLAGEN,ECM-Receptor
+COL6A1,ITGA9,COLLAGEN,ECM-Receptor
+COL6A2,ITGA9,COLLAGEN,ECM-Receptor
+COL6A3,ITGA9,COLLAGEN,ECM-Receptor
+COL6A5,ITGA9,COLLAGEN,ECM-Receptor
+COL6A6,ITGA9,COLLAGEN,ECM-Receptor
+COL9A1,ITGA9,COLLAGEN,ECM-Receptor
+COL9A2,ITGA9,COLLAGEN,ECM-Receptor
+COL9A3,ITGA9,COLLAGEN,ECM-Receptor
+LAMA1,ITGA9,LAMININ,ECM-Receptor
+LAMA2,ITGA9,LAMININ,ECM-Receptor
+LAMA3,ITGA9,LAMININ,ECM-Receptor
+LAMA4,ITGA9,LAMININ,ECM-Receptor
+LAMA5,ITGA9,LAMININ,ECM-Receptor
+LAMB1,ITGA9,LAMININ,ECM-Receptor
+LAMB2,ITGA9,LAMININ,ECM-Receptor
+LAMB3,ITGA9,LAMININ,ECM-Receptor
+LAMC1,ITGA9,LAMININ,ECM-Receptor
+LAMC2,ITGA9,LAMININ,ECM-Receptor
+LAMC3,ITGA9,LAMININ,ECM-Receptor
+COL1A1,ITGA10,COLLAGEN,ECM-Receptor
+COL1A2,ITGA10,COLLAGEN,ECM-Receptor
+COL2A1,ITGA10,COLLAGEN,ECM-Receptor
+COL4A1,ITGA10,COLLAGEN,ECM-Receptor
+COL4A2,ITGA10,COLLAGEN,ECM-Receptor
+COL4A3,ITGA10,COLLAGEN,ECM-Receptor
+COL4A4,ITGA10,COLLAGEN,ECM-Receptor
+COL4A5,ITGA10,COLLAGEN,ECM-Receptor
+COL4A6,ITGA10,COLLAGEN,ECM-Receptor
+COL6A1,ITGA10,COLLAGEN,ECM-Receptor
+COL6A2,ITGA10,COLLAGEN,ECM-Receptor
+COL6A3,ITGA10,COLLAGEN,ECM-Receptor
+COL6A5,ITGA10,COLLAGEN,ECM-Receptor
+COL6A6,ITGA10,COLLAGEN,ECM-Receptor
+COL9A1,ITGA10,COLLAGEN,ECM-Receptor
+COL9A2,ITGA10,COLLAGEN,ECM-Receptor
+COL9A3,ITGA10,COLLAGEN,ECM-Receptor
+COL1A1, ITGA11,COLLAGEN,ECM-Receptor
+COL1A2, ITGA11,COLLAGEN,ECM-Receptor
+COL2A1, ITGA11,COLLAGEN,ECM-Receptor
+COL4A1, ITGA11,COLLAGEN,ECM-Receptor
+COL4A2, ITGA11,COLLAGEN,ECM-Receptor
+COL4A3, ITGA11,COLLAGEN,ECM-Receptor
+COL4A4, ITGA11,COLLAGEN,ECM-Receptor
+COL4A5, ITGA11,COLLAGEN,ECM-Receptor
+COL4A6, ITGA11,COLLAGEN,ECM-Receptor
+COL6A1, ITGA11,COLLAGEN,ECM-Receptor
+COL6A2, ITGA11,COLLAGEN,ECM-Receptor
+COL6A3, ITGA11,COLLAGEN,ECM-Receptor
+COL6A5, ITGA11,COLLAGEN,ECM-Receptor
+COL6A6, ITGA11,COLLAGEN,ECM-Receptor
+COL9A1, ITGA11,COLLAGEN,ECM-Receptor
+COL9A2, ITGA11,COLLAGEN,ECM-Receptor
+COL9A3, ITGA11,COLLAGEN,ECM-Receptor
+FN1,ITGAV,FN1,ECM-Receptor
+VTN,ITGAV,VTN,ECM-Receptor
+DSPP,ITGAV,DSPP,ECM-Receptor
+DSPP, ITGB1,DSPP,ECM-Receptor
+FN1, ITGB7,FN1,ECM-Receptor
+FN1, ITGB3,FN1,ECM-Receptor
+VTN, ITGB3,VTN,ECM-Receptor
+VWF,ITGAV,VWF,ECM-Receptor
+VWF, ITGB3,VWF,ECM-Receptor
+TNC,ITGAV,TENASCIN,ECM-Receptor
+TNC, ITGB3,TENASCIN,ECM-Receptor
+TNR,ITGAV,TENASCIN,ECM-Receptor
+TNR, ITGB3,TENASCIN,ECM-Receptor
+TNN,ITGAV,TENASCIN,ECM-Receptor
+TNN, ITGB3,TENASCIN,ECM-Receptor
+TNXB,ITGAV,TENASCIN,ECM-Receptor
+TNXB, ITGB3,TENASCIN,ECM-Receptor
+IBSP,ITGAV,BSP,ECM-Receptor
+IBSP, ITGB3,BSP,ECM-Receptor
+THBS1,ITGAV,THBS,ECM-Receptor
+THBS1, ITGB3,THBS,ECM-Receptor
+THBS2,ITGAV,THBS,ECM-Receptor
+THBS2, ITGB3,THBS,ECM-Receptor
+THBS3,ITGAV,THBS,ECM-Receptor
+THBS3, ITGB3,THBS,ECM-Receptor
+THBS4,ITGAV,THBS,ECM-Receptor
+THBS4, ITGB3,THBS,ECM-Receptor
+COMP,ITGAV,THBS,ECM-Receptor
+COMP, ITGB3,THBS,ECM-Receptor
+DMP1,ITGAV,DMP1,ECM-Receptor
+DMP1, ITGB3,DMP1,ECM-Receptor
+FN1,ITGA2B,FN1,ECM-Receptor
+VTN,ITGA2B,VTN,ECM-Receptor
+VWF,ITGA2B,VWF,ECM-Receptor
+TNC,ITGA2B,TENASCIN,ECM-Receptor
+TNR,ITGA2B,TENASCIN,ECM-Receptor
+TNN,ITGA2B,TENASCIN,ECM-Receptor
+TNXB,ITGA2B,TENASCIN,ECM-Receptor
+VTN, ITGB5,VTN,ECM-Receptor
+IBSP, ITGB5,BSP,ECM-Receptor
+TNC, ITGB6,TENASCIN,ECM-Receptor
+TNR, ITGB6,TENASCIN,ECM-Receptor
+TNN, ITGB6,TENASCIN,ECM-Receptor
+TNXB, ITGB6,TENASCIN,ECM-Receptor
+FN1, ITGB6,FN1,ECM-Receptor
+DSPP, ITGB6,DSPP,ECM-Receptor
+VTN, ITGB8,VTN,ECM-Receptor
+FN1, ITGB8,FN1,ECM-Receptor
+LAMA1,ITGAV,LAMININ,ECM-Receptor
+LAMA1, ITGB8,LAMININ,ECM-Receptor
+LAMA2,ITGAV,LAMININ,ECM-Receptor
+LAMA2, ITGB8,LAMININ,ECM-Receptor
+LAMA3,ITGAV,LAMININ,ECM-Receptor
+LAMA3, ITGB8,LAMININ,ECM-Receptor
+LAMA4,ITGAV,LAMININ,ECM-Receptor
+LAMA4, ITGB8,LAMININ,ECM-Receptor
+LAMA5,ITGAV,LAMININ,ECM-Receptor
+LAMA5, ITGB8,LAMININ,ECM-Receptor
+LAMB1,ITGAV,LAMININ,ECM-Receptor
+LAMB1, ITGB8,LAMININ,ECM-Receptor
+LAMB2,ITGAV,LAMININ,ECM-Receptor
+LAMB2, ITGB8,LAMININ,ECM-Receptor
+LAMB3,ITGAV,LAMININ,ECM-Receptor
+LAMB3, ITGB8,LAMININ,ECM-Receptor
+LAMC1,ITGAV,LAMININ,ECM-Receptor
+LAMC1, ITGB8,LAMININ,ECM-Receptor
+LAMC2,ITGAV,LAMININ,ECM-Receptor
+LAMC2, ITGB8,LAMININ,ECM-Receptor
+LAMC3,ITGAV,LAMININ,ECM-Receptor
+LAMC3, ITGB8,LAMININ,ECM-Receptor
+COL1A1,ITGAV,COLLAGEN,ECM-Receptor
+COL1A1, ITGB8,COLLAGEN,ECM-Receptor
+COL1A2,ITGAV,COLLAGEN,ECM-Receptor
+COL1A2, ITGB8,COLLAGEN,ECM-Receptor
+COL2A1,ITGAV,COLLAGEN,ECM-Receptor
+COL2A1, ITGB8,COLLAGEN,ECM-Receptor
+COL4A1,ITGAV,COLLAGEN,ECM-Receptor
+COL4A1, ITGB8,COLLAGEN,ECM-Receptor
+COL4A2,ITGAV,COLLAGEN,ECM-Receptor
+COL4A2, ITGB8,COLLAGEN,ECM-Receptor
+COL4A3,ITGAV,COLLAGEN,ECM-Receptor
+COL4A3, ITGB8,COLLAGEN,ECM-Receptor
+COL4A4,ITGAV,COLLAGEN,ECM-Receptor
+COL4A4, ITGB8,COLLAGEN,ECM-Receptor
+COL4A5,ITGAV,COLLAGEN,ECM-Receptor
+COL4A5, ITGB8,COLLAGEN,ECM-Receptor
+COL4A6,ITGAV,COLLAGEN,ECM-Receptor
+COL4A6, ITGB8,COLLAGEN,ECM-Receptor
+COL6A1,ITGAV,COLLAGEN,ECM-Receptor
+COL6A1, ITGB8,COLLAGEN,ECM-Receptor
+COL6A2,ITGAV,COLLAGEN,ECM-Receptor
+COL6A2, ITGB8,COLLAGEN,ECM-Receptor
+COL6A3,ITGAV,COLLAGEN,ECM-Receptor
+COL6A3, ITGB8,COLLAGEN,ECM-Receptor
+COL6A5,ITGAV,COLLAGEN,ECM-Receptor
+COL6A5, ITGB8,COLLAGEN,ECM-Receptor
+COL6A6,ITGAV,COLLAGEN,ECM-Receptor
+COL6A6, ITGB8,COLLAGEN,ECM-Receptor
+COL9A1,ITGAV,COLLAGEN,ECM-Receptor
+COL9A1, ITGB8,COLLAGEN,ECM-Receptor
+COL9A2,ITGAV,COLLAGEN,ECM-Receptor
+COL9A2, ITGB8,COLLAGEN,ECM-Receptor
+COL9A3,ITGAV,COLLAGEN,ECM-Receptor
+COL9A3, ITGB8,COLLAGEN,ECM-Receptor
+LAMA1, ITGB4,LAMININ,ECM-Receptor
+LAMA2, ITGB4,LAMININ,ECM-Receptor
+LAMA3, ITGB4,LAMININ,ECM-Receptor
+LAMA4, ITGB4,LAMININ,ECM-Receptor
+LAMA5, ITGB4,LAMININ,ECM-Receptor
+LAMB1, ITGB4,LAMININ,ECM-Receptor
+LAMB2, ITGB4,LAMININ,ECM-Receptor
+LAMB3, ITGB4,LAMININ,ECM-Receptor
+LAMC1, ITGB4,LAMININ,ECM-Receptor
+LAMC2, ITGB4,LAMININ,ECM-Receptor
+LAMC3, ITGB4,LAMININ,ECM-Receptor
+FN1,CD44,FN1,ECM-Receptor
+COL1A1,CD44,COLLAGEN,ECM-Receptor
+COL1A2,CD44,COLLAGEN,ECM-Receptor
+COL2A1,CD44,COLLAGEN,ECM-Receptor
+COL4A1,CD44,COLLAGEN,ECM-Receptor
+COL4A2,CD44,COLLAGEN,ECM-Receptor
+COL4A3,CD44,COLLAGEN,ECM-Receptor
+COL4A4,CD44,COLLAGEN,ECM-Receptor
+COL4A5,CD44,COLLAGEN,ECM-Receptor
+COL4A6,CD44,COLLAGEN,ECM-Receptor
+COL6A1,CD44,COLLAGEN,ECM-Receptor
+COL6A2,CD44,COLLAGEN,ECM-Receptor
+COL6A3,CD44,COLLAGEN,ECM-Receptor
+COL6A5,CD44,COLLAGEN,ECM-Receptor
+COL6A6,CD44,COLLAGEN,ECM-Receptor
+COL9A1,CD44,COLLAGEN,ECM-Receptor
+COL9A2,CD44,COLLAGEN,ECM-Receptor
+COL9A3,CD44,COLLAGEN,ECM-Receptor
+LAMA1,CD44,LAMININ,ECM-Receptor
+LAMA2,CD44,LAMININ,ECM-Receptor
+LAMA3,CD44,LAMININ,ECM-Receptor
+LAMA4,CD44,LAMININ,ECM-Receptor
+LAMA5,CD44,LAMININ,ECM-Receptor
+LAMB1,CD44,LAMININ,ECM-Receptor
+LAMB2,CD44,LAMININ,ECM-Receptor
+LAMB3,CD44,LAMININ,ECM-Receptor
+LAMC1,CD44,LAMININ,ECM-Receptor
+LAMC2,CD44,LAMININ,ECM-Receptor
+LAMC3,CD44,LAMININ,ECM-Receptor
+COL1A1,SDC1,COLLAGEN,ECM-Receptor
+COL1A2,SDC1,COLLAGEN,ECM-Receptor
+COL2A1,SDC1,COLLAGEN,ECM-Receptor
+COL4A1,SDC1,COLLAGEN,ECM-Receptor
+COL4A2,SDC1,COLLAGEN,ECM-Receptor
+COL4A3,SDC1,COLLAGEN,ECM-Receptor
+COL4A4,SDC1,COLLAGEN,ECM-Receptor
+COL4A5,SDC1,COLLAGEN,ECM-Receptor
+COL4A6,SDC1,COLLAGEN,ECM-Receptor
+COL6A1,SDC1,COLLAGEN,ECM-Receptor
+COL6A2,SDC1,COLLAGEN,ECM-Receptor
+COL6A3,SDC1,COLLAGEN,ECM-Receptor
+COL6A5,SDC1,COLLAGEN,ECM-Receptor
+COL6A6,SDC1,COLLAGEN,ECM-Receptor
+COL9A1,SDC1,COLLAGEN,ECM-Receptor
+COL9A2,SDC1,COLLAGEN,ECM-Receptor
+COL9A3,SDC1,COLLAGEN,ECM-Receptor
+FN1,SDC1,FN1,ECM-Receptor
+TNC,SDC1,TENASCIN,ECM-Receptor
+TNR,SDC1,TENASCIN,ECM-Receptor
+TNN,SDC1,TENASCIN,ECM-Receptor
+TNXB,SDC1,TENASCIN,ECM-Receptor
+THBS1,SDC1,THBS,ECM-Receptor
+THBS2,SDC1,THBS,ECM-Receptor
+THBS3,SDC1,THBS,ECM-Receptor
+THBS4,SDC1,THBS,ECM-Receptor
+COMP,SDC1,THBS,ECM-Receptor
+COL1A1,SDC4,COLLAGEN,ECM-Receptor
+COL1A2,SDC4,COLLAGEN,ECM-Receptor
+COL2A1,SDC4,COLLAGEN,ECM-Receptor
+COL4A1,SDC4,COLLAGEN,ECM-Receptor
+COL4A2,SDC4,COLLAGEN,ECM-Receptor
+COL4A3,SDC4,COLLAGEN,ECM-Receptor
+COL4A4,SDC4,COLLAGEN,ECM-Receptor
+COL4A5,SDC4,COLLAGEN,ECM-Receptor
+COL4A6,SDC4,COLLAGEN,ECM-Receptor
+COL6A1,SDC4,COLLAGEN,ECM-Receptor
+COL6A2,SDC4,COLLAGEN,ECM-Receptor
+COL6A3,SDC4,COLLAGEN,ECM-Receptor
+COL6A5,SDC4,COLLAGEN,ECM-Receptor
+COL6A6,SDC4,COLLAGEN,ECM-Receptor
+COL9A1,SDC4,COLLAGEN,ECM-Receptor
+COL9A2,SDC4,COLLAGEN,ECM-Receptor
+COL9A3,SDC4,COLLAGEN,ECM-Receptor
+FN1,SDC4,FN1,ECM-Receptor
+TNC,SDC4,TENASCIN,ECM-Receptor
+TNR,SDC4,TENASCIN,ECM-Receptor
+TNN,SDC4,TENASCIN,ECM-Receptor
+TNXB,SDC4,TENASCIN,ECM-Receptor
+THBS1,SDC4,THBS,ECM-Receptor
+THBS2,SDC4,THBS,ECM-Receptor
+THBS3,SDC4,THBS,ECM-Receptor
+THBS4,SDC4,THBS,ECM-Receptor
+COMP,SDC4,THBS,ECM-Receptor
+LAMA1,SV2A,LAMININ,ECM-Receptor
+LAMA2,SV2A,LAMININ,ECM-Receptor
+LAMA3,SV2A,LAMININ,ECM-Receptor
+LAMA4,SV2A,LAMININ,ECM-Receptor
+LAMA5,SV2A,LAMININ,ECM-Receptor
+LAMB1,SV2A,LAMININ,ECM-Receptor
+LAMB2,SV2A,LAMININ,ECM-Receptor
+LAMB3,SV2A,LAMININ,ECM-Receptor
+LAMC1,SV2A,LAMININ,ECM-Receptor
+LAMC2,SV2A,LAMININ,ECM-Receptor
+LAMC3,SV2A,LAMININ,ECM-Receptor
+LAMA1,SV2B,LAMININ,ECM-Receptor
+LAMA2,SV2B,LAMININ,ECM-Receptor
+LAMA3,SV2B,LAMININ,ECM-Receptor
+LAMA4,SV2B,LAMININ,ECM-Receptor
+LAMA5,SV2B,LAMININ,ECM-Receptor
+LAMB1,SV2B,LAMININ,ECM-Receptor
+LAMB2,SV2B,LAMININ,ECM-Receptor
+LAMB3,SV2B,LAMININ,ECM-Receptor
+LAMC1,SV2B,LAMININ,ECM-Receptor
+LAMC2,SV2B,LAMININ,ECM-Receptor
+LAMC3,SV2B,LAMININ,ECM-Receptor
+LAMA1,SV2C,LAMININ,ECM-Receptor
+LAMA2,SV2C,LAMININ,ECM-Receptor
+LAMA3,SV2C,LAMININ,ECM-Receptor
+LAMA4,SV2C,LAMININ,ECM-Receptor
+LAMA5,SV2C,LAMININ,ECM-Receptor
+LAMB1,SV2C,LAMININ,ECM-Receptor
+LAMB2,SV2C,LAMININ,ECM-Receptor
+LAMB3,SV2C,LAMININ,ECM-Receptor
+LAMC1,SV2C,LAMININ,ECM-Receptor
+LAMC2,SV2C,LAMININ,ECM-Receptor
+LAMC3,SV2C,LAMININ,ECM-Receptor
+THBS1,CD36,THBS,ECM-Receptor
+THBS2,CD36,THBS,ECM-Receptor
+THBS3,CD36,THBS,ECM-Receptor
+THBS4,CD36,THBS,ECM-Receptor
+COMP,CD36,THBS,ECM-Receptor
+VWF,GP5,VWF,ECM-Receptor
+VWF, GP1BA,VWF,ECM-Receptor
+VWF, GP1BB,VWF,ECM-Receptor
+VWF, GP9,VWF,ECM-Receptor
+COL1A1,GP6,COLLAGEN,ECM-Receptor
+COL1A2,GP6,COLLAGEN,ECM-Receptor
+COL2A1,GP6,COLLAGEN,ECM-Receptor
+COL4A1,GP6,COLLAGEN,ECM-Receptor
+COL4A2,GP6,COLLAGEN,ECM-Receptor
+COL4A3,GP6,COLLAGEN,ECM-Receptor
+COL4A4,GP6,COLLAGEN,ECM-Receptor
+COL4A5,GP6,COLLAGEN,ECM-Receptor
+COL4A6,GP6,COLLAGEN,ECM-Receptor
+COL6A1,GP6,COLLAGEN,ECM-Receptor
+COL6A2,GP6,COLLAGEN,ECM-Receptor
+COL6A3,GP6,COLLAGEN,ECM-Receptor
+COL6A5,GP6,COLLAGEN,ECM-Receptor
+COL6A6,GP6,COLLAGEN,ECM-Receptor
+COL9A1,GP6,COLLAGEN,ECM-Receptor
+COL9A2,GP6,COLLAGEN,ECM-Receptor
+COL9A3,GP6,COLLAGEN,ECM-Receptor
+THBS1,CD47,THBS,ECM-Receptor
+THBS2,CD47,THBS,ECM-Receptor
+THBS3,CD47,THBS,ECM-Receptor
+THBS4,CD47,THBS,ECM-Receptor
+COMP,CD47,THBS,ECM-Receptor
+AGRN,DAG1,AGRN,ECM-Receptor
+HSPG2,DAG1,HSPG,ECM-Receptor
+LAMA1,DAG1,LAMININ,ECM-Receptor
+LAMA2,DAG1,LAMININ,ECM-Receptor
+LAMA3,DAG1,LAMININ,ECM-Receptor
+LAMA4,DAG1,LAMININ,ECM-Receptor
+LAMA5,DAG1,LAMININ,ECM-Receptor
+LAMB1,DAG1,LAMININ,ECM-Receptor
+LAMB2,DAG1,LAMININ,ECM-Receptor
+LAMB3,DAG1,LAMININ,ECM-Receptor
+LAMC1,DAG1,LAMININ,ECM-Receptor
+LAMC2,DAG1,LAMININ,ECM-Receptor
+LAMC3,DAG1,LAMININ,ECM-Receptor
+APP,CD74,APP,Cell-Cell Contact
+CADM1,CADM1,CADM,Cell-Cell Contact
+CADM3,CADM3,CADM,Cell-Cell Contact
+FCER2,ITGAM,CD23,Cell-Cell Contact
+FCER2, ITGB2,CD23,Cell-Cell Contact
+FCER2,ITGAX,CD23,Cell-Cell Contact
+FCER2,ITGAV,CD23,Cell-Cell Contact
+FCER2, ITGB3,CD23,Cell-Cell Contact
+FCER2,CR2,CD23,Cell-Cell Contact
+CD34,SELP,CD34,Cell-Cell Contact
+ENTPD1,ADORA1,CD39,Cell-Cell Contact
+ENTPD1,ADORA2A,CD39,Cell-Cell Contact
+ENTPD1,ADORA2B,CD39,Cell-Cell Contact
+ENTPD1,TMIGD3,CD39,Cell-Cell Contact
+CD40LG,CD40,CD40,Cell-Cell Contact
+PTPRC,CD22,CD45,Cell-Cell Contact
+PTPRC,MRC1,CD45,Cell-Cell Contact
+CD46,JAG1,CD46,Cell-Cell Contact
+CD48,CD244,CD48,Cell-Cell Contact
+CD6,ALCAM,CD6,Cell-Cell Contact
+CD80,CD274,CD80,Cell-Cell Contact
+CD80,CD28,CD80,Cell-Cell Contact
+CD80,CTLA4,CD80,Cell-Cell Contact
+CD86,CD28,CD86,Cell-Cell Contact
+CD86,CTLA4,CD86,Cell-Cell Contact
+CD96,NECTIN1,CD96,Cell-Cell Contact
+CD96,PVR,CD96,Cell-Cell Contact
+CD99,PILRA,CD99,Cell-Cell Contact
+CD99,CD99,CD99,Cell-Cell Contact
+CD99,CD99L2,CD99,Cell-Cell Contact
+CDH15,CDH15,CDH,Cell-Cell Contact
+CDH4,CDH4,CDH,Cell-Cell Contact
+CDH2,CDH2,CDH,Cell-Cell Contact
+CDH1,CDH1,CDH,Cell-Cell Contact
+CDH1,ITGA2,CDH1,Cell-Cell Contact
+CDH1, ITGB1,CDH1,Cell-Cell Contact
+CDH1,ITGAE,CDH1,Cell-Cell Contact
+CDH1, ITGB7,CDH1,Cell-Cell Contact
+CDH1,KLRG1,CDH1,Cell-Cell Contact
+CDH5,CDH5,CDH5,Cell-Cell Contact
+CD1D,CEACAM5,CEACAM,Cell-Cell Contact
+CD209,CEACAM1,CEACAM,Cell-Cell Contact
+CD8A,CEACAM5,CEACAM,Cell-Cell Contact
+CEACAM1,CEACAM5,CEACAM,Cell-Cell Contact
+SELE,CEACAM1,CEACAM,Cell-Cell Contact
+CLDN11,CLDN11,CLDN,Cell-Cell Contact
+CLEC2D,KLRB1,CLEC,Cell-Cell Contact
+CLEC2A,KLRB1,CLEC,Cell-Cell Contact
+CLEC2B,KLRB1,CLEC,Cell-Cell Contact
+CD69,KLRB1,CLEC,Cell-Cell Contact
+CLEC2L,KLRB1,CLEC,Cell-Cell Contact
+CLEC1B,KLRB1,CLEC,Cell-Cell Contact
+NFASC,CNTN1,CNTN,Cell-Cell Contact
+NFASC, CNTNAP1,CNTN,Cell-Cell Contact
+CNTN2,CNTN2,CNTN,Cell-Cell Contact
+CNTN2, CNTNAP2,CNTN,Cell-Cell Contact
+CNTN2,L1CAM,CNTN,Cell-Cell Contact
+CNTN1,NRCAM,CNTN,Cell-Cell Contact
+CSPG4,ITGA3,CSPG4,Cell-Cell Contact
+CSPG4, ITGB1,CSPG4,Cell-Cell Contact
+DSC1,DSG1,DESMOSOME,Cell-Cell Contact
+DSC1,DSG2,DESMOSOME,Cell-Cell Contact
+DSC2,DSG1,DESMOSOME,Cell-Cell Contact
+DSC2,DSG2,DESMOSOME,Cell-Cell Contact
+DSC3,DSG1,DESMOSOME,Cell-Cell Contact
+DSC3,DSG2,DESMOSOME,Cell-Cell Contact
+EPGN,EGFR,EPGN,Cell-Cell Contact
+EFNA1,EPHA1,EPHA,Cell-Cell Contact
+EFNA1,EPHA2,EPHA,Cell-Cell Contact
+EFNA1,EPHA3,EPHA,Cell-Cell Contact
+EFNA1,EPHA4,EPHA,Cell-Cell Contact
+EFNA1,EPHA5,EPHA,Cell-Cell Contact
+EFNA1,EPHA7,EPHA,Cell-Cell Contact
+EFNA1,EPHA8,EPHA,Cell-Cell Contact
+EFNA2,EPHA1,EPHA,Cell-Cell Contact
+EFNA2,EPHA2,EPHA,Cell-Cell Contact
+EFNA2,EPHA3,EPHA,Cell-Cell Contact
+EFNA2,EPHA4,EPHA,Cell-Cell Contact
+EFNA2,EPHA5,EPHA,Cell-Cell Contact
+EFNA2,EPHA7,EPHA,Cell-Cell Contact
+EFNA2,EPHA8,EPHA,Cell-Cell Contact
+EFNA3,EPHA1,EPHA,Cell-Cell Contact
+EFNA3,EPHA2,EPHA,Cell-Cell Contact
+EFNA3,EPHA3,EPHA,Cell-Cell Contact
+EFNA3,EPHA4,EPHA,Cell-Cell Contact
+EFNA3,EPHA5,EPHA,Cell-Cell Contact
+EFNA3,EPHA7,EPHA,Cell-Cell Contact
+EFNA3,EPHA8,EPHA,Cell-Cell Contact
+EFNA4,EPHA1,EPHA,Cell-Cell Contact
+EFNA4,EPHA2,EPHA,Cell-Cell Contact
+EFNA4,EPHA3,EPHA,Cell-Cell Contact
+EFNA4,EPHA4,EPHA,Cell-Cell Contact
+EFNA4,EPHA5,EPHA,Cell-Cell Contact
+EFNA4,EPHA7,EPHA,Cell-Cell Contact
+EFNA4,EPHA8,EPHA,Cell-Cell Contact
+EFNA5,EPHA1,EPHA,Cell-Cell Contact
+EFNA5,EPHA2,EPHA,Cell-Cell Contact
+EFNA5,EPHA3,EPHA,Cell-Cell Contact
+EFNA5,EPHA4,EPHA,Cell-Cell Contact
+EFNA5,EPHA5,EPHA,Cell-Cell Contact
+EFNA5,EPHA7,EPHA,Cell-Cell Contact
+EFNA5,EPHA8,EPHA,Cell-Cell Contact
+EFNA5,EPHB2,EPHA,Cell-Cell Contact
+EFNB1,EPHA4,EPHB,Cell-Cell Contact
+EFNB1,EPHB1,EPHB,Cell-Cell Contact
+EFNB1,EPHB2,EPHB,Cell-Cell Contact
+EFNB1,EPHB3,EPHB,Cell-Cell Contact
+EFNB1,EPHB4,EPHB,Cell-Cell Contact
+EFNB2,EPHA4,EPHB,Cell-Cell Contact
+EFNB2,EPHB1,EPHB,Cell-Cell Contact
+EFNB2,EPHB2,EPHB,Cell-Cell Contact
+EFNB2,EPHB3,EPHB,Cell-Cell Contact
+EFNB2,EPHB4,EPHB,Cell-Cell Contact
+EFNB3,EPHA4,EPHB,Cell-Cell Contact
+EFNB3,EPHB1,EPHB,Cell-Cell Contact
+EFNB3,EPHB2,EPHB,Cell-Cell Contact
+EFNB3,EPHB3,EPHB,Cell-Cell Contact
+EFNB3,EPHB4,EPHB,Cell-Cell Contact
+EFNB3,EPHB6,EPHB,Cell-Cell Contact
+ESAM,ESAM,ESAM,Cell-Cell Contact
+GP1BA,ITGAM,GP1BA,Cell-Cell Contact
+GP1BA, ITGB2,GP1BA,Cell-Cell Contact
+ICAM1,ITGAX,ICAM,Cell-Cell Contact
+ICAM1, ITGB2,ICAM,Cell-Cell Contact
+ICAM1,ITGAL,ICAM,Cell-Cell Contact
+ICAM2,ITGAL,ICAM,Cell-Cell Contact
+ICAM2, ITGB2,ICAM,Cell-Cell Contact
+ICAM1,ITGAM,ICAM,Cell-Cell Contact
+ICAM2,ITGAM,ICAM,Cell-Cell Contact
+ICAM1,SPN,ICAM,Cell-Cell Contact
+ICAM5,CD209,ICAM,Cell-Cell Contact
+ICOSLG,ICOS,ICOS,Cell-Cell Contact
+ICOSLG,CD28,ICOS,Cell-Cell Contact
+ICOSLG,CTLA4,ICOS,Cell-Cell Contact
+JAM2,ITGA3,JAM,Cell-Cell Contact
+JAM2, ITGB1,JAM,Cell-Cell Contact
+JAM2,ITGAV,JAM,Cell-Cell Contact
+JAM3,ITGAM,JAM,Cell-Cell Contact
+JAM3, ITGB2,JAM,Cell-Cell Contact
+F11R,ITGAL,JAM,Cell-Cell Contact
+F11R, ITGB2,JAM,Cell-Cell Contact
+JAM2,JAM3,JAM,Cell-Cell Contact
+F11R,F11R,JAM,Cell-Cell Contact
+JAM2,F11R,JAM,Cell-Cell Contact
+JAM2,JAM2,JAM,Cell-Cell Contact
+JAM3,F11R,JAM,Cell-Cell Contact
+JAM3,JAM3,JAM,Cell-Cell Contact
+L1CAM,ITGAV,L1CAM,Cell-Cell Contact
+L1CAM, ITGB3,L1CAM,Cell-Cell Contact
+L1CAM,ITGA4,L1CAM,Cell-Cell Contact
+L1CAM, ITGB7,L1CAM,Cell-Cell Contact
+L1CAM,L1CAM,L1CAM,Cell-Cell Contact
+LCK,CD8B,LCK,Cell-Cell Contact
+LCK, CD8A,LCK,Cell-Cell Contact
+MADCAM1,ITGA4,MADCAM,Cell-Cell Contact
+MADCAM1, ITGB7,MADCAM,Cell-Cell Contact
+MAG,MAG,MAG,Cell-Cell Contact
+HLA-A,CD8A,MHC-I,Cell-Cell Contact
+HLA-B,CD8A,MHC-I,Cell-Cell Contact
+HLA-C,CD8A,MHC-I,Cell-Cell Contact
+HLA-E,CD8A,MHC-I,Cell-Cell Contact
+HLA-F,CD8A,MHC-I,Cell-Cell Contact
+HLA-G,CD8A,MHC-I,Cell-Cell Contact
+HLA-A,CD8B,MHC-I,Cell-Cell Contact
+HLA-B,CD8B,MHC-I,Cell-Cell Contact
+HLA-C,CD8B,MHC-I,Cell-Cell Contact
+HLA-E,CD8B,MHC-I,Cell-Cell Contact
+HLA-F,CD8B,MHC-I,Cell-Cell Contact
+HLA-G,CD8B,MHC-I,Cell-Cell Contact
+HLA-A,CD8B2,MHC-I,Cell-Cell Contact
+HLA-B,CD8B2,MHC-I,Cell-Cell Contact
+HLA-C,CD8B2,MHC-I,Cell-Cell Contact
+HLA-E,CD8B2,MHC-I,Cell-Cell Contact
+HLA-F,CD8B2,MHC-I,Cell-Cell Contact
+HLA-G,CD8B2,MHC-I,Cell-Cell Contact
+HLA-C,KIR2DL1,MHC-I,Cell-Cell Contact
+HLA-C,KIR2DL2,MHC-I,Cell-Cell Contact
+HLA-C,KIR2DL3,MHC-I,Cell-Cell Contact
+HLA-C,KIR2DS1,MHC-I,Cell-Cell Contact
+HLA-C,KIR2DS4,MHC-I,Cell-Cell Contact
+HLA-G,LILRB1,MHC-I,Cell-Cell Contact
+HLA-G,LILRB2,MHC-I,Cell-Cell Contact
+HLA-F,KIR3DL1,MHC-I,Cell-Cell Contact
+HLA-F,KIR3DL2,MHC-I,Cell-Cell Contact
+HLA-B,KIR3DL2,MHC-I,Cell-Cell Contact
+HLA-C,KIR3DL3,MHC-I,Cell-Cell Contact
+HLA-E,KLRC1,MHC-I,Cell-Cell Contact
+HLA-E,KLRC2,MHC-I,Cell-Cell Contact
+HLA-A,KIR3DL1,MHC-I,Cell-Cell Contact
+HLA-F,LILRB1,MHC-I,Cell-Cell Contact
+HLA-E,KLRK1,MHC-I,Cell-Cell Contact
+HLA-F,KIR3DS1,MHC-I,Cell-Cell Contact
+HLA-E, KLRD1,MHC-I,Cell-Cell Contact
+HLA-E,KLRC3,MHC-I,Cell-Cell Contact
+ULBP1,KLRK1,MHC-I,Cell-Cell Contact
+ULBP2,KLRK1,MHC-I,Cell-Cell Contact
+RAET1E,KLRK1,MHC-I,Cell-Cell Contact
+RAET1G,KLRK1,MHC-I,Cell-Cell Contact
+HLA-DPA1,CD4,MHC-II,Cell-Cell Contact
+HLA-DPB1,CD4,MHC-II,Cell-Cell Contact
+HLA-DQA1,CD4,MHC-II,Cell-Cell Contact
+HLA-DMA,CD4,MHC-II,Cell-Cell Contact
+HLA-DMB,CD4,MHC-II,Cell-Cell Contact
+HLA-DQA2,CD4,MHC-II,Cell-Cell Contact
+HLA-DOA,CD4,MHC-II,Cell-Cell Contact
+HLA-DOB,CD4,MHC-II,Cell-Cell Contact
+HLA-DQB1,CD4,MHC-II,Cell-Cell Contact
+HLA-DRA,CD4,MHC-II,Cell-Cell Contact
+HLA-DRB1,CD4,MHC-II,Cell-Cell Contact
+HLA-DRB3,CD4,MHC-II,Cell-Cell Contact
+HLA-DRB4,CD4,MHC-II,Cell-Cell Contact
+HLA-DRB5,CD4,MHC-II,Cell-Cell Contact
+MPZ,MPZL1,MPZ,Cell-Cell Contact
+MPZ,MPZ,MPZ,Cell-Cell Contact
+MPZL1,MPZL1,MPZ,Cell-Cell Contact
+NCAM1,FGFR1,NCAM,Cell-Cell Contact
+NCAM1,NCAM1,NCAM,Cell-Cell Contact
+NCAM1,NCAM2,NCAM,Cell-Cell Contact
+NCAM1,L1CAM,NCAM,Cell-Cell Contact
+NCAM2,L1CAM,NCAM,Cell-Cell Contact
+NECTIN1,CADM3,NECTIN,Cell-Cell Contact
+NECTIN1,NECTIN4,NECTIN,Cell-Cell Contact
+NECTIN3,NECTIN1,NECTIN,Cell-Cell Contact
+NECTIN3,NECTIN2,NECTIN,Cell-Cell Contact
+NECTIN3,PVR,NECTIN,Cell-Cell Contact
+NECTIN3,TIGIT,NECTIN,Cell-Cell Contact
+NECTIN2,CD226,NECTIN,Cell-Cell Contact
+NECTIN2,TIGIT,NECTIN,Cell-Cell Contact
+NEGR1,NEGR1,NEGR,Cell-Cell Contact
+LRRC4C,NTNG1,NGL,Cell-Cell Contact
+LRRC4,NTNG2,NGL,Cell-Cell Contact
+LRRC4B,PTPRF,NGL,Cell-Cell Contact
+ULBP1,KLRK1,NKG2D,Cell-Cell Contact
+ULBP1, HCST,NKG2D,Cell-Cell Contact
+DLK1,NOTCH1,NOTCH,Cell-Cell Contact
+DLK1,NOTCH2,NOTCH,Cell-Cell Contact
+DLK1,NOTCH3,NOTCH,Cell-Cell Contact
+DLK1,NOTCH4,NOTCH,Cell-Cell Contact
+DLL1,NOTCH1,NOTCH,Cell-Cell Contact
+DLL1,NOTCH3,NOTCH,Cell-Cell Contact
+DLL1,NOTCH4,NOTCH,Cell-Cell Contact
+DLL3,NOTCH1,NOTCH,Cell-Cell Contact
+DLL3,NOTCH2,NOTCH,Cell-Cell Contact
+DLL3,NOTCH3,NOTCH,Cell-Cell Contact
+DLL3,NOTCH4,NOTCH,Cell-Cell Contact
+DLL4,NOTCH1,NOTCH,Cell-Cell Contact
+DLL4,NOTCH2,NOTCH,Cell-Cell Contact
+DLL4,NOTCH3,NOTCH,Cell-Cell Contact
+DLL4,NOTCH4,NOTCH,Cell-Cell Contact
+JAG1,NOTCH1,NOTCH,Cell-Cell Contact
+JAG1,NOTCH2,NOTCH,Cell-Cell Contact
+JAG1,NOTCH3,NOTCH,Cell-Cell Contact
+JAG1,NOTCH4,NOTCH,Cell-Cell Contact
+JAG2,NOTCH1,NOTCH,Cell-Cell Contact
+JAG2,NOTCH2,NOTCH,Cell-Cell Contact
+JAG2,NOTCH3,NOTCH,Cell-Cell Contact
+JAG2,NOTCH4,NOTCH,Cell-Cell Contact
+DLL1,NOTCH2,NOTCH,Cell-Cell Contact
+NRXN1,NLGN1,NRXN,Cell-Cell Contact
+NRXN1,NLGN2,NRXN,Cell-Cell Contact
+NRXN1,NLGN3,NRXN,Cell-Cell Contact
+NRXN2,NLGN1,NRXN,Cell-Cell Contact
+NRXN2,NLGN2,NRXN,Cell-Cell Contact
+NRXN2,NLGN3,NRXN,Cell-Cell Contact
+NRXN3,NLGN1,NRXN,Cell-Cell Contact
+NRXN3,NLGN2,NRXN,Cell-Cell Contact
+NRXN3,NLGN3,NRXN,Cell-Cell Contact
+OCLN,OCLN,OCLN,Cell-Cell Contact
+CD274,PDCD1,PD-L1,Cell-Cell Contact
+PDCD1LG2,PDCD1,PDL2,Cell-Cell Contact
+PECAM1,PECAM1,PECAM1,Cell-Cell Contact
+PTPRM,PTPRM,PTPRM,Cell-Cell Contact
+PVR,CD226,PVR,Cell-Cell Contact
+PVR,TIGIT,PVR,Cell-Cell Contact
+SELE,CD44,SELE,Cell-Cell Contact
+SELE,GLG1,SELE,Cell-Cell Contact
+SELL,CD34,SELL,Cell-Cell Contact
+SELL,PODXL,SELL,Cell-Cell Contact
+SELL,GLYCAM1,SELL,Cell-Cell Contact
+SELL,MADCAM1,SELL,Cell-Cell Contact
+SELPLG,SELE,SELPLG,Cell-Cell Contact
+SELPLG,SELL,SELPLG,Cell-Cell Contact
+SELPLG,SELP,SELPLG,Cell-Cell Contact
+SEMA4A,NRP1,SEMA4,Cell-Cell Contact
+SEMA4A, PLXNA1,SEMA4,Cell-Cell Contact
+SEMA4A, PLXNA2,SEMA4,Cell-Cell Contact
+SEMA4A,PLXNA3,SEMA4,Cell-Cell Contact
+SEMA4A, NRP1,SEMA4,Cell-Cell Contact
+SEMA4A,PLXNA4,SEMA4,Cell-Cell Contact
+SEMA4A,PLXNB1,SEMA4,Cell-Cell Contact
+SEMA4A,PLXNB2,SEMA4,Cell-Cell Contact
+SEMA4A,PLXNB3,SEMA4,Cell-Cell Contact
+SEMA4D,PLXNB1,SEMA4,Cell-Cell Contact
+SEMA4D,PLXNB2,SEMA4,Cell-Cell Contact
+SEMA4D,PLXNB3,SEMA4,Cell-Cell Contact
+SEMA4C,PLXNB2,SEMA4,Cell-Cell Contact
+SEMA4G,PLXNB2,SEMA4,Cell-Cell Contact
+SEMA4D,CD72,SEMA4,Cell-Cell Contact
+SEMA5A,PLXNA1,SEMA5,Cell-Cell Contact
+SEMA5B,PLXNA1,SEMA5,Cell-Cell Contact
+SEMA5A,PLXNA3,SEMA5,Cell-Cell Contact
+SEMA5B,PLXNA3,SEMA5,Cell-Cell Contact
+SEMA5A,PLXNB3,SEMA5,Cell-Cell Contact
+SEMA6D,KDR,SEMA6,Cell-Cell Contact
+SEMA6D, PLXNA1,SEMA6,Cell-Cell Contact
+SEMA6D,TREM2,SEMA6,Cell-Cell Contact
+SEMA6D, TYROBP,SEMA6,Cell-Cell Contact
+SEMA6D,PLXNA1,SEMA6,Cell-Cell Contact
+SEMA6A,PLXNA2,SEMA6,Cell-Cell Contact
+SEMA6B,PLXNA2,SEMA6,Cell-Cell Contact
+SEMA6A,PLXNA4,SEMA6,Cell-Cell Contact
+SEMA6B,PLXNA4,SEMA6,Cell-Cell Contact
+SEMA7A,ITGB1,SEMA7,Cell-Cell Contact
+SEMA7A, ITGA1,SEMA7,Cell-Cell Contact
+SEMA7A,PLXNC1,SEMA7,Cell-Cell Contact
+SIGLEC1,SPN,SN,Cell-Cell Contact
+THY1,ITGAM,THY1,Cell-Cell Contact
+THY1, ITGB2,THY1,Cell-Cell Contact
+THY1,ITGAX,THY1,Cell-Cell Contact
+THY1,ITGAV,THY1,Cell-Cell Contact
+THY1, ITGB3,THY1,Cell-Cell Contact
+ITGA4,VCAM1,VCAM,Cell-Cell Contact
+ ITGB1,VCAM1,VCAM,Cell-Cell Contact
+ITGA9,VCAM1,VCAM,Cell-Cell Contact
+ ITGB7,VCAM1,VCAM,Cell-Cell Contact
+VSIR,IGSF11,VISTA,Cell-Cell Contact
+KLK6,F2R,KLK,Secreted Signaling
+KLK6,F2RL1,KLK,Secreted Signaling
+KLK5,F2RL1,KLK,Secreted Signaling
+KLK4,F2R,KLK,Secreted Signaling
+KLK1,F2R,KLK,Secreted Signaling
+KLK2,F2R,KLK,Secreted Signaling
+KLK14,F2R,KLK,Secreted Signaling
+KLK4,F2RL1,KLK,Secreted Signaling
+KLK2,F2RL1,KLK,Secreted Signaling
+KLK14,F2RL1,KLK,Secreted Signaling
+KLK7,F2RL1,KLK,Secreted Signaling
+KLK8,F2R,KLK,Secreted Signaling
+ADM,CALCR,ADM,Secreted Signaling
+ADM, RAMP1,ADM,Secreted Signaling
+ADM,RAMP2,ADM,Secreted Signaling
+ADM, CALCR,ADM,Secreted Signaling
+ADM,RAMP3,ADM,Secreted Signaling
+CALCA,CALCR,CALC,Secreted Signaling
+CALCA, RAMP1,CALC,Secreted Signaling
+CALCA,RAMP2,CALC,Secreted Signaling
+CALCA, CALCR,CALC,Secreted Signaling
+CALCA,RAMP3,CALC,Secreted Signaling
+CALCB,CALCR,CALC,Secreted Signaling
+CALCB, RAMP1,CALC,Secreted Signaling
+CALCB,RAMP2,CALC,Secreted Signaling
+CALCB, CALCR,CALC,Secreted Signaling
+CALCB,RAMP3,CALC,Secreted Signaling
+IAPP,CALCR,IAPP,Secreted Signaling
+IAPP, RAMP1,IAPP,Secreted Signaling
+IAPP,RAMP2,IAPP,Secreted Signaling
+IAPP, CALCR,IAPP,Secreted Signaling
+IAPP,RAMP3,IAPP,Secreted Signaling
+PROC,PROCR,PROCR,Secreted Signaling
+PROC, HSP90AA1,PROCR,Secreted Signaling
+PROC, F2R,PROCR,Secreted Signaling
+AGT,AGTR2,AGT,Secreted Signaling
+TAFA4,FPR1,TAFA,Secreted Signaling
+CTSG,FPR1,CTSG,Secreted Signaling
+MT-RNR2,FPR2,ANNEXIN,Secreted Signaling
+ANXA1,FPR3,ANNEXIN,Secreted Signaling
+MT-RNR2,FPR3,ANNEXIN,Secreted Signaling
+GALP,GALR3,GALANIN,Secreted Signaling
+GRP,NMBR,GRP,Secreted Signaling
+PTPRS,NTRK3,PTPR,Secreted Signaling
+VIP,SCTR,VIP,Secreted Signaling
+SLITRK1,PTPRD,SLITRK,Secreted Signaling
+SLITRK1,PTPRS,SLITRK,Secreted Signaling
+SLITRK2,PTPRD,SLITRK,Secreted Signaling
+SLITRK2,PTPRS,SLITRK,Secreted Signaling
+SLITRK3,PTPRD,SLITRK,Secreted Signaling
+SLITRK4,PTPRS,SLITRK,Secreted Signaling
+SLITRK5,PTPRS,SLITRK,Secreted Signaling
+SLITRK6,PTPRS,SLITRK,Secreted Signaling
+BDNF,SORT1,NT,Secreted Signaling
+BDNF,NGFR,NT,Secreted Signaling
+IGFBP3,TMEM219,IGFBP,Secreted Signaling
+LGALS9,CD22,GALECTIN,Secreted Signaling
+LGALS9, BCR,GALECTIN,Secreted Signaling
+LGALS9, PTPRC,GALECTIN,Secreted Signaling
+LGALS9,P4HB,GALECTIN,Secreted Signaling
+AMH,BMPR1B,AMH,Secreted Signaling
+NTS,SORT1,NTS,Secreted Signaling
+NRG1,ITGA6,NRG,Secreted Signaling
+NRG1, ITGB4,NRG,Secreted Signaling
+NTF3,NGFR,NT,Secreted Signaling
+NTF4,NGFR,NT,Secreted Signaling
+PPIA,BSG,CypA,Secreted Signaling
+PROC,PROCR,PROC,Secreted Signaling
+RAET1E,KLRK1,MHC-I,Secreted Signaling
+RAET1E, HCST,MHC-I,Secreted Signaling
+ULBP1,KLRK1,MHC-I,Secreted Signaling
+ULBP1, HCST,MHC-I,Secreted Signaling
+ULBP2,KLRK1,MHC-I,Secreted Signaling
+ULBP2, HCST,MHC-I,Secreted Signaling
+ULBP3,KLRK1,MHC-I,Secreted Signaling
+ULBP3, HCST,MHC-I,Secreted Signaling
+RBP4,STRA6,RBP4,Secreted Signaling
+SLIT1,ROBO1,SLIT,Secreted Signaling
+SLIT2,ROBO1,SLIT,Secreted Signaling
+SLIT2,ROBO2,SLIT,Secreted Signaling
+TULP1,TYRO3,TULP,Secreted Signaling
+TULP2,TYRO3,TULP,Secreted Signaling
+TULP1,AXL,TULP,Secreted Signaling
+TULP1,MERTK,TULP,Secreted Signaling
+TUB,MERTK,TULP,Secreted Signaling
+PROS1,MERTK,PROS,Secreted Signaling
+PLAU,PLAUR,PLAU,Secreted Signaling
+VTN,PLAUR,VTN,ECM-Receptor
+RELN,LRP8,RELN,ECM-Receptor
+RELN,VLDLR,RELN,ECM-Receptor
+ULBP3,KLRK1,MHC-I,Cell-Cell Contact
+RAET1L,KLRK1,MHC-I,Cell-Cell Contact
+CDH3,CDH3,CDH,Cell-Cell Contact
+CDH12,ITGB1,CDH,Cell-Cell Contact
+CDH12, ITGA1,CDH,Cell-Cell Contact
+DSC1,DSG3,DESMOSOME,Cell-Cell Contact
+DSC1,DSG4,DESMOSOME,Cell-Cell Contact
+DSC2,DSG3,DESMOSOME,Cell-Cell Contact
+DSC2,DSG4,DESMOSOME,Cell-Cell Contact
+DSC3,DSG3,DESMOSOME,Cell-Cell Contact
+DSC3,DSG4,DESMOSOME,Cell-Cell Contact
+GJA5,GJA5,GAP,Cell-Cell Contact
+GJA1,GJA5,GAP,Cell-Cell Contact
+GJC1,GJA5,GAP,Cell-Cell Contact
+GJA3,GJA5,GAP,Cell-Cell Contact
+GJA1,GJA1,GAP,Cell-Cell Contact
+GJC1,GJA1,GAP,Cell-Cell Contact
+GJA3,GJA1,GAP,Cell-Cell Contact
+GJC1,GJC1,GAP,Cell-Cell Contact
+GJA3,GJC1,GAP,Cell-Cell Contact
+GJA3,GJA3,GAP,Cell-Cell Contact
+CLDN1,CLDN1,CLDN,Cell-Cell Contact
+CLDN2,CLDN2,CLDN,Cell-Cell Contact
+CLDN3,CLDN3,CLDN,Cell-Cell Contact
+PCDHA10,PCDHA10,PCDH,Cell-Cell Contact
+PCDHA11,PCDHA11,PCDH,Cell-Cell Contact
+PCDHA12,PCDHA12,PCDH,Cell-Cell Contact
+PCDHA13,PCDHA13,PCDH,Cell-Cell Contact
+PCDHA1,PCDHA1,PCDH,Cell-Cell Contact
+PCDHA2,PCDHA2,PCDH,Cell-Cell Contact
+PCDHA3,PCDHA3,PCDH,Cell-Cell Contact
+PCDHA4,PCDHA4,PCDH,Cell-Cell Contact
+PCDHA5,PCDHA5,PCDH,Cell-Cell Contact
+PCDHA6,PCDHA6,PCDH,Cell-Cell Contact
+PCDHA7,PCDHA7,PCDH,Cell-Cell Contact
+PCDHA8,PCDHA8,PCDH,Cell-Cell Contact
+PCDHA9,PCDHA9,PCDH,Cell-Cell Contact
+PCDHAC1,PCDHAC1,PCDH,Cell-Cell Contact
+PCDHAC2,PCDHAC2,PCDH,Cell-Cell Contact
+PCDHB1,PCDHB1,PCDH,Cell-Cell Contact
+PCDHB10,PCDHB10,PCDH,Cell-Cell Contact
+PCDHB11,PCDHB11,PCDH,Cell-Cell Contact
+PCDHB12,PCDHB12,PCDH,Cell-Cell Contact
+PCDHB13,PCDHB13,PCDH,Cell-Cell Contact
+PCDHB14,PCDHB14,PCDH,Cell-Cell Contact
+PCDHB15,PCDHB15,PCDH,Cell-Cell Contact
+PCDHB16,PCDHB16,PCDH,Cell-Cell Contact
+PCDHB2,PCDHB2,PCDH,Cell-Cell Contact
+PCDHB3,PCDHB3,PCDH,Cell-Cell Contact
+PCDHB4,PCDHB4,PCDH,Cell-Cell Contact
+PCDHB5,PCDHB5,PCDH,Cell-Cell Contact
+PCDHB6,PCDHB6,PCDH,Cell-Cell Contact
+PCDHB7,PCDHB7,PCDH,Cell-Cell Contact
+PCDHB8,PCDHB8,PCDH,Cell-Cell Contact
+PCDHB9,PCDHB9,PCDH,Cell-Cell Contact
+PCDHGA1,PCDHGA1,PCDH,Cell-Cell Contact
+PCDHGA10,PCDHGA10,PCDH,Cell-Cell Contact
+PCDHGA11,PCDHGA11,PCDH,Cell-Cell Contact
+PCDHGA12,PCDHGA12,PCDH,Cell-Cell Contact
+PCDHGA2,PCDHGA2,PCDH,Cell-Cell Contact
+PCDHGA3,PCDHGA3,PCDH,Cell-Cell Contact
+PCDHGA4,PCDHGA4,PCDH,Cell-Cell Contact
+PCDHGA5,PCDHGA5,PCDH,Cell-Cell Contact
+PCDHGA6,PCDHGA6,PCDH,Cell-Cell Contact
+PCDHGA7,PCDHGA7,PCDH,Cell-Cell Contact
+PCDHGA8,PCDHGA8,PCDH,Cell-Cell Contact
+PCDHGA9,PCDHGA9,PCDH,Cell-Cell Contact
+PCDHGB1,PCDHGB1,PCDH,Cell-Cell Contact
+PCDHGB2,PCDHGB2,PCDH,Cell-Cell Contact
+PCDHGB3,PCDHGB3,PCDH,Cell-Cell Contact
+PCDHGB4,PCDHGB4,PCDH,Cell-Cell Contact
+PCDHGB5,PCDHGB5,PCDH,Cell-Cell Contact
+PCDHGB6,PCDHGB6,PCDH,Cell-Cell Contact
+PCDHGB7,PCDHGB7,PCDH,Cell-Cell Contact
+PCDHGC3,PCDHGC3,PCDH,Cell-Cell Contact
+PCDHGC4,PCDHGC4,PCDH,Cell-Cell Contact
+PCDHGC5,PCDHGC5,PCDH,Cell-Cell Contact
+SDC1,ADGRA2,ADGRA,Cell-Cell Contact
+SDC2,ADGRA2,ADGRA,Cell-Cell Contact
+ITGAV,ADGRA2,ADGRA,Cell-Cell Contact
+ ITGB3,ADGRA2,ADGRA,Cell-Cell Contact
+TAX1BP3,ADGRB1,ADGRB,Cell-Cell Contact
+RTN4R,ADGRB1,ADGRB,Cell-Cell Contact
+ITGAV,ADGRB1,ADGRB,Cell-Cell Contact
+ ITGB5,ADGRB1,ADGRB,Cell-Cell Contact
+TAX1BP3,ADGRB2,ADGRB,Cell-Cell Contact
+C1QL1,ADGRB3,ADGRB,Cell-Cell Contact
+C1QL2,ADGRB3,ADGRB,Cell-Cell Contact
+C1QL3,ADGRB3,ADGRB,Cell-Cell Contact
+C1QL4,ADGRB3,ADGRB,Cell-Cell Contact
+THY1,ADGRE2,ADGRE,Cell-Cell Contact
+ITGAV,ADGRE2,ADGRE,Cell-Cell Contact
+ ITGB1,ADGRE2,ADGRE,Cell-Cell Contact
+ ITGB3,ADGRE2,ADGRE,Cell-Cell Contact
+CD55,ADGRE5,ADGRE,Cell-Cell Contact
+LPAR1,ADGRE5,ADGRE,Cell-Cell Contact
+LPAR2,ADGRE5,ADGRE,Cell-Cell Contact
+LPAR3,ADGRE5,ADGRE,Cell-Cell Contact
+THY1,ADGRE5,ADGRE,Cell-Cell Contact
+ITGAV,ADGRE5,ADGRE,Cell-Cell Contact
+ ITGB1,ADGRE5,ADGRE,Cell-Cell Contact
+ ITGB3,ADGRE5,ADGRE,Cell-Cell Contact
+SFTPD,ADGRE5,ADGRE,Cell-Cell Contact
+COL3A1,ADGRG1,ADGRG,Cell-Cell Contact
+GAST,ADGRG1,ADGRG,Cell-Cell Contact
+TGM2,ADGRG1,ADGRG,Cell-Cell Contact
+COL4A1,ADGRG6,ADGRG,Cell-Cell Contact
+COL4A2,ADGRG6,ADGRG,Cell-Cell Contact
+COL4A3,ADGRG6,ADGRG,Cell-Cell Contact
+COL4A4,ADGRG6,ADGRG,Cell-Cell Contact
+COL4A5,ADGRG6,ADGRG,Cell-Cell Contact
+COL4A6,ADGRG6,ADGRG,Cell-Cell Contact
+LAMA2,ADGRG6,ADGRG,Cell-Cell Contact
+PRNP,ADGRG6,ADGRG,Cell-Cell Contact
+FLRT1,ADGRL1,ADGRL,Cell-Cell Contact
+FLRT2,ADGRL1,ADGRL,Cell-Cell Contact
+FLRT3,ADGRL1,ADGRL,Cell-Cell Contact
+NRXN1,ADGRL1,ADGRL,Cell-Cell Contact
+NRXN2,ADGRL1,ADGRL,Cell-Cell Contact
+NRXN3,ADGRL1,ADGRL,Cell-Cell Contact
+TENM1,ADGRL1,ADGRL,Cell-Cell Contact
+TENM2,ADGRL1,ADGRL,Cell-Cell Contact
+TENM3,ADGRL1,ADGRL,Cell-Cell Contact
+TENM4,ADGRL1,ADGRL,Cell-Cell Contact
+ TENM2,ADGRL1,ADGRL,Cell-Cell Contact
+ TENM4,ADGRL1,ADGRL,Cell-Cell Contact
+FLRT1,ADGRL2,ADGRL,Cell-Cell Contact
+FLRT2,ADGRL2,ADGRL,Cell-Cell Contact
+FLRT3,ADGRL2,ADGRL,Cell-Cell Contact
+TENM1,ADGRL2,ADGRL,Cell-Cell Contact
+TENM2,ADGRL2,ADGRL,Cell-Cell Contact
+TENM3,ADGRL2,ADGRL,Cell-Cell Contact
+TENM4,ADGRL2,ADGRL,Cell-Cell Contact
+ TENM2,ADGRL2,ADGRL,Cell-Cell Contact
+FLRT1,ADGRL3,ADGRL,Cell-Cell Contact
+FLRT2,ADGRL3,ADGRL,Cell-Cell Contact
+FLRT3,ADGRL3,ADGRL,Cell-Cell Contact
+TENM1,ADGRL3,ADGRL,Cell-Cell Contact
+TENM2,ADGRL3,ADGRL,Cell-Cell Contact
+TENM3,ADGRL3,ADGRL,Cell-Cell Contact
+TENM4,ADGRL3,ADGRL,Cell-Cell Contact
+UNC5A,ADGRL3,ADGRL,Cell-Cell Contact
+ TENM3,ADGRL3,ADGRL,Cell-Cell Contact
+FLRT1,FLRT1,FLRT,Cell-Cell Contact
+FLRT2,FLRT2,FLRT,Cell-Cell Contact
+FLRT3,FLRT3,FLRT,Cell-Cell Contact
+FLRT1,UNC5A,UNC5,Cell-Cell Contact
+FLRT2,UNC5A,UNC5,Cell-Cell Contact
+FLRT3,UNC5A,UNC5,Cell-Cell Contact
+FLRT1,UNC5B,UNC5,Cell-Cell Contact
+FLRT2,UNC5B,UNC5,Cell-Cell Contact
+FLRT3,UNC5B,UNC5,Cell-Cell Contact
+FLRT1,UNC5C,UNC5,Cell-Cell Contact
+FLRT2,UNC5C,UNC5,Cell-Cell Contact
+FLRT3,UNC5C,UNC5,Cell-Cell Contact
+FLRT1,UNC5D,UNC5,Cell-Cell Contact
+FLRT2,UNC5D,UNC5,Cell-Cell Contact
+FLRT3,UNC5D,UNC5,Cell-Cell Contact
+NRXN1,CLSTN1,NRXN,Cell-Cell Contact
+NRXN2,CLSTN1,NRXN,Cell-Cell Contact
+NRXN3,CLSTN1,NRXN,Cell-Cell Contact
+NRXN1,CLSTN2,NRXN,Cell-Cell Contact
+NRXN2,CLSTN2,NRXN,Cell-Cell Contact
+NRXN3,CLSTN2,NRXN,Cell-Cell Contact
+NRXN1,CLSTN3,NRXN,Cell-Cell Contact
+NRXN2,CLSTN3,NRXN,Cell-Cell Contact
+NRXN3,CLSTN3,NRXN,Cell-Cell Contact
+NRXN1,DAG1,NRXN,Cell-Cell Contact
+NRXN2,DAG1,NRXN,Cell-Cell Contact
+LRFN4,PTPRD,PTPR,Cell-Cell Contact
+LRFN4,PTPRF,PTPR,Cell-Cell Contact
+LRFN4,PTPRS,PTPR,Cell-Cell Contact
+LRFN5,PTPRD,PTPR,Cell-Cell Contact
+LRFN5,PTPRF,PTPR,Cell-Cell Contact
+LRFN5,PTPRS,PTPR,Cell-Cell Contact
+LRRC4B,PTPRD,PTPR,Cell-Cell Contact
+LRRC4B,PTPRS,PTPR,Cell-Cell Contact
+LRRC4C,PTPRF,PTPR,Cell-Cell Contact
+NRXN1,LRRTM1,NRXN,Cell-Cell Contact
+NRXN2,LRRTM1,NRXN,Cell-Cell Contact
+NRXN3,LRRTM1,NRXN,Cell-Cell Contact
+NRXN1,LRRTM2,NRXN,Cell-Cell Contact
+NRXN2,LRRTM2,NRXN,Cell-Cell Contact
+NRXN3,LRRTM2,NRXN,Cell-Cell Contact
+NRXN1,LRRTM3,NRXN,Cell-Cell Contact
+NRXN2,LRRTM3,NRXN,Cell-Cell Contact
+NRXN3,LRRTM3,NRXN,Cell-Cell Contact
+NRXN1,LRRTM4,NRXN,Cell-Cell Contact
+NRXN2,LRRTM4,NRXN,Cell-Cell Contact
+NRXN3,LRRTM4,NRXN,Cell-Cell Contact
+PTPRS,LRRTM4,PTPR,Cell-Cell Contact
+APP,SORL1,APP,Cell-Cell Contact
+APP,TNFRSF21,APP,Cell-Cell Contact
+APP,TREM2,APP,Cell-Cell Contact
+APP, TYROBP,APP,Cell-Cell Contact
+ADORA3,ENTPD1,CD39,Cell-Cell Contact
+APOA1,ABCA1,ApoA,Cell-Cell Contact
+APOA1,AMN,ApoA,Cell-Cell Contact
+APOA1, CUBN,ApoA,Cell-Cell Contact
+APOA1,TREM2,ApoA,Cell-Cell Contact
+APOA1, TYROBP,ApoA,Cell-Cell Contact
+APOA2,TREM2,ApoA,Cell-Cell Contact
+APOA2, TYROBP,ApoA,Cell-Cell Contact
+APOB,APOBR,ApoB,Cell-Cell Contact
+APOB,TREM2,ApoB,Cell-Cell Contact
+APOB, TYROBP,ApoB,Cell-Cell Contact
+APOE,TREM2,ApoE,Cell-Cell Contact
+APOE, TYROBP,ApoE,Cell-Cell Contact
+CD160,TNFRSF14,CD160,Cell-Cell Contact
+CADM1,NECTIN3,CADM,Cell-Cell Contact
+CADM3,CADM1,CADM,Cell-Cell Contact
+CADM3,CADM4,CADM,Cell-Cell Contact
+CADM3,EPB41L1,CADM,Cell-Cell Contact
+CADM3,NECTIN3,CADM,Cell-Cell Contact
+CD276,TREML2,CD276,Cell-Cell Contact
+Cd99,Pilrb,CD99,Cell-Cell Contact
+CEACAM1,CEACAM6,CEACAM,Cell-Cell Contact
+CEACAM1,CEACAM8,CEACAM,Cell-Cell Contact
+CEACAM5,CEACAM6,CEACAM,Cell-Cell Contact
+CEACAM6,CEACAM6,CEACAM,Cell-Cell Contact
+CEACAM8,CEACAM6,CEACAM,Cell-Cell Contact
+CNTN1,NOTCH1,CNTN,Cell-Cell Contact
+CNTN1,NOTCH2,CNTN,Cell-Cell Contact
+CRTAM,CADM1,CADM,Cell-Cell Contact
+LAIR1,LILRB4,LAIR1,Cell-Cell Contact
+MICA,KLRK1,MHC-I,Cell-Cell Contact
+MICA, HCST,MHC-I,Cell-Cell Contact
+MICB,KLRK1,MHC-I,Cell-Cell Contact
+MICB, HCST,MHC-I,Cell-Cell Contact
+MMP2,ITGAV,MMP,Cell-Cell Contact
+MMP2, ITGB3,MMP,Cell-Cell Contact
+MMP2, MMP14,MMP,Cell-Cell Contact
+NTN1,DCC,Netrin,Cell-Cell Contact
+NTN1,DSCAM,Netrin,Cell-Cell Contact
+NTN1,UNC5A,Netrin,Cell-Cell Contact
+NTN1,UNC5B,Netrin,Cell-Cell Contact
+NTN1,UNC5C,Netrin,Cell-Cell Contact
+NTN4,NTRK2,Netrin,Cell-Cell Contact
+NTN4,UNC5B,Netrin,Cell-Cell Contact
+NTN4,UNC5D,Netrin,Cell-Cell Contact
+CD200,CD200R1,CD200,Cell-Cell Contact
+PECAM1,CD177,PECAM1,Cell-Cell Contact
+PECAM1,CD38,PECAM2,Cell-Cell Contact
+SIRPG,CD47,SIRP,Cell-Cell Contact
+VCAM1,ITGAD,VCAM,Cell-Cell Contact
+VCAM1, ITGB2,VCAM,Cell-Cell Contact
+ TPH1, HTR3B,5-HT,Non-protein Signaling
+ TPH1, HTR3C,5-HT,Non-protein Signaling
+ TPH1, HTR3D,5-HT,Non-protein Signaling
+ TPH1, HTR3E,5-HT,Non-protein Signaling
+ TPH1,HTR3A,5-HT,Non-protein Signaling
+SLC18A1, HTR3B,5-HT,Non-protein Signaling
+SLC18A1, HTR3C,5-HT,Non-protein Signaling
+SLC18A1, HTR3D,5-HT,Non-protein Signaling
+SLC18A1, HTR3E,5-HT,Non-protein Signaling
+SLC18A1,HTR3A,5-HT,Non-protein Signaling
+SLC18A2, HTR3B,5-HT,Non-protein Signaling
+SLC18A2, HTR3C,5-HT,Non-protein Signaling
+SLC18A2, HTR3D,5-HT,Non-protein Signaling
+SLC18A2, HTR3E,5-HT,Non-protein Signaling
+SLC18A2,HTR3A,5-HT,Non-protein Signaling
+SLC6A4, HTR3B,5-HT,Non-protein Signaling
+SLC6A4, HTR3C,5-HT,Non-protein Signaling
+SLC6A4, HTR3D,5-HT,Non-protein Signaling
+SLC6A4, HTR3E,5-HT,Non-protein Signaling
+SLC6A4,HTR3A,5-HT,Non-protein Signaling
+ TPH2, HTR3B,5-HT,Non-protein Signaling
+ TPH2, HTR3C,5-HT,Non-protein Signaling
+ TPH2, HTR3D,5-HT,Non-protein Signaling
+ TPH2, HTR3E,5-HT,Non-protein Signaling
+ TPH2,HTR3A,5-HT,Non-protein Signaling
+ CHAT, CHRNB1,Ach,Non-protein Signaling
+ CHAT, CHRND,Ach,Non-protein Signaling
+ CHAT, CHRNE,Ach,Non-protein Signaling
+ CHAT,CHRNA1,Ach,Non-protein Signaling
+SLC10A4, CHRNB1,Ach,Non-protein Signaling
+SLC10A4, CHRND,Ach,Non-protein Signaling
+SLC10A4, CHRNE,Ach,Non-protein Signaling
+SLC10A4,CHRNA1,Ach,Non-protein Signaling
+ CHAT, CHRNG,Ach,Non-protein Signaling
+SLC10A4, CHRNG,Ach,Non-protein Signaling
+ CHAT, CHRNB4,Ach,Non-protein Signaling
+ CHAT,CHRNA3,Ach,Non-protein Signaling
+SLC10A4, CHRNB4,Ach,Non-protein Signaling
+SLC10A4,CHRNA3,Ach,Non-protein Signaling
+ CHAT, CHRNB2,Ach,Non-protein Signaling
+ CHAT,CHRNA4,Ach,Non-protein Signaling
+SLC10A4, CHRNB2,Ach,Non-protein Signaling
+SLC10A4,CHRNA4,Ach,Non-protein Signaling
+SLC10A4,CHRNA7,Ach,Non-protein Signaling
+ CHAT,CHRNA7,Ach,Non-protein Signaling
+SLC18A3, CHRNB1,Ach,Non-protein Signaling
+SLC18A3, CHRND,Ach,Non-protein Signaling
+SLC18A3, CHRNE,Ach,Non-protein Signaling
+SLC18A3,CHRNA1,Ach,Non-protein Signaling
+SLC18A3, CHRNG,Ach,Non-protein Signaling
+SLC18A3, CHRNB4,Ach,Non-protein Signaling
+SLC18A3,CHRNA3,Ach,Non-protein Signaling
+SLC18A3, CHRNB2,Ach,Non-protein Signaling
+SLC18A3,CHRNA4,Ach,Non-protein Signaling
+SLC18A3,CHRNA7,Ach,Non-protein Signaling
+SLC5A7, CHRNB1,Ach,Non-protein Signaling
+SLC5A7, CHRND,Ach,Non-protein Signaling
+SLC5A7, CHRNE,Ach,Non-protein Signaling
+SLC5A7,CHRNA1,Ach,Non-protein Signaling
+SLC5A7, CHRNG,Ach,Non-protein Signaling
+SLC5A7, CHRNB2,Ach,Non-protein Signaling
+SLC5A7,CHRNA4,Ach,Non-protein Signaling
+SLC5A7,CHRNA7,Ach,Non-protein Signaling
+ GAD1, GABRB3,GABA-A,Non-protein Signaling
+ GAD1, GABRG2,GABA-A,Non-protein Signaling
+ GAD1,GABRA1,GABA-A,Non-protein Signaling
+SLC32A1, GABRB3,GABA-A,Non-protein Signaling
+SLC32A1, GABRG2,GABA-A,Non-protein Signaling
+SLC32A1,GABRA1,GABA-A,Non-protein Signaling
+ GAD1, GABRB2,GABA-A,Non-protein Signaling
+SLC32A1, GABRB2,GABA-A,Non-protein Signaling
+ GAD1, GABRD,GABA-A,Non-protein Signaling
+SLC32A1, GABRD,GABA-A,Non-protein Signaling
+ GAD1,GABRA2,GABA-A,Non-protein Signaling
+SLC32A1,GABRA2,GABA-A,Non-protein Signaling
+ GAD1,GABRA3,GABA-A,Non-protein Signaling
+SLC32A1,GABRA3,GABA-A,Non-protein Signaling
+ GAD1, GABRA3,GABA-A,Non-protein Signaling
+ GAD1,GABRQ,GABA-A,Non-protein Signaling
+SLC32A1, GABRA3,GABA-A,Non-protein Signaling
+SLC32A1,GABRQ,GABA-A,Non-protein Signaling
+ GAD1, GABRE,GABA-A,Non-protein Signaling
+SLC32A1, GABRE,GABA-A,Non-protein Signaling
+ GAD1,GABRA4,GABA-A,Non-protein Signaling
+SLC32A1,GABRA4,GABA-A,Non-protein Signaling
+ GAD1,GABRA5,GABA-A,Non-protein Signaling
+SLC32A1,GABRA5,GABA-A,Non-protein Signaling
+ GAD1,GABRA6,GABA-A,Non-protein Signaling
+SLC32A1,GABRA6,GABA-A,Non-protein Signaling
+ SLC6A1, GABRB3,GABA-A,Non-protein Signaling
+ SLC6A1, GABRG2,GABA-A,Non-protein Signaling
+ SLC6A1,GABRA1,GABA-A,Non-protein Signaling
+GAD1, GABRB3,GABA-A,Non-protein Signaling
+GAD1, GABRG2,GABA-A,Non-protein Signaling
+GAD1,GABRA1,GABA-A,Non-protein Signaling
+ SLC6A1, GABRB2,GABA-A,Non-protein Signaling
+GAD1, GABRB2,GABA-A,Non-protein Signaling
+ SLC6A1, GABRD,GABA-A,Non-protein Signaling
+GAD1, GABRD,GABA-A,Non-protein Signaling
+ SLC6A1,GABRA2,GABA-A,Non-protein Signaling
+GAD1,GABRA2,GABA-A,Non-protein Signaling
+ SLC6A1,GABRA3,GABA-A,Non-protein Signaling
+GAD1,GABRA3,GABA-A,Non-protein Signaling
+ SLC6A1, GABRA3,GABA-A,Non-protein Signaling
+ SLC6A1,GABRQ,GABA-A,Non-protein Signaling
+GAD1, GABRA3,GABA-A,Non-protein Signaling
+GAD1,GABRQ,GABA-A,Non-protein Signaling
+ SLC6A1, GABRE,GABA-A,Non-protein Signaling
+GAD1, GABRE,GABA-A,Non-protein Signaling
+ SLC6A1,GABRA4,GABA-A,Non-protein Signaling
+GAD1,GABRA4,GABA-A,Non-protein Signaling
+ SLC6A1,GABRA5,GABA-A,Non-protein Signaling
+GAD1,GABRA5,GABA-A,Non-protein Signaling
+ SLC6A1,GABRA6,GABA-A,Non-protein Signaling
+GAD1,GABRA6,GABA-A,Non-protein Signaling
+ SLC6A11, GABRB3,GABA-A,Non-protein Signaling
+ SLC6A11, GABRG2,GABA-A,Non-protein Signaling
+ SLC6A11,GABRA1,GABA-A,Non-protein Signaling
+ SLC6A11, GABRB2,GABA-A,Non-protein Signaling
+ SLC6A11, GABRD,GABA-A,Non-protein Signaling
+ SLC6A11,GABRA2,GABA-A,Non-protein Signaling
+ SLC6A11,GABRA3,GABA-A,Non-protein Signaling
+ SLC6A11, GABRA3,GABA-A,Non-protein Signaling
+ SLC6A11,GABRQ,GABA-A,Non-protein Signaling
+ SLC6A11, GABRE,GABA-A,Non-protein Signaling
+ SLC6A11,GABRA4,GABA-A,Non-protein Signaling
+ SLC6A11,GABRA5,GABA-A,Non-protein Signaling
+ SLC6A11,GABRA6,GABA-A,Non-protein Signaling
+SLC6A12, GABRB3,GABA-A,Non-protein Signaling
+SLC6A12, GABRG2,GABA-A,Non-protein Signaling
+SLC6A12,GABRA1,GABA-A,Non-protein Signaling
+SLC6A12, GABRB2,GABA-A,Non-protein Signaling
+SLC6A12, GABRD,GABA-A,Non-protein Signaling
+SLC6A12,GABRA2,GABA-A,Non-protein Signaling
+SLC6A12,GABRA3,GABA-A,Non-protein Signaling
+SLC6A12, GABRA3,GABA-A,Non-protein Signaling
+SLC6A12,GABRQ,GABA-A,Non-protein Signaling
+SLC6A12, GABRE,GABA-A,Non-protein Signaling
+SLC6A12,GABRA4,GABA-A,Non-protein Signaling
+SLC6A12,GABRA5,GABA-A,Non-protein Signaling
+SLC6A12,GABRA6,GABA-A,Non-protein Signaling
+ SLC6A13, GABRB3,GABA-A,Non-protein Signaling
+ SLC6A13, GABRG2,GABA-A,Non-protein Signaling
+ SLC6A13,GABRA1,GABA-A,Non-protein Signaling
+ SLC6A13, GABRB2,GABA-A,Non-protein Signaling
+ SLC6A13, GABRD,GABA-A,Non-protein Signaling
+ SLC6A13,GABRA2,GABA-A,Non-protein Signaling
+ SLC6A13,GABRA3,GABA-A,Non-protein Signaling
+ SLC6A13, GABRA3,GABA-A,Non-protein Signaling
+ SLC6A13,GABRQ,GABA-A,Non-protein Signaling
+ SLC6A13, GABRE,GABA-A,Non-protein Signaling
+ SLC6A13,GABRA4,GABA-A,Non-protein Signaling
+ SLC6A13,GABRA5,GABA-A,Non-protein Signaling
+ SLC6A13,GABRA6,GABA-A,Non-protein Signaling
+ SLC6A6, GABRB3,GABA-A,Non-protein Signaling
+ SLC6A6, GABRG2,GABA-A,Non-protein Signaling
+ SLC6A6,GABRA1,GABA-A,Non-protein Signaling
+ SLC6A6, GABRB2,GABA-A,Non-protein Signaling
+ SLC6A6, GABRD,GABA-A,Non-protein Signaling
+ SLC6A6,GABRA2,GABA-A,Non-protein Signaling
+ SLC6A6,GABRA3,GABA-A,Non-protein Signaling
+ SLC6A6, GABRA3,GABA-A,Non-protein Signaling
+ SLC6A6,GABRQ,GABA-A,Non-protein Signaling
+ SLC6A6, GABRE,GABA-A,Non-protein Signaling
+ SLC6A6,GABRA4,GABA-A,Non-protein Signaling
+ SLC6A6,GABRA5,GABA-A,Non-protein Signaling
+ SLC6A6,GABRA6,GABA-A,Non-protein Signaling
+ SLC6A8, GABRB3,GABA-A,Non-protein Signaling
+ SLC6A8, GABRG2,GABA-A,Non-protein Signaling
+ SLC6A8,GABRA1,GABA-A,Non-protein Signaling
+ SLC6A8, GABRB2,GABA-A,Non-protein Signaling
+ SLC6A8, GABRD,GABA-A,Non-protein Signaling
+ SLC6A8,GABRA2,GABA-A,Non-protein Signaling
+ SLC6A8,GABRA3,GABA-A,Non-protein Signaling
+ SLC6A8, GABRA3,GABA-A,Non-protein Signaling
+ SLC6A8,GABRQ,GABA-A,Non-protein Signaling
+ SLC6A8, GABRE,GABA-A,Non-protein Signaling
+ SLC6A8,GABRA4,GABA-A,Non-protein Signaling
+ SLC6A8,GABRA5,GABA-A,Non-protein Signaling
+ SLC6A8,GABRA6,GABA-A,Non-protein Signaling
+ GAD2, GABRB3,GABA-A,Non-protein Signaling
+ GAD2, GABRG2,GABA-A,Non-protein Signaling
+ GAD2,GABRA1,GABA-A,Non-protein Signaling
+ GAD2, GABRB2,GABA-A,Non-protein Signaling
+ GAD2, GABRD,GABA-A,Non-protein Signaling
+ GAD2,GABRA2,GABA-A,Non-protein Signaling
+ GAD2,GABRA3,GABA-A,Non-protein Signaling
+ GAD2, GABRA3,GABA-A,Non-protein Signaling
+ GAD2,GABRQ,GABA-A,Non-protein Signaling
+ GAD2, GABRE,GABA-A,Non-protein Signaling
+ GAD2,GABRA4,GABA-A,Non-protein Signaling
+ GAD2,GABRA5,GABA-A,Non-protein Signaling
+ GAD2,GABRA6,GABA-A,Non-protein Signaling
+GAD2, GABRB3,GABA-A,Non-protein Signaling
+GAD2, GABRG2,GABA-A,Non-protein Signaling
+GAD2,GABRA1,GABA-A,Non-protein Signaling
+GAD2, GABRB2,GABA-A,Non-protein Signaling
+GAD2, GABRD,GABA-A,Non-protein Signaling
+GAD2,GABRA2,GABA-A,Non-protein Signaling
+GAD2,GABRA3,GABA-A,Non-protein Signaling
+GAD2, GABRA3,GABA-A,Non-protein Signaling
+GAD2,GABRQ,GABA-A,Non-protein Signaling
+GAD2, GABRE,GABA-A,Non-protein Signaling
+GAD2,GABRA4,GABA-A,Non-protein Signaling
+GAD2,GABRA5,GABA-A,Non-protein Signaling
+GAD2,GABRA6,GABA-A,Non-protein Signaling
+ SHMT1, GLRB,Glycine,Non-protein Signaling
+ SHMT1,GLRA1,Glycine,Non-protein Signaling
+SLC6A5, GLRB,Glycine,Non-protein Signaling
+SLC6A5,GLRA1,Glycine,Non-protein Signaling
+SLC6A5,GLRA2,Glycine,Non-protein Signaling
+ SHMT1,GLRA2,Glycine,Non-protein Signaling
+ SLC6A9, GLRB,Glycine,Non-protein Signaling
+ SLC6A9,GLRA1,Glycine,Non-protein Signaling
+SHMT1, GLRB,Glycine,Non-protein Signaling
+SHMT1,GLRA1,Glycine,Non-protein Signaling
+SHMT1,GLRA2,Glycine,Non-protein Signaling
+ SLC6A9,GLRA2,Glycine,Non-protein Signaling
+ SHMT2, GLRB,Glycine,Non-protein Signaling
+ SHMT2,GLRA1,Glycine,Non-protein Signaling
+ SHMT2,GLRA2,Glycine,Non-protein Signaling
+SHMT2, GLRB,Glycine,Non-protein Signaling
+SHMT2,GLRA1,Glycine,Non-protein Signaling
+SHMT2,GLRA2,Glycine,Non-protein Signaling
+NT5E,ADORA1,Adenosine,Non-protein Signaling
+ SLC29A1,ADORA1,Adenosine,Non-protein Signaling
+ SLC29A2,ADORA1,Adenosine,Non-protein Signaling
+ SLC29A3,ADORA1,Adenosine,Non-protein Signaling
+SLC29A4,ADORA1,Adenosine,Non-protein Signaling
+ NT5E,ADORA1,Adenosine,Non-protein Signaling
+NT5E,ADORA2A,Adenosine,Non-protein Signaling
+ SLC29A1,ADORA2A,Adenosine,Non-protein Signaling
+ SLC29A2,ADORA2A,Adenosine,Non-protein Signaling
+ SLC29A3,ADORA2A,Adenosine,Non-protein Signaling
+SLC29A4,ADORA2A,Adenosine,Non-protein Signaling
+ NT5E,ADORA2A,Adenosine,Non-protein Signaling
+NT5E,ADORA2B,Adenosine,Non-protein Signaling
+ SLC29A1,ADORA2B,Adenosine,Non-protein Signaling
+ SLC29A2,ADORA2B,Adenosine,Non-protein Signaling
+ SLC29A3,ADORA2B,Adenosine,Non-protein Signaling
+SLC29A4,ADORA2B,Adenosine,Non-protein Signaling
+ NT5E,ADORA2B,Adenosine,Non-protein Signaling
+NT5E,ADORA3,Adenosine,Non-protein Signaling
+ SLC29A1,ADORA3,Adenosine,Non-protein Signaling
+ SLC29A2,ADORA3,Adenosine,Non-protein Signaling
+ SLC29A3,ADORA3,Adenosine,Non-protein Signaling
+SLC29A4,ADORA3,Adenosine,Non-protein Signaling
+ NT5E,ADORA3,Adenosine,Non-protein Signaling
+SLC18A1,ADRA1A,Adrenaline,Non-protein Signaling
+ PNMT,ADRA1A,Adrenaline,Non-protein Signaling
+SLC18A2,ADRA1A,Adrenaline,Non-protein Signaling
+SLC18A1,ADRA1A,Noradrenaline,Non-protein Signaling
+ DBH,ADRA1A,Noradrenaline,Non-protein Signaling
+SLC18A2,ADRA1A,Noradrenaline,Non-protein Signaling
+DBH,ADRA1A,Noradrenaline,Non-protein Signaling
+ SLC6A2,ADRA1A,Noradrenaline,Non-protein Signaling
+SLC18A1,ADRA1B,Adrenaline,Non-protein Signaling
+ PNMT,ADRA1B,Adrenaline,Non-protein Signaling
+SLC18A2,ADRA1B,Adrenaline,Non-protein Signaling
+SLC18A1,ADRA1B,Noradrenaline,Non-protein Signaling
+ DBH,ADRA1B,Noradrenaline,Non-protein Signaling
+SLC18A2,ADRA1B,Noradrenaline,Non-protein Signaling
+DBH,ADRA1B,Noradrenaline,Non-protein Signaling
+ SLC6A2,ADRA1B,Noradrenaline,Non-protein Signaling
+SLC18A1,ADRA1D,Adrenaline,Non-protein Signaling
+ PNMT,ADRA1D,Adrenaline,Non-protein Signaling
+SLC18A2,ADRA1D,Adrenaline,Non-protein Signaling
+SLC18A1,ADRA1D,Noradrenaline,Non-protein Signaling
+ DBH,ADRA1D,Noradrenaline,Non-protein Signaling
+SLC18A2,ADRA1D,Noradrenaline,Non-protein Signaling
+DBH,ADRA1D,Noradrenaline,Non-protein Signaling
+ SLC6A2,ADRA1D,Noradrenaline,Non-protein Signaling
+SLC18A1,ADRA2A,Adrenaline,Non-protein Signaling
+ PNMT,ADRA2A,Adrenaline,Non-protein Signaling
+SLC18A2,ADRA2A,Adrenaline,Non-protein Signaling
+SLC18A1,ADRA2A,Noradrenaline,Non-protein Signaling
+ DBH,ADRA2A,Noradrenaline,Non-protein Signaling
+SLC18A2,ADRA2A,Noradrenaline,Non-protein Signaling
+DBH,ADRA2A,Noradrenaline,Non-protein Signaling
+ SLC6A2,ADRA2A,Noradrenaline,Non-protein Signaling
+SLC18A1,ADRA2B,Adrenaline,Non-protein Signaling
+ PNMT,ADRA2B,Adrenaline,Non-protein Signaling
+SLC18A2,ADRA2B,Adrenaline,Non-protein Signaling
+SLC18A1,ADRA2B,Noradrenaline,Non-protein Signaling
+ DBH,ADRA2B,Noradrenaline,Non-protein Signaling
+SLC18A2,ADRA2B,Noradrenaline,Non-protein Signaling
+DBH,ADRA2B,Noradrenaline,Non-protein Signaling
+ SLC6A2,ADRA2B,Noradrenaline,Non-protein Signaling
+SLC18A1,ADRA2C,Adrenaline,Non-protein Signaling
+ PNMT,ADRA2C,Adrenaline,Non-protein Signaling
+SLC18A2,ADRA2C,Adrenaline,Non-protein Signaling
+SLC18A1,ADRA2C,Noradrenaline,Non-protein Signaling
+ DBH,ADRA2C,Noradrenaline,Non-protein Signaling
+SLC18A2,ADRA2C,Noradrenaline,Non-protein Signaling
+DBH,ADRA2C,Noradrenaline,Non-protein Signaling
+ SLC6A2,ADRA2C,Noradrenaline,Non-protein Signaling
+SLC18A1,ADRB1,Adrenaline,Non-protein Signaling
+ PNMT,ADRB1,Adrenaline,Non-protein Signaling
+SLC18A2,ADRB1,Adrenaline,Non-protein Signaling
+SLC18A1,ADRB1,Noradrenaline,Non-protein Signaling
+ DBH,ADRB1,Noradrenaline,Non-protein Signaling
+SLC18A2,ADRB1,Noradrenaline,Non-protein Signaling
+DBH,ADRB1,Noradrenaline,Non-protein Signaling
+ SLC6A2,ADRB1,Noradrenaline,Non-protein Signaling
+SLC18A1,ADRB2,Adrenaline,Non-protein Signaling
+ PNMT,ADRB2,Adrenaline,Non-protein Signaling
+SLC18A2,ADRB2,Adrenaline,Non-protein Signaling
+SLC18A1,ADRB2,Noradrenaline,Non-protein Signaling
+ DBH,ADRB2,Noradrenaline,Non-protein Signaling
+SLC18A2,ADRB2,Noradrenaline,Non-protein Signaling
+DBH,ADRB2,Noradrenaline,Non-protein Signaling
+ SLC6A2,ADRB2,Noradrenaline,Non-protein Signaling
+SLC18A1,ADRB3,Adrenaline,Non-protein Signaling
+ PNMT,ADRB3,Adrenaline,Non-protein Signaling
+SLC18A2,ADRB3,Adrenaline,Non-protein Signaling
+SLC18A1,ADRB3,Noradrenaline,Non-protein Signaling
+ DBH,ADRB3,Noradrenaline,Non-protein Signaling
+SLC18A2,ADRB3,Noradrenaline,Non-protein Signaling
+DBH,ADRB3,Noradrenaline,Non-protein Signaling
+ SLC6A2,ADRB3,Noradrenaline,Non-protein Signaling
+SLC10A4,CHRM1,Ach,Non-protein Signaling
+ CHAT,CHRM1,Ach,Non-protein Signaling
+SLC18A3,CHRM1,Ach,Non-protein Signaling
+SLC5A7,CHRM1,Ach,Non-protein Signaling
+SLC10A4,CHRM2,Ach,Non-protein Signaling
+ CHAT,CHRM2,Ach,Non-protein Signaling
+SLC18A3,CHRM2,Ach,Non-protein Signaling
+SLC5A7,CHRM2,Ach,Non-protein Signaling
+SLC10A4,CHRM3,Ach,Non-protein Signaling
+ CHAT,CHRM3,Ach,Non-protein Signaling
+SLC18A3,CHRM3,Ach,Non-protein Signaling
+SLC5A7,CHRM3,Ach,Non-protein Signaling
+SLC10A4,CHRM4,Ach,Non-protein Signaling
+ CHAT,CHRM4,Ach,Non-protein Signaling
+SLC18A3,CHRM4,Ach,Non-protein Signaling
+SLC5A7,CHRM4,Ach,Non-protein Signaling
+SLC10A4,CHRM5,Ach,Non-protein Signaling
+ CHAT,CHRM5,Ach,Non-protein Signaling
+SLC18A3,CHRM5,Ach,Non-protein Signaling
+SLC5A7,CHRM5,Ach,Non-protein Signaling
+ALOX5AP,CYSLTR1,CysLTs,Non-protein Signaling
+ LTC4S,CYSLTR1,CysLTs,Non-protein Signaling
+ ALOX5,CYSLTR1,CysLTs,Non-protein Signaling
+GGT5,CYSLTR1,CysLTs,Non-protein Signaling
+ GGT1,CYSLTR1,CysLTs,Non-protein Signaling
+DPEP1,CYSLTR1,CysLTs,Non-protein Signaling
+DPEP2,CYSLTR1,CysLTs,Non-protein Signaling
+DPEP3,CYSLTR1,CysLTs,Non-protein Signaling
+ALOX5AP,CYSLTR2,CysLTs,Non-protein Signaling
+ LTC4S,CYSLTR2,CysLTs,Non-protein Signaling
+ ALOX5,CYSLTR2,CysLTs,Non-protein Signaling
+GGT5,CYSLTR2,CysLTs,Non-protein Signaling
+ GGT1,CYSLTR2,CysLTs,Non-protein Signaling
+DPEP1,CYSLTR2,CysLTs,Non-protein Signaling
+DPEP2,CYSLTR2,CysLTs,Non-protein Signaling
+DPEP3,CYSLTR2,CysLTs,Non-protein Signaling
+SLC18A1,DRD1,Dopamine,Non-protein Signaling
+ DDC,DRD1,Dopamine,Non-protein Signaling
+SLC18A2,DRD1,Dopamine,Non-protein Signaling
+SLC6A3,DRD1,Dopamine,Non-protein Signaling
+SLC18A1,DRD2,Dopamine,Non-protein Signaling
+ DDC,DRD2,Dopamine,Non-protein Signaling
+SLC18A2,DRD2,Dopamine,Non-protein Signaling
+SLC6A3,DRD2,Dopamine,Non-protein Signaling
+SLC18A1,DRD3,Dopamine,Non-protein Signaling
+ DDC,DRD3,Dopamine,Non-protein Signaling
+SLC18A2,DRD3,Dopamine,Non-protein Signaling
+SLC6A3,DRD3,Dopamine,Non-protein Signaling
+SLC18A1,DRD4,Dopamine,Non-protein Signaling
+ DDC,DRD4,Dopamine,Non-protein Signaling
+SLC18A2,DRD4,Dopamine,Non-protein Signaling
+SLC6A3,DRD4,Dopamine,Non-protein Signaling
+SLC18A1,DRD5,Dopamine,Non-protein Signaling
+ DDC,DRD5,Dopamine,Non-protein Signaling
+SLC18A2,DRD5,Dopamine,Non-protein Signaling
+SLC6A3,DRD5,Dopamine,Non-protein Signaling
+ALOX12,FPR2,LXA4,Non-protein Signaling
+ALOX5AP,FPR2,LXA4,Non-protein Signaling
+ LTC4S,FPR2,LXA4,Non-protein Signaling
+ ALOX5,FPR2,LXA4,Non-protein Signaling
+SLC32A1,GABBR1,GABA-B,Non-protein Signaling
+ GAD1,GABBR1,GABA-B,Non-protein Signaling
+GAD1,GABBR1,GABA-B,Non-protein Signaling
+ SLC6A1,GABBR1,GABA-B,Non-protein Signaling
+ SLC6A11,GABBR1,GABA-B,Non-protein Signaling
+SLC6A12,GABBR1,GABA-B,Non-protein Signaling
+ SLC6A13,GABBR1,GABA-B,Non-protein Signaling
+ SLC6A6,GABBR1,GABA-B,Non-protein Signaling
+ SLC6A8,GABBR1,GABA-B,Non-protein Signaling
+ GAD2,GABBR1,GABA-B,Non-protein Signaling
+GAD2,GABBR1,GABA-B,Non-protein Signaling
+SLC32A1,GABBR2,GABA-B,Non-protein Signaling
+ GAD1,GABBR2,GABA-B,Non-protein Signaling
+GAD1,GABBR2,GABA-B,Non-protein Signaling
+ SLC6A1,GABBR2,GABA-B,Non-protein Signaling
+ SLC6A11,GABBR2,GABA-B,Non-protein Signaling
+SLC6A12,GABBR2,GABA-B,Non-protein Signaling
+ SLC6A13,GABBR2,GABA-B,Non-protein Signaling
+ SLC6A6,GABBR2,GABA-B,Non-protein Signaling
+ SLC6A8,GABBR2,GABA-B,Non-protein Signaling
+ GAD2,GABBR2,GABA-B,Non-protein Signaling
+GAD2,GABBR2,GABA-B,Non-protein Signaling
+SLC17A6,GRIA1,Glutamate,Non-protein Signaling
+ GLS,GRIA1,Glutamate,Non-protein Signaling
+SLC17A7,GRIA1,Glutamate,Non-protein Signaling
+SLC17A8,GRIA1,Glutamate,Non-protein Signaling
+GLS,GRIA1,Glutamate,Non-protein Signaling
+ SLC1A1,GRIA1,Glutamate,Non-protein Signaling
+ SLC1A2,GRIA1,Glutamate,Non-protein Signaling
+ SLC1A3,GRIA1,Glutamate,Non-protein Signaling
+SLC1A6,GRIA1,Glutamate,Non-protein Signaling
+ SLC1A7,GRIA1,Glutamate,Non-protein Signaling
+ GLS2,GRIA1,Glutamate,Non-protein Signaling
+GLS2,GRIA1,Glutamate,Non-protein Signaling
+SLC17A6,GRIA2,Glutamate,Non-protein Signaling
+ GLS,GRIA2,Glutamate,Non-protein Signaling
+SLC17A7,GRIA2,Glutamate,Non-protein Signaling
+SLC17A8,GRIA2,Glutamate,Non-protein Signaling
+GLS,GRIA2,Glutamate,Non-protein Signaling
+ SLC1A1,GRIA2,Glutamate,Non-protein Signaling
+ SLC1A2,GRIA2,Glutamate,Non-protein Signaling
+ SLC1A3,GRIA2,Glutamate,Non-protein Signaling
+SLC1A6,GRIA2,Glutamate,Non-protein Signaling
+ SLC1A7,GRIA2,Glutamate,Non-protein Signaling
+ GLS2,GRIA2,Glutamate,Non-protein Signaling
+GLS2,GRIA2,Glutamate,Non-protein Signaling
+SLC17A6,GRIA3,Glutamate,Non-protein Signaling
+ GLS,GRIA3,Glutamate,Non-protein Signaling
+SLC17A7,GRIA3,Glutamate,Non-protein Signaling
+SLC17A8,GRIA3,Glutamate,Non-protein Signaling
+GLS,GRIA3,Glutamate,Non-protein Signaling
+ SLC1A1,GRIA3,Glutamate,Non-protein Signaling
+ SLC1A2,GRIA3,Glutamate,Non-protein Signaling
+ SLC1A3,GRIA3,Glutamate,Non-protein Signaling
+SLC1A6,GRIA3,Glutamate,Non-protein Signaling
+ SLC1A7,GRIA3,Glutamate,Non-protein Signaling
+ GLS2,GRIA3,Glutamate,Non-protein Signaling
+GLS2,GRIA3,Glutamate,Non-protein Signaling
+SLC17A6,GRIA4,Glutamate,Non-protein Signaling
+ GLS,GRIA4,Glutamate,Non-protein Signaling
+SLC17A7,GRIA4,Glutamate,Non-protein Signaling
+SLC17A8,GRIA4,Glutamate,Non-protein Signaling
+GLS,GRIA4,Glutamate,Non-protein Signaling
+ SLC1A1,GRIA4,Glutamate,Non-protein Signaling
+ SLC1A2,GRIA4,Glutamate,Non-protein Signaling
+ SLC1A3,GRIA4,Glutamate,Non-protein Signaling
+SLC1A6,GRIA4,Glutamate,Non-protein Signaling
+ SLC1A7,GRIA4,Glutamate,Non-protein Signaling
+ GLS2,GRIA4,Glutamate,Non-protein Signaling
+GLS2,GRIA4,Glutamate,Non-protein Signaling
+NRXN1,GRID2,Glutamate,Non-protein Signaling
+ CBLN1,GRID2,Glutamate,Non-protein Signaling
+SLC17A6,GRIK1,Glutamate,Non-protein Signaling
+ GLS,GRIK1,Glutamate,Non-protein Signaling
+SLC17A7,GRIK1,Glutamate,Non-protein Signaling
+SLC17A8,GRIK1,Glutamate,Non-protein Signaling
+GLS,GRIK1,Glutamate,Non-protein Signaling
+ SLC1A1,GRIK1,Glutamate,Non-protein Signaling
+ SLC1A2,GRIK1,Glutamate,Non-protein Signaling
+ SLC1A3,GRIK1,Glutamate,Non-protein Signaling
+SLC1A6,GRIK1,Glutamate,Non-protein Signaling
+ SLC1A7,GRIK1,Glutamate,Non-protein Signaling
+ GLS2,GRIK1,Glutamate,Non-protein Signaling
+GLS2,GRIK1,Glutamate,Non-protein Signaling
+SLC17A6,GRIK2,Glutamate,Non-protein Signaling
+ GLS,GRIK2,Glutamate,Non-protein Signaling
+SLC17A7,GRIK2,Glutamate,Non-protein Signaling
+SLC17A8,GRIK2,Glutamate,Non-protein Signaling
+GLS,GRIK2,Glutamate,Non-protein Signaling
+ SLC1A1,GRIK2,Glutamate,Non-protein Signaling
+ SLC1A2,GRIK2,Glutamate,Non-protein Signaling
+ SLC1A3,GRIK2,Glutamate,Non-protein Signaling
+SLC1A6,GRIK2,Glutamate,Non-protein Signaling
+ SLC1A7,GRIK2,Glutamate,Non-protein Signaling
+ GLS2,GRIK2,Glutamate,Non-protein Signaling
+GLS2,GRIK2,Glutamate,Non-protein Signaling
+SLC17A6,GRIK3,Glutamate,Non-protein Signaling
+ GLS,GRIK3,Glutamate,Non-protein Signaling
+SLC17A7,GRIK3,Glutamate,Non-protein Signaling
+SLC17A8,GRIK3,Glutamate,Non-protein Signaling
+GLS,GRIK3,Glutamate,Non-protein Signaling
+ SLC1A1,GRIK3,Glutamate,Non-protein Signaling
+ SLC1A2,GRIK3,Glutamate,Non-protein Signaling
+ SLC1A3,GRIK3,Glutamate,Non-protein Signaling
+SLC1A6,GRIK3,Glutamate,Non-protein Signaling
+ SLC1A7,GRIK3,Glutamate,Non-protein Signaling
+ GLS2,GRIK3,Glutamate,Non-protein Signaling
+GLS2,GRIK3,Glutamate,Non-protein Signaling
+SLC17A6,GRM1,Glutamate,Non-protein Signaling
+ GLS,GRM1,Glutamate,Non-protein Signaling
+SLC17A7,GRM1,Glutamate,Non-protein Signaling
+SLC17A8,GRM1,Glutamate,Non-protein Signaling
+GLS,GRM1,Glutamate,Non-protein Signaling
+ SLC1A1,GRM1,Glutamate,Non-protein Signaling
+ SLC1A2,GRM1,Glutamate,Non-protein Signaling
+ SLC1A3,GRM1,Glutamate,Non-protein Signaling
+SLC1A6,GRM1,Glutamate,Non-protein Signaling
+ SLC1A7,GRM1,Glutamate,Non-protein Signaling
+ GLS2,GRM1,Glutamate,Non-protein Signaling
+GLS2,GRM1,Glutamate,Non-protein Signaling
+SLC17A6,GRM2,Glutamate,Non-protein Signaling
+ GLS,GRM2,Glutamate,Non-protein Signaling
+SLC17A7,GRM2,Glutamate,Non-protein Signaling
+SLC17A8,GRM2,Glutamate,Non-protein Signaling
+GLS,GRM2,Glutamate,Non-protein Signaling
+ SLC1A1,GRM2,Glutamate,Non-protein Signaling
+ SLC1A2,GRM2,Glutamate,Non-protein Signaling
+ SLC1A3,GRM2,Glutamate,Non-protein Signaling
+SLC1A6,GRM2,Glutamate,Non-protein Signaling
+ SLC1A7,GRM2,Glutamate,Non-protein Signaling
+ GLS2,GRM2,Glutamate,Non-protein Signaling
+GLS2,GRM2,Glutamate,Non-protein Signaling
+SLC17A6,GRM3,Glutamate,Non-protein Signaling
+ GLS,GRM3,Glutamate,Non-protein Signaling
+SLC17A7,GRM3,Glutamate,Non-protein Signaling
+SLC17A8,GRM3,Glutamate,Non-protein Signaling
+GLS,GRM3,Glutamate,Non-protein Signaling
+ SLC1A1,GRM3,Glutamate,Non-protein Signaling
+ SLC1A2,GRM3,Glutamate,Non-protein Signaling
+ SLC1A3,GRM3,Glutamate,Non-protein Signaling
+SLC1A6,GRM3,Glutamate,Non-protein Signaling
+ SLC1A7,GRM3,Glutamate,Non-protein Signaling
+ GLS2,GRM3,Glutamate,Non-protein Signaling
+GLS2,GRM3,Glutamate,Non-protein Signaling
+SLC17A6,GRM4,Glutamate,Non-protein Signaling
+ GLS,GRM4,Glutamate,Non-protein Signaling
+SLC17A7,GRM4,Glutamate,Non-protein Signaling
+SLC17A8,GRM4,Glutamate,Non-protein Signaling
+GLS,GRM4,Glutamate,Non-protein Signaling
+ SLC1A1,GRM4,Glutamate,Non-protein Signaling
+ SLC1A2,GRM4,Glutamate,Non-protein Signaling
+ SLC1A3,GRM4,Glutamate,Non-protein Signaling
+SLC1A6,GRM4,Glutamate,Non-protein Signaling
+ SLC1A7,GRM4,Glutamate,Non-protein Signaling
+ GLS2,GRM4,Glutamate,Non-protein Signaling
+GLS2,GRM4,Glutamate,Non-protein Signaling
+SLC17A6,GRM5,Glutamate,Non-protein Signaling
+ GLS,GRM5,Glutamate,Non-protein Signaling
+SLC17A7,GRM5,Glutamate,Non-protein Signaling
+SLC17A8,GRM5,Glutamate,Non-protein Signaling
+GLS,GRM5,Glutamate,Non-protein Signaling
+ SLC1A1,GRM5,Glutamate,Non-protein Signaling
+ SLC1A2,GRM5,Glutamate,Non-protein Signaling
+ SLC1A3,GRM5,Glutamate,Non-protein Signaling
+SLC1A6,GRM5,Glutamate,Non-protein Signaling
+ SLC1A7,GRM5,Glutamate,Non-protein Signaling
+ GLS2,GRM5,Glutamate,Non-protein Signaling
+GLS2,GRM5,Glutamate,Non-protein Signaling
+SLC17A6,GRM6,Glutamate,Non-protein Signaling
+ GLS,GRM6,Glutamate,Non-protein Signaling
+SLC17A7,GRM6,Glutamate,Non-protein Signaling
+SLC17A8,GRM6,Glutamate,Non-protein Signaling
+GLS,GRM6,Glutamate,Non-protein Signaling
+ SLC1A1,GRM6,Glutamate,Non-protein Signaling
+ SLC1A2,GRM6,Glutamate,Non-protein Signaling
+ SLC1A3,GRM6,Glutamate,Non-protein Signaling
+SLC1A6,GRM6,Glutamate,Non-protein Signaling
+ SLC1A7,GRM6,Glutamate,Non-protein Signaling
+ GLS2,GRM6,Glutamate,Non-protein Signaling
+GLS2,GRM6,Glutamate,Non-protein Signaling
+SLC17A6,GRM7,Glutamate,Non-protein Signaling
+ GLS,GRM7,Glutamate,Non-protein Signaling
+SLC17A7,GRM7,Glutamate,Non-protein Signaling
+SLC17A8,GRM7,Glutamate,Non-protein Signaling
+GLS,GRM7,Glutamate,Non-protein Signaling
+ SLC1A1,GRM7,Glutamate,Non-protein Signaling
+ SLC1A2,GRM7,Glutamate,Non-protein Signaling
+ SLC1A3,GRM7,Glutamate,Non-protein Signaling
+SLC1A6,GRM7,Glutamate,Non-protein Signaling
+ SLC1A7,GRM7,Glutamate,Non-protein Signaling
+ GLS2,GRM7,Glutamate,Non-protein Signaling
+GLS2,GRM7,Glutamate,Non-protein Signaling
+SLC17A6,GRM8,Glutamate,Non-protein Signaling
+ GLS,GRM8,Glutamate,Non-protein Signaling
+SLC17A7,GRM8,Glutamate,Non-protein Signaling
+SLC17A8,GRM8,Glutamate,Non-protein Signaling
+GLS,GRM8,Glutamate,Non-protein Signaling
+ SLC1A1,GRM8,Glutamate,Non-protein Signaling
+ SLC1A2,GRM8,Glutamate,Non-protein Signaling
+ SLC1A3,GRM8,Glutamate,Non-protein Signaling
+SLC1A6,GRM8,Glutamate,Non-protein Signaling
+ SLC1A7,GRM8,Glutamate,Non-protein Signaling
+ GLS2,GRM8,Glutamate,Non-protein Signaling
+GLS2,GRM8,Glutamate,Non-protein Signaling
+HDC,HRH1,Histamine,Non-protein Signaling
+HDC,HRH2,Histamine,Non-protein Signaling
+HDC,HRH3,Histamine,Non-protein Signaling
+HDC,HRH4,Histamine,Non-protein Signaling
+SLC18A1,HTR1A,5-HT,Non-protein Signaling
+ TPH1,HTR1A,5-HT,Non-protein Signaling
+SLC18A2,HTR1A,5-HT,Non-protein Signaling
+SLC6A4,HTR1A,5-HT,Non-protein Signaling
+ TPH2,HTR1A,5-HT,Non-protein Signaling
+SLC18A1,HTR1B,5-HT,Non-protein Signaling
+ TPH1,HTR1B,5-HT,Non-protein Signaling
+SLC18A2,HTR1B,5-HT,Non-protein Signaling
+SLC6A4,HTR1B,5-HT,Non-protein Signaling
+ TPH2,HTR1B,5-HT,Non-protein Signaling
+SLC18A1,HTR1D,5-HT,Non-protein Signaling
+ TPH1,HTR1D,5-HT,Non-protein Signaling
+SLC18A2,HTR1D,5-HT,Non-protein Signaling
+SLC6A4,HTR1D,5-HT,Non-protein Signaling
+ TPH2,HTR1D,5-HT,Non-protein Signaling
+SLC18A1,HTR1E,5-HT,Non-protein Signaling
+ TPH1,HTR1E,5-HT,Non-protein Signaling
+SLC18A2,HTR1E,5-HT,Non-protein Signaling
+SLC6A4,HTR1E,5-HT,Non-protein Signaling
+ TPH2,HTR1E,5-HT,Non-protein Signaling
+SLC18A1,HTR1F,5-HT,Non-protein Signaling
+ TPH1,HTR1F,5-HT,Non-protein Signaling
+SLC18A2,HTR1F,5-HT,Non-protein Signaling
+SLC6A4,HTR1F,5-HT,Non-protein Signaling
+ TPH2,HTR1F,5-HT,Non-protein Signaling
+SLC18A1,HTR2A,5-HT,Non-protein Signaling
+ TPH1,HTR2A,5-HT,Non-protein Signaling
+SLC18A2,HTR2A,5-HT,Non-protein Signaling
+SLC6A4,HTR2A,5-HT,Non-protein Signaling
+ TPH2,HTR2A,5-HT,Non-protein Signaling
+SLC18A1,HTR2B,5-HT,Non-protein Signaling
+ TPH1,HTR2B,5-HT,Non-protein Signaling
+SLC18A2,HTR2B,5-HT,Non-protein Signaling
+SLC6A4,HTR2B,5-HT,Non-protein Signaling
+ TPH2,HTR2B,5-HT,Non-protein Signaling
+SLC18A1,HTR2C,5-HT,Non-protein Signaling
+ TPH1,HTR2C,5-HT,Non-protein Signaling
+SLC18A2,HTR2C,5-HT,Non-protein Signaling
+SLC6A4,HTR2C,5-HT,Non-protein Signaling
+ TPH2,HTR2C,5-HT,Non-protein Signaling
+SLC18A1,HTR4,5-HT,Non-protein Signaling
+ TPH1,HTR4,5-HT,Non-protein Signaling
+SLC18A2,HTR4,5-HT,Non-protein Signaling
+SLC6A4,HTR4,5-HT,Non-protein Signaling
+ TPH2,HTR4,5-HT,Non-protein Signaling
+SLC18A1,HTR5A,5-HT,Non-protein Signaling
+ TPH1,HTR5A,5-HT,Non-protein Signaling
+SLC18A2,HTR5A,5-HT,Non-protein Signaling
+SLC6A4,HTR5A,5-HT,Non-protein Signaling
+ TPH2,HTR5A,5-HT,Non-protein Signaling
+SLC18A1,HTR6,5-HT,Non-protein Signaling
+ TPH1,HTR6,5-HT,Non-protein Signaling
+SLC18A2,HTR6,5-HT,Non-protein Signaling
+SLC6A4,HTR6,5-HT,Non-protein Signaling
+ TPH2,HTR6,5-HT,Non-protein Signaling
+SLC18A1,HTR7,5-HT,Non-protein Signaling
+ TPH1,HTR7,5-HT,Non-protein Signaling
+SLC18A2,HTR7,5-HT,Non-protein Signaling
+SLC6A4,HTR7,5-HT,Non-protein Signaling
+ TPH2,HTR7,5-HT,Non-protein Signaling
+LTA4H,LTB4R,CysLTs,Non-protein Signaling
+LTA4H,LTB4R2,CysLTs,Non-protein Signaling
+POMC,OPRD1,OPIOID,Non-protein Signaling
+POMC,OPRM1,OPIOID,Non-protein Signaling
+POMC,OPRK1,OPIOID,Non-protein Signaling
+PNOC,OPRL1,OPIOID,Non-protein Signaling
+PTGDS,PTGDR,Prostaglandin,Non-protein Signaling
+PTGDS,PTGDR2,Prostaglandin,Non-protein Signaling
+PTGES,PTGER1,Prostaglandin,Non-protein Signaling
+PTGES2,PTGER1,Prostaglandin,Non-protein Signaling
+PTGES3,PTGER1,Prostaglandin,Non-protein Signaling
+PTGES,PTGER2,Prostaglandin,Non-protein Signaling
+PTGES2,PTGER2,Prostaglandin,Non-protein Signaling
+PTGES3,PTGER2,Prostaglandin,Non-protein Signaling
+PTGES,PTGER3,Prostaglandin,Non-protein Signaling
+PTGES2,PTGER3,Prostaglandin,Non-protein Signaling
+PTGES3,PTGER3,Prostaglandin,Non-protein Signaling
+PTGES,PTGER4,Prostaglandin,Non-protein Signaling
+PTGES2,PTGER4,Prostaglandin,Non-protein Signaling
+PTGES3,PTGER4,Prostaglandin,Non-protein Signaling
+AKR1C3,PTGFR,Prostaglandin,Non-protein Signaling
+CBR1,PTGFR,Prostaglandin,Non-protein Signaling
+PRXL2B,PTGFR,Prostaglandin,Non-protein Signaling
+PTGIS,PTGIR,Prostaglandin,Non-protein Signaling
+TBXAS1,TBXA2R,Prostaglandin,Non-protein Signaling
+ GLS, GRIK4,Glutamate,Non-protein Signaling
+SLC17A6, GRIK4,Glutamate,Non-protein Signaling
+ GLS, GRIK1,Glutamate,Non-protein Signaling
+ GLS,GRIK5,Glutamate,Non-protein Signaling
+SLC17A6, GRIK1,Glutamate,Non-protein Signaling
+SLC17A6,GRIK5,Glutamate,Non-protein Signaling
+ GLS, GRIK2,Glutamate,Non-protein Signaling
+SLC17A6, GRIK2,Glutamate,Non-protein Signaling
+ GLS, GRIK5,Glutamate,Non-protein Signaling
+SLC17A6, GRIK5,Glutamate,Non-protein Signaling
+ GLS, GRIN2A,Glutamate,Non-protein Signaling
+ GLS,GRIN1,Glutamate,Non-protein Signaling
+SLC17A6, GRIN2A,Glutamate,Non-protein Signaling
+SLC17A6,GRIN1,Glutamate,Non-protein Signaling
+ GLS, GRIN2B,Glutamate,Non-protein Signaling
+SLC17A6, GRIN2B,Glutamate,Non-protein Signaling
+ GLS, GRIN1,Glutamate,Non-protein Signaling
+ GLS,GRIN2C,Glutamate,Non-protein Signaling
+SLC17A6, GRIN1,Glutamate,Non-protein Signaling
+SLC17A6,GRIN2C,Glutamate,Non-protein Signaling
+ GLS, GRIN2D,Glutamate,Non-protein Signaling
+SLC17A6, GRIN2D,Glutamate,Non-protein Signaling
+SLC17A7, GRIK4,Glutamate,Non-protein Signaling
+SLC17A7, GRIK1,Glutamate,Non-protein Signaling
+SLC17A7,GRIK5,Glutamate,Non-protein Signaling
+SLC17A7, GRIK2,Glutamate,Non-protein Signaling
+SLC17A7, GRIK5,Glutamate,Non-protein Signaling
+SLC17A7, GRIN2A,Glutamate,Non-protein Signaling
+SLC17A7,GRIN1,Glutamate,Non-protein Signaling
+SLC17A7, GRIN2B,Glutamate,Non-protein Signaling
+SLC17A7, GRIN1,Glutamate,Non-protein Signaling
+SLC17A7,GRIN2C,Glutamate,Non-protein Signaling
+SLC17A7, GRIN2D,Glutamate,Non-protein Signaling
+SLC17A8, GRIK4,Glutamate,Non-protein Signaling
+SLC17A8, GRIK1,Glutamate,Non-protein Signaling
+SLC17A8,GRIK5,Glutamate,Non-protein Signaling
+SLC17A8, GRIK2,Glutamate,Non-protein Signaling
+SLC17A8, GRIK5,Glutamate,Non-protein Signaling
+SLC17A8, GRIN2A,Glutamate,Non-protein Signaling
+SLC17A8,GRIN1,Glutamate,Non-protein Signaling
+SLC17A8, GRIN2B,Glutamate,Non-protein Signaling
+SLC17A8, GRIN1,Glutamate,Non-protein Signaling
+SLC17A8,GRIN2C,Glutamate,Non-protein Signaling
+SLC17A8, GRIN2D,Glutamate,Non-protein Signaling
+ SLC1A1, GRIK4,Glutamate,Non-protein Signaling
+GLS, GRIK4,Glutamate,Non-protein Signaling
+ SLC1A1, GRIK1,Glutamate,Non-protein Signaling
+ SLC1A1,GRIK5,Glutamate,Non-protein Signaling
+GLS, GRIK1,Glutamate,Non-protein Signaling
+GLS,GRIK5,Glutamate,Non-protein Signaling
+ SLC1A1, GRIK2,Glutamate,Non-protein Signaling
+GLS, GRIK2,Glutamate,Non-protein Signaling
+ SLC1A1, GRIK5,Glutamate,Non-protein Signaling
+GLS, GRIK5,Glutamate,Non-protein Signaling
+ SLC1A1, GRIN2A,Glutamate,Non-protein Signaling
+ SLC1A1,GRIN1,Glutamate,Non-protein Signaling
+GLS, GRIN2A,Glutamate,Non-protein Signaling
+GLS,GRIN1,Glutamate,Non-protein Signaling
+ SLC1A1, GRIN2B,Glutamate,Non-protein Signaling
+GLS, GRIN2B,Glutamate,Non-protein Signaling
+ SLC1A1, GRIN1,Glutamate,Non-protein Signaling
+ SLC1A1,GRIN2C,Glutamate,Non-protein Signaling
+GLS, GRIN1,Glutamate,Non-protein Signaling
+GLS,GRIN2C,Glutamate,Non-protein Signaling
+ SLC1A1, GRIN2D,Glutamate,Non-protein Signaling
+GLS, GRIN2D,Glutamate,Non-protein Signaling
+ SLC1A2, GRIK4,Glutamate,Non-protein Signaling
+ SLC1A2, GRIK1,Glutamate,Non-protein Signaling
+ SLC1A2,GRIK5,Glutamate,Non-protein Signaling
+ SLC1A2, GRIK2,Glutamate,Non-protein Signaling
+ SLC1A2, GRIK5,Glutamate,Non-protein Signaling
+ SLC1A2, GRIN2A,Glutamate,Non-protein Signaling
+ SLC1A2,GRIN1,Glutamate,Non-protein Signaling
+ SLC1A2, GRIN2B,Glutamate,Non-protein Signaling
+ SLC1A2, GRIN1,Glutamate,Non-protein Signaling
+ SLC1A2,GRIN2C,Glutamate,Non-protein Signaling
+ SLC1A2, GRIN2D,Glutamate,Non-protein Signaling
+ SLC1A3, GRIK4,Glutamate,Non-protein Signaling
+ SLC1A3, GRIK1,Glutamate,Non-protein Signaling
+ SLC1A3,GRIK5,Glutamate,Non-protein Signaling
+ SLC1A3, GRIK2,Glutamate,Non-protein Signaling
+ SLC1A3, GRIK5,Glutamate,Non-protein Signaling
+ SLC1A3, GRIN2A,Glutamate,Non-protein Signaling
+ SLC1A3,GRIN1,Glutamate,Non-protein Signaling
+ SLC1A3, GRIN2B,Glutamate,Non-protein Signaling
+ SLC1A3, GRIN1,Glutamate,Non-protein Signaling
+ SLC1A3,GRIN2C,Glutamate,Non-protein Signaling
+ SLC1A3, GRIN2D,Glutamate,Non-protein Signaling
+SLC1A6, GRIK4,Glutamate,Non-protein Signaling
+SLC1A6, GRIK1,Glutamate,Non-protein Signaling
+SLC1A6,GRIK5,Glutamate,Non-protein Signaling
+SLC1A6, GRIK2,Glutamate,Non-protein Signaling
+SLC1A6, GRIK5,Glutamate,Non-protein Signaling
+SLC1A6, GRIN2A,Glutamate,Non-protein Signaling
+SLC1A6,GRIN1,Glutamate,Non-protein Signaling
+SLC1A6, GRIN2B,Glutamate,Non-protein Signaling
+SLC1A6, GRIN1,Glutamate,Non-protein Signaling
+SLC1A6,GRIN2C,Glutamate,Non-protein Signaling
+SLC1A6, GRIN2D,Glutamate,Non-protein Signaling
+ SLC1A7, GRIK4,Glutamate,Non-protein Signaling
+ SLC1A7, GRIK1,Glutamate,Non-protein Signaling
+ SLC1A7,GRIK5,Glutamate,Non-protein Signaling
+ SLC1A7, GRIK2,Glutamate,Non-protein Signaling
+ SLC1A7, GRIK5,Glutamate,Non-protein Signaling
+ SLC1A7, GRIN2A,Glutamate,Non-protein Signaling
+ SLC1A7,GRIN1,Glutamate,Non-protein Signaling
+ SLC1A7, GRIN2B,Glutamate,Non-protein Signaling
+ SLC1A7, GRIN1,Glutamate,Non-protein Signaling
+ SLC1A7,GRIN2C,Glutamate,Non-protein Signaling
+ SLC1A7, GRIN2D,Glutamate,Non-protein Signaling
+ GLS2, GRIK4,Glutamate,Non-protein Signaling
+ GLS2, GRIK1,Glutamate,Non-protein Signaling
+ GLS2,GRIK5,Glutamate,Non-protein Signaling
+ GLS2, GRIK2,Glutamate,Non-protein Signaling
+ GLS2, GRIK5,Glutamate,Non-protein Signaling
+ GLS2, GRIN2A,Glutamate,Non-protein Signaling
+ GLS2,GRIN1,Glutamate,Non-protein Signaling
+ GLS2, GRIN2B,Glutamate,Non-protein Signaling
+ GLS2, GRIN1,Glutamate,Non-protein Signaling
+ GLS2,GRIN2C,Glutamate,Non-protein Signaling
+ GLS2, GRIN2D,Glutamate,Non-protein Signaling
+GLS2, GRIK4,Glutamate,Non-protein Signaling
+GLS2, GRIK1,Glutamate,Non-protein Signaling
+GLS2,GRIK5,Glutamate,Non-protein Signaling
+GLS2, GRIK2,Glutamate,Non-protein Signaling
+GLS2, GRIK5,Glutamate,Non-protein Signaling
+GLS2, GRIN2A,Glutamate,Non-protein Signaling
+GLS2,GRIN1,Glutamate,Non-protein Signaling
+GLS2, GRIN2B,Glutamate,Non-protein Signaling
+GLS2, GRIN1,Glutamate,Non-protein Signaling
+GLS2,GRIN2C,Glutamate,Non-protein Signaling
+GLS2, GRIN2D,Glutamate,Non-protein Signaling
+PTGR1,LTB4R,12oxoLTB4,Non-protein Signaling
+PTGR1,LTB4R2,12oxoLTB5,Non-protein Signaling
+CYP11A1,NR1H4,27HC,Non-protein Signaling
+CYP3A4,NR1H4,27HC,Non-protein Signaling
+DAGLA,CNR1,2-AG,Non-protein Signaling
+DAGLA,CNR2,2-AG,Non-protein Signaling
+DAGLA,GPR55,2-AG,Non-protein Signaling
+DAGLB,CNR1,2-AG,Non-protein Signaling
+DAGLB,CNR2,2-AG,Non-protein Signaling
+DAGLB,GPR55,2-AG,Non-protein Signaling
+DHRS9,PGR,5alphaP,Non-protein Signaling
+CYP11B2,NR3C1,Aldo,Non-protein Signaling
+CYP11B2,NR3C2,Aldo,Non-protein Signaling
+CYP17A1,AR,Androstenedione,Non-protein Signaling
+HSD17B6,NR1H4,Androsterone,Non-protein Signaling
+ALDH1A1,CRABP2,RA,Non-protein Signaling
+ALDH1A1, RARA,RA,Non-protein Signaling
+ALDH1A1, RXRA,RA,Non-protein Signaling
+ALDH1A1,RARB,RA,Non-protein Signaling
+ALDH1A1, CRABP2,RA,Non-protein Signaling
+ALDH1A1, RXRB,RA,Non-protein Signaling
+ALDH1A1,RARG,RA,Non-protein Signaling
+ALDH1A1, RXRG,RA,Non-protein Signaling
+ALDH1A1,RORB,RA,Non-protein Signaling
+ALDH1A2,CRABP2,RA,Non-protein Signaling
+ALDH1A2, RARA,RA,Non-protein Signaling
+ALDH1A2, RXRA,RA,Non-protein Signaling
+ALDH1A2,RARB,RA,Non-protein Signaling
+ALDH1A2, CRABP2,RA,Non-protein Signaling
+ALDH1A2, RXRB,RA,Non-protein Signaling
+ALDH1A2,RARG,RA,Non-protein Signaling
+ALDH1A2, RXRG,RA,Non-protein Signaling
+ALDH1A2,RORB,RA,Non-protein Signaling
+ALDH1A3,CRABP2,RA,Non-protein Signaling
+ALDH1A3, RARA,RA,Non-protein Signaling
+ALDH1A3, RXRA,RA,Non-protein Signaling
+ALDH1A3,RARB,RA,Non-protein Signaling
+ALDH1A3, CRABP2,RA,Non-protein Signaling
+ALDH1A3, RXRB,RA,Non-protein Signaling
+ALDH1A3,RARG,RA,Non-protein Signaling
+ALDH1A3, RXRG,RA,Non-protein Signaling
+ALDH1A3,RORB,RA,Non-protein Signaling
+CYP27B1,VDR,Calcitriol,Non-protein Signaling
+CEL,RORA,Cholesterol,Non-protein Signaling
+CEL,RORC,Cholesterol,Non-protein Signaling
+DHCR24,RORA,Cholesterol,Non-protein Signaling
+DHCR24,RORC,Cholesterol,Non-protein Signaling
+DHCR7,RORA,Cholesterol,Non-protein Signaling
+DHCR7,RORC,Cholesterol,Non-protein Signaling
+LIPA,RORA,Cholesterol,Non-protein Signaling
+LIPA,RORC,Cholesterol,Non-protein Signaling
+CYP11B1,NR3C1,Cort,Non-protein Signaling
+CYP11B1,NR3C2,Cort,Non-protein Signaling
+UBASH3B,ESR1,DHEA,Non-protein Signaling
+UBASH3B,NR1I2,DHEA,Non-protein Signaling
+UBASH3B,PPARA,DHEA,Non-protein Signaling
+DHCR7,NR1H2,Desmosterol,Non-protein Signaling
+DHCR7,NR1H3,Desmosterol,Non-protein Signaling
+CYP21A2,NR3C2,Desoxycorticosterone,Non-protein Signaling
+SULT1E1,PPARA,DHEAS,Non-protein Signaling
+SULT1E1,PPARD,DHEAS,Non-protein Signaling
+SULT1E1,PPARG,DHEAS,Non-protein Signaling
+SULT2A1,PPARA,DHEAS,Non-protein Signaling
+SULT2A1,PPARD,DHEAS,Non-protein Signaling
+SULT2A1,PPARG,DHEAS,Non-protein Signaling
+SULT1A1,PPARA,DHEAS,Non-protein Signaling
+SULT1A1,PPARD,DHEAS,Non-protein Signaling
+SULT1A1,PPARG,DHEAS,Non-protein Signaling
+SRD5A1,AR,DHT,Non-protein Signaling
+SRD5A2,AR,DHT,Non-protein Signaling
+SRD5A3,AR,DHT,Non-protein Signaling
+CYP19A1,ESR1,Estradiol,Non-protein Signaling
+CYP19A1,ESR2,Estradiol,Non-protein Signaling
+CYP19A1,GPER1,Estradiol,Non-protein Signaling
+CYP19A1,NR1I2,Estradiol,Non-protein Signaling
+HSD17B1,ESR1,Estradiol,Non-protein Signaling
+HSD17B1,ESR2,Estradiol,Non-protein Signaling
+HSD17B1,GPER1,Estradiol,Non-protein Signaling
+HSD17B1,NR1I2,Estradiol,Non-protein Signaling
+ASMT,MTNR1A,Melatonin,Non-protein Signaling
+ASMT,MTNR1B,Melatonin,Non-protein Signaling
+FDX1,NR1I2,Pregnenolone,Non-protein Signaling
+ FDX2,NR1I2,Pregnenolone,Non-protein Signaling
+ CYP11A1,NR1I2,Pregnenolone,Non-protein Signaling
+ FDXR,NR1I2,Pregnenolone,Non-protein Signaling
+HSD3B1,CATSPER1,Progesterone,Non-protein Signaling
+HSD3B1, CATSPERB,Progesterone,Non-protein Signaling
+HSD3B1, CATSPERD,Progesterone,Non-protein Signaling
+HSD3B1,CATSPER2,Progesterone,Non-protein Signaling
+HSD3B1,CATSPERD,Progesterone,Non-protein Signaling
+HSD3B1, CATSPER2,Progesterone,Non-protein Signaling
+HSD3B1,CATSPER3,Progesterone,Non-protein Signaling
+HSD3B1,CATSPER4,Progesterone,Non-protein Signaling
+AKR1C3,PTGDR2,Prostaglandin,Non-protein Signaling
+DDC,HTR1A,SerotoninDopamin,Non-protein Signaling
+DDC,HTR1B,SerotoninDopamin,Non-protein Signaling
+DDC,HTR1D,SerotoninDopamin,Non-protein Signaling
+DDC,HTR1E,SerotoninDopamin,Non-protein Signaling
+DDC,HTR1F,SerotoninDopamin,Non-protein Signaling
+DDC,HTR2A,SerotoninDopamin,Non-protein Signaling
+DDC,HTR2B,SerotoninDopamin,Non-protein Signaling
+DDC,HTR2C,SerotoninDopamin,Non-protein Signaling
+DDC,HTR3A,SerotoninDopamin,Non-protein Signaling
+DDC,HTR3B,SerotoninDopamin,Non-protein Signaling
+DDC,HTR3C,SerotoninDopamin,Non-protein Signaling
+DDC,HTR3D,SerotoninDopamin,Non-protein Signaling
+DDC,HTR3E,SerotoninDopamin,Non-protein Signaling
+DDC,HTR4,SerotoninDopamin,Non-protein Signaling
+DDC,HTR5A,SerotoninDopamin,Non-protein Signaling
+DDC,HTR6,SerotoninDopamin,Non-protein Signaling
+DDC,HTR7,SerotoninDopamin,Non-protein Signaling
+DDC,DRD1,SerotoninDopamin,Non-protein Signaling
+DDC,DRD2,SerotoninDopamin,Non-protein Signaling
+DDC,DRD3,SerotoninDopamin,Non-protein Signaling
+DDC,DRD4,SerotoninDopamin,Non-protein Signaling
+DDC,DRD5,SerotoninDopamin,Non-protein Signaling
+AKR1D1,AR,Testosterone,Non-protein Signaling
+HSD17B12,AR,Testosterone,Non-protein Signaling
+HSD17B3,AR,Testosterone,Non-protein Signaling
+GPHB5,TSHR,TSH,Non-protein Signaling
+ GPHA2,TSHR,TSH,Non-protein Signaling
+TSHB,TSHR,TSH,Non-protein Signaling
+ CGA,TSHR,TSH,Non-protein Signaling
+DIO3,THRA,Triiodothyronine,Non-protein Signaling
+ TG,THRA,Triiodothyronine,Non-protein Signaling
+DIO3,THRB,Triiodothyronine,Non-protein Signaling
+ TG,THRB,Triiodothyronine,Non-protein Signaling
