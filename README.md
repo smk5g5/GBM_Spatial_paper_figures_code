@@ -19,3 +19,15 @@ This is the repo for the manuscript "Mapping the spatial architecture of gliobla
 	- spatial_data_metadata.txt (spatial metadata used in the heatmap)
 	- Figure 2 E (Figure_2E_binary_heatmap_final_modules.R) : 
 		- (E) Consensus clustering of marker genes for spatial tumor cell states derived from mapped tumor cells.
+
+# Figure 3
+ - Figure 3A (**Figure_3A_celltype_enrichment_visium_doc.R**) : Integrates spatial & single-cell data, performs enrichment and visualization of tumor microenvironment cell states. 
+ - Figure 3C (**Figure3C_Core_edge_tumorstate_enrichment.R**) code for enrichment comparison of spatial tumor states between domains 
+	 - Fisher exact test for enrichment of Tumor states between domains. Dot color represents the bonferroni corrected p-value of enrichments and dot-size is  the fold change of proportion of tumor states (w.r.t to tumor cells) between domains.
+ - Figure 3G (**Figure3G_spot_distances_calculate.R**) Spatial proximity map of niches, where edge width is proportional to Weighted Mean Adjacency and edge color is proportional to the fraction of samples in which each niche pair is adjacent.
+ - adjacent_cluster_barcodes.rds : barcodes for each cluster which are adjacent to each other (i.e. at a minimum distance between 2 visium spots which is 100 microns).
+ - dotplot_items_list_march13.2025.rds : dotplot items which contain cluster group assignments i.e. edge/core/intermediate/Non-specific
+ - final_cluster_colors.rds (final cluster color palette)
+ - spots_to_cells_celltrek_annotations.rds (celltrek cells to spot mapping) list of cells (from the scrnaseq reference for each spot)
+ - Clusteradjacency.cys (Cytoscape object for generating figure 3G)
+
