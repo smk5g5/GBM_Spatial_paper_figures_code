@@ -13,7 +13,7 @@ This is the repo for the manuscript "Mapping the spatial architecture of gliobla
 	 - (D) Cell mapping results for representative transitional 5-ALA+ sections showing dense tumor cellularity,  vascularization, and pockets of immune infiltration. 
 	 - (F) Spatial tumor cell states in core tumor slices showing abundant Hypoxic (S4) and Mesenchymal (S3) tumor cells.
 	 - (G) Spatial tumor states in edge samples, showing enrichment for Proliferating (S2) and Stem-like (S5) states in regions of high neuronal/glial content. 
-	 - (H) Spatial tumor cell states in transitional 5-7866ALA+ tumor slices showing a gradient from core Mesenchymal/Hypoxic to edge (Proliferative/Stem-like) states.
+	 - (H) Spatial tumor cell states in transitional 5-ALA+ tumor slices showing a gradient from core Mesenchymal/Hypoxic to edge (Proliferative/Stem-like) states.
 - color_panel_list.rds (color panel list)
 - final_genemodules_reduced_mutualinfo_list.rds (final gene list after filtering by mutual information)
 - spatial_data_metadata.txt (spatial metadata used in the heatmap)
