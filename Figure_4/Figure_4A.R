@@ -479,7 +479,7 @@ final_df_list_comb_selbyclus_nonan_filtered_samp_pat_allsigLRs_allsigClus = subs
 
 # Load per-spot annotations (e.g., CellTrek-derived spatial mappings)
 spots_to_cells_celltrek_annotations = readRDS(
-  '/n/scratch/users/s/sak4832/Feb2_2025/Dec27_2024/cluster_distances/spots_to_cells_celltrek_annotations.rds'
+  '/n/scratch/users/s/sak4832/spots_to_cells_celltrek_annotations.rds'
 )
 
 # Export the full filtered and annotated enrichment table to CSV
@@ -489,4 +489,376 @@ write.csv(
   row.names = FALSE,
   quote = FALSE
 )
+
+ligrec_prep_sub_list_rpca_comb_clusinfo_celltrek = lapply(names(ligrec_prep_sub_list), function(x) {
+
+    # Get LR interaction matrix for current sample
+    ligrec_prep = ligrec_prep_sub_list[[x]]
+    ligrec_prep$spot_id <- rownames(ligrec_prep)
+
+    # Melt matrix into long format: one row per spot × LR pair
+    ligrec_long <- melt(ligrec_prep, id.vars = "spot_id", 
+                        variable.name = "Lig_Rec", value.name = "significant")
+
+    # Keep only rows with significant interactions (non-zero)
+    ligrec_long <- ligrec_long[ligrec_long$significant != 0, ]
+
+    # Extract Ligand and Receptor names from LR column
+    ligrec_long$Ligand   = str_split_i(ligrec_long$Lig_Rec, '_', 1)
+    ligrec_long$Receptor = str_split_i(ligrec_long$Lig_Rec, '_', 2)
+
+    # Subset to only contact-based LR pairs (biologically meaningful interactions)
+    ligrec_long_sub = subset(ligrec_long,
+                             Ligand %in% unique(contact_based$ligand) &
+                             Receptor %in% unique(contact_based$receptor))
+
+    # Add barcode column to RPCA metadata
+    myrpca_df_list2[[x]]$barcode2 = rownames(myrpca_df_list2[[x]])
+
+    # Identify overlapping barcodes between RPCA and LR data
+    select_bars = intersect(myrpca_df_list2[[x]]$Barcode, unique(ligrec_long_sub$spot_id))
+    ligrec_long_sub_byrpcasub = subset(ligrec_long_sub, spot_id %in% select_bars)
+
+    # Also ensure those spots are present in CellTrek annotations
+    select_bars2 = intersect(
+        unique(spots_to_cells_celltrek_annotations[[x]][['broad_celltypes_per_spot']]$spot_id),
+        unique(ligrec_long_sub_byrpcasub$spot_id)
+    )
+    ligrec_long_sub_byrpcasub = subset(ligrec_long_sub_byrpcasub, spot_id %in% select_bars2)
+
+    # Merge LR data with RPCA metadata and CellTrek cell type annotations
+    ligrec_long_rpca_celltrek = ligrec_long_sub_byrpcasub %>%
+        left_join(myrpca_df_list2[[x]], by = c("spot_id" = "Barcode")) %>%
+        left_join(spots_to_cells_celltrek_annotations[[x]][['broad_celltypes_per_spot']], by = "spot_id")
+
+    # Collapse CellTrek annotations into broader categories
+    ligrec_long_rpca_celltrek$Glia = rowSums(ligrec_long_rpca_celltrek[
+        intersect(c("Astrocyte", "Committed oligodendrocyte precursor", 
+                    "Oligodendrocyte", "Oligodendrocyte precursor"),
+                  colnames(ligrec_long_rpca_celltrek))
+    ])
+
+    ligrec_long_rpca_celltrek$Lymphoid = rowSums(ligrec_long_rpca_celltrek[
+        intersect(c("Bcells", "CD4_Tcells", "CD8_Tcells", 
+                    "NK/NK-like", "Other_Tcells"),
+                  colnames(ligrec_long_rpca_celltrek))
+    ])
+
+    ligrec_long_rpca_celltrek$Myeloid = rowSums(ligrec_long_rpca_celltrek[
+        intersect(c("DC", "Microglia", "Monocyte", "TAMs"),
+                  colnames(ligrec_long_rpca_celltrek))
+    ])
+
+    ligrec_long_rpca_celltrek$Vascular = rowSums(ligrec_long_rpca_celltrek[
+        intersect(c("Fibroblast", "Vascular"),
+                  colnames(ligrec_long_rpca_celltrek))
+    ])
+
+    return(ligrec_long_rpca_celltrek)
+})
+
+# Assign sample names to the resulting list
+names(ligrec_prep_sub_list_rpca_comb_clusinfo_celltrek) = names(ligrec_prep_sub_list)
+
+
+# Function to compute total cell type counts grouped by any variable (e.g., Lig_Rec or Cluster)
+get_celltype_freq_mat_by_group <- function(celltype_data_bysamples, group_var) {
+  
+  # For each sample, summarize cell type composition by the selected grouping variable
+  celltype_freq_list = lapply(celltype_data_bysamples, function(x) {
+    
+    x %>%
+      group_by(!!sym(group_var)) %>%  # Dynamically group by e.g., 'Lig_Rec'
+      summarize(
+        M1 = sum(M1),
+        M2 = sum(M2),
+        M3 = sum(M3),
+        M4 = sum(M4),
+        M5 = sum(M5),
+        Neuron   = sum(Neuron),
+        Glia     = sum(Glia),
+        Lymphoid = sum(Lymphoid),
+        Myeloid  = sum(Myeloid),
+        Vascular = sum(Vascular)
+      )
+  })
+
+  # Combine the summarized cell type tables across all samples
+  celltype_freq_bygrp = do.call(rbind, celltype_freq_list)
+  return(celltype_freq_bygrp)
+}
+
+# Apply the function to your LR-annotated spatial data, grouped by ligand-receptor pairs
+celltype_freq_by_LR = get_celltype_freq_mat_by_group(
+  celltype_data_bysamples = ligrec_prep_sub_list_rpca_comb_clusinfo_celltrek,
+  group_var = 'Lig_Rec'
+)
+
+
+# Aggregate cell type frequencies per ligand-receptor pair across all samples
+celltype_freq_by_LR2 = celltype_freq_by_LR %>%
+  group_by(Lig_Rec) %>%
+  summarize(
+    M1        = sum(M1),
+    M2        = sum(M2),
+    M3        = sum(M3),
+    M4        = sum(M4),
+    M5        = sum(M5),
+    Neuron    = sum(Neuron),
+    Glia      = sum(Glia),
+    Lymphoid  = sum(Lymphoid),
+    Myeloid   = sum(Myeloid),
+    Vascular  = sum(Vascular)
+  )
+
+# Filter enriched LR interactions with at least 10 supporting spots in the cluster (k) 
+# and 100 across all clusters (K); significance filtering is optional here
+final_df_list_comb_Klargerthan100_and_klargerthan10_sig = subset(
+  final_df_list_comb_selbyclus, 
+  k >= 10 & K >= 100
+  # & padj <= 0.05  # ← can be uncommented to filter for statistical significance
+)
+
+# For each cluster, select top 5 enriched LR interactions based on enrichment score
+final_df_list_comb_selbyclus_sig_Kgrt100_top10byclus = 
+  final_df_list_comb_Klargerthan100_and_klargerthan10_sig %>%
+  group_by(Cluster) %>%
+  slice_max(order_by = enrichment_score, n = 5)
+
+# Add a formatted cluster label (e.g., C1, C2, ...) for use in plotting or reporting
+final_df_list_comb_selbyclus_sig_Kgrt100_top10byclus$cluster_id = 
+  paste0('C', final_df_list_comb_selbyclus_sig_Kgrt100_top10byclus$Cluster)
+
+# clustering_matrix <- final_df_list_comb_selbyclus_sig_Kgrt100_top10byclus %>%
+#   ungroup() %>%  # Ungroup the data frame
+#   dplyr::select(cluster_id, LR, `-log10padj`) %>%  # Explicit namespace for select
+#   tidyr::pivot_wider(names_from = cluster_id, values_from = `-log10padj`, values_fill = 0) %>%
+#   column_to_rownames(var = "LR") %>%
+#   as.matrix()
+
+# # Perform hierarchical clustering
+# row_dendrogram <- hclust(dist(clustering_matrix))
+# col_dendrogram <- hclust(dist(t(clustering_matrix)))
+
+# ordered_rows <- rownames(clustering_matrix)[row_dendrogram$order]
+# ordered_cols <- colnames(clustering_matrix)[col_dendrogram$order]
+
+# Subset LR-cluster combinations that passed both LR- and cluster-level significance filters
+final_df_list_comb_selbyclus_nonan_filtered_samp_pat_allsigLRs_allsigClus = subset(
+  final_df_list_comb_selbyclus_nonan_filtered_samp_pat,
+  LR %in% all_sigLRs & Cluster %in% all_sigclusters
+)
+
+# Remove ECM-related interactions: integrins (ITG), collagens (COL), laminins (LAM), SPP1
+final_df_list_comb_selbyclus_nonan_filtered_samp_pat_allsigLRs_allsigClus_nocolnoint = 
+  final_df_list_comb_selbyclus_nonan_filtered_samp_pat_allsigLRs_allsigClus[
+    grep('SPP1|ITG|LAM|COL',
+         final_df_list_comb_selbyclus_nonan_filtered_samp_pat_allsigLRs_allsigClus$LR,
+         invert = TRUE),
+  ]
+
+# Identify LR pairs with at least one significant instance
+select_LRs = final_df_list_comb_selbyclus_nonan_filtered_samp_pat %>%
+  group_by(LR) %>%
+  summarise(Significant_count = sum(significant == "Significant")) %>%
+  filter(Significant_count != 0)
+
+# Select top 5 LR pairs per cluster based on highest occurrence (`k`), breaking ties by lower `padj`
+top_LRs_byclus = final_df_list_comb_selbyclus_nonan_filtered_samp_pat_allsigLRs_allsigClus_nocolnoint %>%
+  group_by(Cluster) %>%
+  arrange(desc(k), padj) %>%
+  slice_max(order_by = k, n = 5)
+
+# Subset only the LR-cluster combinations corresponding to top LR pairs for heatmap visualization
+forhtmap = subset(
+  final_df_list_comb_selbyclus_nonan_filtered_samp_pat_allsigLRs_allsigClus_nocolnoint,
+  LR %in% unique(top_LRs_byclus$LR)
+)
+
+# Define named color palette for cell types for use in barplots or heatmaps
+htmap_barplot_colors = c(
+  "#E58606",  # M1
+  "#6BAED6",  # M2
+  "#E7BA52",  # M3
+  "#5254A3",  # M4
+  "#D66B6F",  # M5
+  "red4",     # Neuron
+  "gray50",   # glia
+  "#4C8CE6",  # Lymphoid
+  "#70CCB0",  # Myeloid
+  "#FF4219"   # Vascular
+)
+names(htmap_barplot_colors) = c(
+  "M1", "M2", "M3", "M4", "M5", 
+  "Neuron", "glia", "Lymphoid", "Myeloid", "Vascular"
+)
+
+# Define custom color gradient function for dot plot using colorRamp2 (from circlize)
+col_fun_dotplot <- colorRamp2(
+  c(-0.3, -0.1, -0.01, 0),
+  c("#023FA5", "#BEC1D4", "#C6909A", "#8E063B")
+)
+
+# Custom function to scale dot size based on a numeric input (e.g., LR occurrence); ignores zeros
+dot_size_fun <- function(x) {
+  ifelse(x > 0, sqrt(x) * 1.5, NA)  # Scale dots, hide for x <= 0
+}
+
+# Create a standalone legend object for the color scale (e.g., in dot plots or heatmaps)
+lgd = Legend(
+  col_fun = col_fun_dotplot,     # Color mapping function you defined earlier
+  title = "-log10(padj+1)"       # Legend title (adjusted to avoid -Inf from padj = 0)
+)
+
+# Load cluster annotation or metadata (e.g., cluster labels, groupings, or annotations)
+group_df2 = readRDS('groupdf2.rds')
+
+# Subset the dataframe to include only clusters present in `col_order`
+selgroup_df2 = group_df2[
+  group_df2$integrated_snn_res.0.9 %in% col_order,
+]
+
+# Define locale for alphanumeric string sorting (e.g., C1, C10, C11... not C1, C11, C2...)
+locale <- list(locale = "en_US", numeric = TRUE)
+
+# Reorder 'group' factor levels to impose biologically meaningful ordering
+selgroup_df2$group = factor(selgroup_df2$group, levels = c("edge-rich", "non-specific", "transition", "core-rich"))
+
+# Sort by group and then numerically-aware cluster ID using stringi's locale-aware sorting
+selgroup_df2_ord = selgroup_df2 %>%
+  arrange(group, stri_rank(integrated_snn_res.0.9, opts_collator = locale))
+
+# Extract final group ordering vector (parallel to cluster ordering)
+group_order = as.character(selgroup_df2_ord$group)
+
+# Extract color palette for group annotations (defined earlier in your dotplot settings)
+mygroup_cols = dotplot_items$group_color_palette
+
+# Extract final cluster order for columns in heatmap or facets in plot
+col_order = as.character(selgroup_df2_ord$integrated_snn_res.0.9)
+
+# Generates a ComplexHeatmap dot plot of ligand-receptor enrichment
+# for contact-dependent LRs across clusters or samples, with dot size, 
+# color, significance, and cell-type barplot annotations.
+make_complexheatmap_signalling_withinspot_enrichment <- function(interaction_df,interactionid_var,out_prefix){
+dotplot_matrix <- interaction_df %>%
+  group_by(LR, !!sym(interactionid_var)) %>%
+  summarise(enrichment_score = mean(enrichment_score, na.rm = TRUE), .groups = "drop") %>%  # mean duplicates
+  pivot_wider(names_from = !!sym(interactionid_var), values_from = enrichment_score, values_fill = 0) %>%
+  column_to_rownames("LR") %>%
+  as.matrix()
+
+dotplot_color_matrix <- interaction_df %>%
+group_by(LR, !!sym(interactionid_var)) %>%
+summarise(`-log10padj` = mean(`-log10padj`, na.rm = TRUE), .groups = "drop") %>%  # Use mean to avoid duplicates
+distinct(LR, !!sym(interactionid_var), .keep_all = TRUE) %>%
+pivot_wider(names_from = !!sym(interactionid_var), values_from = `-log10padj`, values_fill = 0) %>%
+column_to_rownames("LR") %>%
+as.matrix()
+
+
+celltrek_spot_count_matrix <- interaction_df %>%
+group_by(LR, !!sym(interactionid_var)) %>%
+summarise(`-log10padj` = mean(`-log10padj`, na.rm = TRUE), .groups = "drop") %>%  # Use mean to avoid duplicates
+distinct(LR, !!sym(interactionid_var), .keep_all = TRUE) %>%
+pivot_wider(names_from = !!sym(interactionid_var), values_from = `-log10padj`, values_fill = 0) %>%
+column_to_rownames("LR") %>%
+as.matrix()
+
+significance_matrix <- interaction_df %>%
+  dplyr::select(LR, !!sym(interactionid_var), significant) %>%
+  pivot_wider(names_from = !!sym(interactionid_var), values_from = significant, values_fill = "Non-significant") %>%
+  column_to_rownames("LR") %>%
+  as.matrix()
+
+
+  row_dendrogram <- hclust(dist(dotplot_matrix))
+
+  # hypergeometric_test_LR_comb_df_withpatientcountinfo2 = hypergeometric_test_LR_comb_df_withpatientcountinfo  %>% arrange(desc(celltrek_spot_count),padj)  %>% mutate(padj = ifelse(padj == 0, 1e-300, padj))
+  LR_order = rownames(dotplot_matrix)[row_dendrogram$order]
+
+significance_matrix_reord = significance_matrix[LR_order, col_order, drop = FALSE]
+
+dotplot_matrix_reord = dotplot_matrix[LR_order,col_order, drop = FALSE]
+dotplot_color_matrix_reord = dotplot_color_matrix[LR_order,col_order, drop = FALSE]
+
+mymat = matrix(0, nrow = nrow(dotplot_matrix_reord), ncol = ncol(dotplot_matrix_reord))  # Empty background
+rownames(mymat) = rownames(dotplot_matrix_reord)
+colnames(mymat) = colnames(dotplot_matrix_reord)
+
+
+celltype_freq_by_LR2_sel = subset(celltype_freq_by_LR2, Lig_Rec %in% LR_order)
+
+celltype_freq_by_LR2_sel = as.data.frame(celltype_freq_by_LR2_sel)
+
+rownames(celltype_freq_by_LR2_sel) = celltype_freq_by_LR2_sel$Lig_Rec
+
+celltype_freq_by_LR2_sel$Lig_Rec = NULL
+
+myannot_mat = as.matrix(celltype_freq_by_LR2_sel)
+
+rownames(myannot_mat) = rownames(celltype_freq_by_LR2_sel)
+
+myannot_mat_ord = myannot_mat[LR_order,]
+
+celltype_freq_by_cluster_sel = subset(celltype_freq_by_cluster2, integrated_snn_res.0.9 %in% col_order)
+
+celltype_freq_by_cluster_sel = as.data.frame(celltype_freq_by_cluster_sel)
+
+rownames(celltype_freq_by_cluster_sel) = celltype_freq_by_cluster_sel$`integrated_snn_res.0.9`
+
+celltype_freq_by_cluster_sel$`integrated_snn_res.0.9` = NULL
+
+myannot_mat_cluster = as.matrix(celltype_freq_by_cluster_sel)
+
+myannot_mat_cluster_ord = myannot_mat_cluster[col_order,]
+# column_ha = HeatmapAnnotation(foo1 = runif(10), bar1 = anno_barplot(runif(10)))
+# row_ha = rowAnnotation(foo2 = runif(10), bar2 = anno_barplot(runif(10)))
+# Heatmap(mat, name = "mat", top_annotation = column_ha, right_annotation = row_ha)
+
+
+myanno_bar_LR = rowAnnotation(Spot_composition_by_LR = anno_barplot(myannot_mat_ord, gp = gpar(fill = htmap_barplot_colors),bar_width = 1, width = unit(6, "cm"))) 
+
+myanno_bar_cluster = HeatmapAnnotation(Spot_composition_by_Cluster = anno_barplot(myannot_mat_cluster_ord, gp = gpar(fill = htmap_barplot_colors),bar_width = 1, width = unit(6, "cm"))) 
+
+
+# myrow_order = clustered_row_order
+dotplot_ht <- ComplexHeatmap::Heatmap(
+  mymat,  # Force row order to match dotplot_matrix
+  cell_fun = function(j, i, x, y, width, height, fill) {
+  grid.rect(x, y, width, height, gp = gpar(col = "black", lty = "dotted"))  
+  sig_value <- significance_matrix_reord[i, j]
+  significance_border <- ifelse(sig_value == "Significant", 3.5, 0)
+  if (dotplot_matrix_reord[i, j] > 0) {
+    grid.circle(
+      x = x, y = y, 
+      r = unit(dot_size_fun(dotplot_matrix_reord[i, j]), "mm"),  
+      gp = gpar(fill = col_fun_dotplot(dotplot_color_matrix_reord[i, j]), 
+                col = "black",lwd = significance_border)  
+    )
+  }
+},col = c("white"),  
+  rect_gp = gpar(col = "black", lty = "dotted"),  
+  row_order = LR_order,  # Ensure same row order
+  column_order = col_order,
+  row_names_side = "right",
+  column_names_rot = 45,
+  column_names_side = "bottom",
+  row_names_gp = grid::gpar(fontsize = 12),
+  column_names_gp = grid::gpar(fontsize = 12),
+  show_row_dend = TRUE,
+  show_heatmap_legend = FALSE,  width = unit(15, "cm"),left_annotation=myanno_bar_LR,
+  top_annotation = myanno_bar_cluster)
+
+pdf(file =   paste0('dotplot_ht.',out_prefix,'.pdf'),width =20,height  = 30)
+draw(dotplot_ht, heatmap_legend_list = lgd)
+dev.off()
+
+}
+
+
+make_complexheatmap_signalling_withinspot_enrichment(
+interaction_df=forhtmap,
+interactionid_var='Cluster',
+out_prefix='within_spot_enrichment')
 
