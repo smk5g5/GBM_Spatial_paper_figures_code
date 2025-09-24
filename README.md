@@ -42,7 +42,7 @@ Fig. 4, S10, and S11) and in 10x single-cell RNA-seq (defined as having a commun
 		- (B) LR interactions where non-tumor cell types act as senders and tumor cells as receivers. 
 		- (C) LR interactions between Myeloid and Lymphoid cells. These results highlight consistent intercellular communication patterns across single-cell and spatial transcriptomic platforms and provide insights into potential biological mechanisms.
 
-- Figure S6 & S7
+- Figure S6 (Fig. S6. **CNV Spot classification**.Spots were classified into Low/Medium/High malignancy based on the frequency and magnitude of copy number alterations. High malignancy spots (i.e. Spots with high CNV scores) usually reside in the Core-rich domains/Niches whereas Low malignancy spots (i.e. Spots with low CNV scores) are in Edge-rich domains as shown in the spatial plots. **Spot malignancy** proportions align well with cell type proportions across clusters, with regions enriched in tumor cells exhibiting correspondingly higher CNV scores as shown in the bar plots.) & S7 (CNV subclusters along with **spot malignancy/CNV score** are shown in greater detail by chromosome for each patient in a **heatmap**)
 	-  **Fig.S6_S7_Run_infercnv_subclusters.R** : Run Infercnv on spots against normal brain samples for each of the 9 patients
 	- **Fig.S6_make_infercnv_matrix.R** :  Make infercnv matrix from the mcmc object of states and calculate a CNV score for each spot
 	- **Fig.S6_S7_make_CNV_metaclusters.R** : Converge the CNV subclusters as identified for each patient into metaclusters based on matrix similarity
