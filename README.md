@@ -34,6 +34,33 @@ This is the repo for the manuscript "Mapping the spatial architecture of gliobla
 # Figure 4
    - Figure 4A (**Figure_4A.R**) : Enrichment dotplot of significant contact-dependent (within-spot) ligand receptor interactions in visium data. Size of dot indicates enrichment score, bold circle around spot indicates significance based on adjusted p.values. Row Barplots show celltype diversity for the said LR whereas column barplots indicate  celltype diversity in the cluster. The clusters are ordered from edge rich clusters to core-rich clusters.
 
+
+# Figures 5-7 (Xenium data analysis)
+-	**Figure 5: Xenium-based Analysis of GBM Tumor Samples**.  
+	-	(A) UMAP visualization of all cells from primary cohort samples. 
+	-	(B) Spatial plots of GBM026I and GBM030 with cell types colored as per Fig. 5A. 
+	-	(C) Hierarchical clustering of tumor clusters from both cohorts (primary and secondary) based upon expression of Visium-based tumor signatures. 
+	-	(D) Hierarchical clustering of BANKSY clusters from both cohorts (primary and secondary) based upon normalized values of cell type frequency. 
+	-	(E) Spatial plots of GBM026I and GBM030 with niches colored. 
+	-	(F) Dot plot of enrichment scores for each cell type per respective niche. The enrichment score was calculated by dividing the cell type frequency per niche by the cell type frequency within the entire data set and signified by the size of each circle. Significance was calculated using the hypergeometric test and denoted by a black border around each respective circle. 
+	-	(G) Node-edge plot visualizing the average distance between niches across all samples (in both cohorts). Distances between niches were calculated on a per sample basis and then averaged across samples if applicable. The number of samples with a given niche-niche distance is signified by the circled number. In (B) and (E), specific regions of interest (ROIs) are highlighted by dashed white boxes with the respective ROI matched by the marked number in the top left or bottom right corner.
+	
+-	**Figure 6: Ligand-Receptor Analysis of Xenium Samples**
+	-	(A) Interaction network illustrating unique ligand receptor interactions between general cell types. Only unique ligand receptors detected in more than 3 samples were visualized.The color, opacity, and thickness of arrows are proportional to the number of unique LR interactions connecting any two cell types.
+	-	(B and C) Heatmaps of the (B) unique and (C) total number of ligand receptor interactions between general cell types.
+	-	(D) Ligand-receptor interactions of tumor cells (Hypoxic: S2 or S4, Stem-like: S1 or S5) as senders and myeloid, neuronal/glial, and vascular cells as receivers. Ligand-receptor pairs unique to a given sender-receiver pair were italicized and labeled with an asterisk.
+	-	(E) Interaction network of cell type sender-receiver pairs of the ADM:CALCRL ligand-receptor pair. The color and density of arrows were proportional to the number of samples the ADM:CALCRL interaction was detected as significant for a given sender-receiver pair.
+	-	(F) Heatmap of ADM and CALCRL expression per cell type per niche.
+	-	(G) Expression of ADM and CALCRL based upon localization in tumor region. Data derived from IVY-GAP.
+	
+-	**Figure 7: CD8+GZMK+ T cells preferentially localize with LYVE1+CD163+  myeloid cells in vascular niches**
+	-	(A) Top 6 cell types enriched within 20 micron radius of CD8+GZMK+ T cells. Enrichment score was calculated by dividing the frequency of a target cell type within a given radius of a root state (CD8+GZMK+ T cells) by the frequency of the target cell type within the sample. Each dot represents a patient sample.
+	-	(B) Distance to the nearest target myeloid cell of each CD8+.GZMK+ T cell separated by localization within a vascular or non-vascular niche. Each dot represents a single CD8+.GZMK+ T cell, with all CD8+.GZMK+ T cells across all samples visualized.
+	-	(C) Distances from Fig. 6B averaged on a per sample basis. Each dot represents an individual sample. Significance was calculated using the Wilcoxon matched-pairs signed rank test.
+	-	(D) Frequency of CD8+.GZMK+ T cells in the vascular niche given proximity to the target myeloid cell (either within 30 μm or further than 30 μm).
+	-	(E) Frequency of CD8+GZMK+ T cells within 30 μm of target myeloid cell given presence of T cell in vascular or non-vascular niche.
+	-	(F) Correlation of GZMK and LYVE1 expression based upon localization in vascular or non-vascular niche. Data derived from IVY-Gap.
+
 # Supplementary Figures
    - Figure S12 (**Figure_S12_make_heatmap_LR_scref_func.R**) 
 	   - Ligand receptor interactions in single-cell RNA-seq (reference data) recapitulate findings in Xenium and Visium datasets.
