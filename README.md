@@ -35,7 +35,7 @@ This is the repo for the manuscript "Mapping the spatial architecture of gliobla
    - Figure 4A (**Figure_4A.R**) : Enrichment dotplot of significant contact-dependent (within-spot) ligand receptor interactions in visium data. Size of dot indicates enrichment score, bold circle around spot indicates significance based on adjusted p.values. Row Barplots show celltype diversity for the said LR whereas column barplots indicate  celltype diversity in the cluster. The clusters are ordered from edge rich clusters to core-rich clusters.
 
 
-# Figures 5-7 (Xenium data analysis `Xenium_Code.R`)
+# Figures 5-7 (Xenium data analysis Xenium_Code.R)
 -	**Figure 5: Xenium-based Analysis of GBM Tumor Samples**.  
 	-	(A) UMAP visualization of all cells from primary cohort samples. 
 	-	(B) Spatial plots of GBM026I and GBM030 with cell types colored as per Fig. 5A. 
