@@ -74,3 +74,7 @@ Fig. 4, S10, and S11) and in 10x single-cell RNA-seq (defined as having a commun
 	- **Fig.S6_make_infercnv_matrix.R** :  Make infercnv matrix from the mcmc object of states and calculate a CNV score for each spot
 	- **Fig.S6_S7_make_CNV_metaclusters.R** : Converge the CNV subclusters as identified for each patient into metaclusters based on matrix similarity
 	- **Fig.S6_S7_CNV_values_matrix_t2_heatmaps.R** : Make complexheatmap with all different metadata for each patient
+
+# Manuscript
+[DOI](https://doi.org/10.1101/2025.04.04.647096)
+
